@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: tranxuanduc
- * Date: 7/28/16
- * Time: 14:48
- */
+			<!-- footer -->
+			<footer class="footer" role="contentinfo">
+
+			</footer><!--End footer-->
+
+	</body>
+</html>
