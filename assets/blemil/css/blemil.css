@@ -1,0 +1,1881 @@
+@charset "UTF-8";
+/* 1. Colors
+   ========================================================================== */
+.blemil-primary {
+  background-color: #1b75bc !important; }
+
+.blemil-primary-text {
+  color: #1b75bc !important; }
+
+.blemil-primary.lighten-4 {
+  background-color: #99cccc !important; }
+
+.blemil-primary-text.text-lighten-4 {
+  color: #99cccc !important; }
+
+.blemil-primary.lighten-3 {
+  background-color: #9999cc !important; }
+
+.blemil-primary-text.text-lighten-3 {
+  color: #9999cc !important; }
+
+.blemil-primary.lighten-2 {
+  background-color: #6699cc !important; }
+
+.blemil-primary-text.text-lighten-2 {
+  color: #6699cc !important; }
+
+.blemil-primary.lighten-1 {
+  background-color: #3399cc !important; }
+
+.blemil-primary-text.text-lighten-1 {
+  color: #3399cc !important; }
+
+.blemil-primary.darken-1 {
+  background-color: #006699 !important; }
+
+.blemil-primary-text.text-darken-1 {
+  color: #006699 !important; }
+
+.blemil-primary.darken-2 {
+  background-color: #003366 !important; }
+
+.blemil-primary-text.text-darken-2 {
+  color: #003366 !important; }
+
+.blemil-primary.darken-3 {
+  background-color: #003333 !important; }
+
+.blemil-primary-text.text-darken-3 {
+  color: #003333 !important; }
+
+.blemil-primary.darken-4 {
+  background-color: #000033 !important; }
+
+.blemil-primary-text.text-darken-4 {
+  color: #000033 !important; }
+
+.blemil-primary.opacity-01 {
+  background-color: rgba(27, 117, 188, 0.1) !important; }
+
+.blemil-primary-text.text-opacity-01 {
+  color: rgba(27, 117, 188, 0.1) !important; }
+
+.blemil-primary.opacity-02 {
+  background-color: rgba(27, 117, 188, 0.2) !important; }
+
+.blemil-primary-text.text-opacity-02 {
+  color: rgba(27, 117, 188, 0.2) !important; }
+
+.blemil-primary.opacity-03 {
+  background-color: rgba(27, 117, 188, 0.3) !important; }
+
+.blemil-primary-text.text-opacity-03 {
+  color: rgba(27, 117, 188, 0.3) !important; }
+
+.blemil-primary.opacity-04 {
+  background-color: rgba(27, 117, 188, 0.4) !important; }
+
+.blemil-primary-text.text-opacity-04 {
+  color: rgba(27, 117, 188, 0.4) !important; }
+
+.blemil-primary.opacity-05 {
+  background-color: rgba(27, 117, 188, 0.5) !important; }
+
+.blemil-primary-text.text-opacity-05 {
+  color: rgba(27, 117, 188, 0.5) !important; }
+
+.blemil-primary.opacity-06 {
+  background-color: rgba(27, 117, 188, 0.6) !important; }
+
+.blemil-primary-text.text-opacity-06 {
+  color: rgba(27, 117, 188, 0.6) !important; }
+
+.blemil-primary.opacity-07 {
+  background-color: rgba(27, 117, 188, 0.7) !important; }
+
+.blemil-primary-text.text-opacity-07 {
+  color: rgba(27, 117, 188, 0.7) !important; }
+
+.blemil-primary.opacity-08 {
+  background-color: rgba(27, 117, 188, 0.8) !important; }
+
+.blemil-primary-text.text-opacity-08 {
+  color: rgba(27, 117, 188, 0.8) !important; }
+
+.blemil-primary.opacity-09 {
+  background-color: rgba(27, 117, 188, 0.9) !important; }
+
+.blemil-primary-text.text-opacity-09 {
+  color: rgba(27, 117, 188, 0.9) !important; }
+
+.blemil-pink {
+  background-color: #ec018c !important; }
+
+.blemil-pink-text {
+  color: #ec018c !important; }
+
+.blemil-gray {
+  background-color: #cccccc !important; }
+
+.blemil-gray-text {
+  color: #cccccc !important; }
+
+.blemil-gray.darken-1 {
+  background-color: #999999 !important; }
+
+.blemil-gray-text.text-darken-1 {
+  color: #999999 !important; }
+
+.blemil-gray.darken-2 {
+  background-color: #666666 !important; }
+
+.blemil-gray-text.text-darken-2 {
+  color: #666666 !important; }
+
+.blemil-gray.darken-3 {
+  background-color: #333333 !important; }
+
+.blemil-gray-text.text-darken-3 {
+  color: #333333 !important; }
+
+.blemil-green {
+  background-color: #009444 !important; }
+
+.blemil-green-text {
+  color: #009444 !important; }
+
+.blemil-green.lighten-1 {
+  background-color: #00c342 !important; }
+
+.blemil-green-text.text-lighten-1 {
+  color: #00c342 !important; }
+
+.blemil-green.lighten-2 {
+  background-color: #71d73d !important; }
+
+.blemil-green-text.text-lighten-2 {
+  color: #71d73d !important; }
+
+.shades.black {
+  background-color: #000000 !important; }
+
+.shades-text.text-black {
+  color: #000000 !important; }
+
+.shades.white {
+  background-color: #FFFFFF !important; }
+
+.shades-text.text-white {
+  color: #FFFFFF !important; }
+
+.shades.bluesecond {
+  background-color: #67a0d0 !important; }
+
+.shades-text.text-bluesecond {
+  color: #67a0d0 !important; }
+
+.shades.transparent {
+  background-color: rgba(249, 249, 249, 0) !important; }
+
+.shades-text.text-transparent {
+  color: rgba(249, 249, 249, 0) !important; }
+
+.black {
+  background-color: #000000 !important; }
+
+.black-text {
+  color: #000000 !important; }
+
+.black-text a {
+  color: #000000 !important; }
+
+.white {
+  background-color: #FFFFFF !important; }
+
+.white-text {
+  color: #FFFFFF !important; }
+
+.white-text a {
+  color: #FFFFFF !important; }
+
+.bluesecond {
+  background-color: #67a0d0 !important; }
+
+.bluesecond-text {
+  color: #67a0d0 !important; }
+
+.bluesecond-text a {
+  color: #67a0d0 !important; }
+
+.transparent {
+  background-color: rgba(249, 249, 249, 0) !important; }
+
+.transparent-text {
+  color: rgba(249, 249, 249, 0) !important; }
+
+.transparent-text a {
+  color: rgba(249, 249, 249, 0) !important; }
+
+/* 2. Variables
+   ========================================================================== */
+/* 3. Component
+   ========================================================================== */
+html {
+  font-family: "lato-regular", "Roboto", sans-serif; }
+
+body {
+  background-image: url("../images/global/background.svg");
+  background-size: 50%;
+  background-color: #FFFFFF; }
+
+.blemil-nav-top {
+  background: -moz-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
+  background: -webkit-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
+  background: -ms-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
+  font-family: "lato-bold", "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+  .blemil-nav-top .brand-logo img {
+    max-height: 32px;
+    max-width: 120px; }
+  .blemil-nav-top .large-screens ul {
+    display: table; }
+    .blemil-nav-top .large-screens ul li {
+      max-height: 64px;
+      display: table-cell; }
+      .blemil-nav-top .large-screens ul li a {
+        font-size: 11.95px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        overflow: hidden;
+        position: relative;
+        vertical-align: middle; }
+        .blemil-nav-top .large-screens ul li a i {
+          font-size: 20px; }
+        .blemil-nav-top .large-screens ul li a:hover {
+          background: transparent; }
+        @media only screen and (max-width: 1024px) {
+          .blemil-nav-top .large-screens ul li a {
+            font-size: 9px;
+            padding-right: 5px;
+            padding-left: 5px;
+            max-width: 80px; } }
+      .blemil-nav-top .large-screens ul li.active, .blemil-nav-top .large-screens ul li:hover {
+        background: transparent;
+        border-bottom: 2px #FFFFFF solid; }
+  .blemil-nav-top .small-screens .search {
+    background: #1b75bc;
+    text-align: center; }
+    .blemil-nav-top .small-screens .search a {
+      color: #FFFFFF; }
+  .blemil-nav-top .small-screens ul li a {
+    font-size: .85rem; }
+
+/* Fonts
+   ========================================================================== */
+@font-face {
+  font-family: "lato-thin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-thin.ttf") format("truetype"); }
+.lato-thin-text {
+  font-family: "lato-thin", sans-serif; }
+
+@font-face {
+  font-family: "lato-black";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-black.ttf") format("truetype"); }
+.lato-black-text {
+  font-family: "lato-black", sans-serif; }
+
+@font-face {
+  font-family: "lato-light";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-light.ttf") format("truetype"); }
+.lato-light-text {
+  font-family: "lato-light", sans-serif; }
+
+@font-face {
+  font-family: "lato-regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-regular.ttf") format("truetype"); }
+.lato-regular-text {
+  font-family: "lato-regular", sans-serif; }
+
+@font-face {
+  font-family: "lato-medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-medium.ttf") format("truetype"); }
+.lato-medium-text {
+  font-family: "lato-medium", sans-serif; }
+
+@font-face {
+  font-family: "billy-bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/billy-bold.ttf") format("truetype"); }
+.billy-bold-text {
+  font-family: "billy-bold", sans-serif; }
+
+@font-face {
+  font-family: "ionicons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ionicons.ttf") format("truetype"); }
+.ionicons-text {
+  font-family: "ionicons", sans-serif; }
+
+/*
+author:Congdonglangsoi
+*/
+.border-radius-1 {
+  border-radius: 1px; }
+
+.border-radius-2 {
+  border-radius: 2px; }
+
+.border-radius-3 {
+  border-radius: 3px; }
+
+.border-radius-4 {
+  border-radius: 4px; }
+
+.border-radius-5 {
+  border-radius: 5px; }
+
+.border-radius-6 {
+  border-radius: 6px; }
+
+.border-radius-7 {
+  border-radius: 7px; }
+
+.border-radius-8 {
+  border-radius: 8px; }
+
+.border-radius-9 {
+  border-radius: 9px; }
+
+.border-radius-10 {
+  border-radius: 10px; }
+
+.border-radius-11 {
+  border-radius: 11px; }
+
+.border-radius-12 {
+  border-radius: 12px; }
+
+.border-radius-13 {
+  border-radius: 13px; }
+
+.border-radius-14 {
+  border-radius: 14px; }
+
+.border-radius-15 {
+  border-radius: 15px; }
+
+.border-radius-16 {
+  border-radius: 16px; }
+
+.border-radius-17 {
+  border-radius: 17px; }
+
+.border-radius-18 {
+  border-radius: 18px; }
+
+.border-radius-19 {
+  border-radius: 19px; }
+
+.border-radius-20 {
+  border-radius: 20px; }
+
+/* --------------------------------------------------------
+Button
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.btn-readmore {
+  background: #FFFFFF;
+  border: 1px #1b75bc solid;
+  position: relative;
+  padding: 5px 20px 5px 20px;
+  border-radius: 4px;
+  position: relative;
+  color: #1b75bc;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .btn-readmore:before {
+    font-family: 'FontAwesome';
+    content: "\f0d7";
+    position: absolute;
+    top: 75%;
+    line-height: 1;
+    left: 43%;
+    font-size: 13px;
+    background: #FFFFFF;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .btn-readmore.blemil-primary {
+    background-color: #1b75bc;
+    border: 1px #FFFFFF solid;
+    color: #FFFFFF; }
+    .btn-readmore.blemil-primary:before {
+      background: #1b75bc; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF;
+    border: 1px #1b75bc solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF; }
+  .btn-readmore.blemil-primary.lighten-4 {
+    background-color: #99cccc;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.lighten-4:before {
+      background: #99cccc !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #99cccc solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.lighten-3 {
+    background-color: #9999cc;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.lighten-3:before {
+      background: #9999cc !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #9999cc solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.lighten-2 {
+    background-color: #6699cc;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.lighten-2:before {
+      background: #6699cc !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #6699cc solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.lighten-1 {
+    background-color: #3399cc;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.lighten-1:before {
+      background: #3399cc !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #3399cc solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.darken-1 {
+    background-color: #006699;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.darken-1:before {
+      background: #006699 !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #006699 solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.darken-2 {
+    background-color: #003366;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.darken-2:before {
+      background: #003366 !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #003366 solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.darken-3 {
+    background-color: #003333;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.darken-3:before {
+      background: #003333 !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #003333 solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.darken-4 {
+    background-color: #000033;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.darken-4:before {
+      background: #000033 !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px #000033 solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-01 {
+    background-color: rgba(27, 117, 188, 0.1);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-01:before {
+      background: rgba(27, 117, 188, 0.1) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.1) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-02 {
+    background-color: rgba(27, 117, 188, 0.2);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-02:before {
+      background: rgba(27, 117, 188, 0.2) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.2) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-03 {
+    background-color: rgba(27, 117, 188, 0.3);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-03:before {
+      background: rgba(27, 117, 188, 0.3) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.3) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-04 {
+    background-color: rgba(27, 117, 188, 0.4);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-04:before {
+      background: rgba(27, 117, 188, 0.4) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.4) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-05 {
+    background-color: rgba(27, 117, 188, 0.5);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-05:before {
+      background: rgba(27, 117, 188, 0.5) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.5) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-06 {
+    background-color: rgba(27, 117, 188, 0.6);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-06:before {
+      background: rgba(27, 117, 188, 0.6) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.6) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-07 {
+    background-color: rgba(27, 117, 188, 0.7);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-07:before {
+      background: rgba(27, 117, 188, 0.7) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.7) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-08 {
+    background-color: rgba(27, 117, 188, 0.8);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-08:before {
+      background: rgba(27, 117, 188, 0.8) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.8) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-primary.opacity-09 {
+    background-color: rgba(27, 117, 188, 0.9);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-primary.opacity-09:before {
+      background: rgba(27, 117, 188, 0.9) !important; }
+  .btn-readmore.blemil-primary-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(27, 117, 188, 0.9) solid; }
+    .btn-readmore.blemil-primary-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-pink {
+    background-color: #ec018c;
+    border: 1px #FFFFFF solid;
+    color: #FFFFFF; }
+    .btn-readmore.blemil-pink:before {
+      background: #ec018c; }
+  .btn-readmore.blemil-pink-text {
+    background-color: #FFFFFF;
+    border: 1px #ec018c solid; }
+    .btn-readmore.blemil-pink-text:before {
+      background: #FFFFFF; }
+  .btn-readmore.blemil-gray {
+    background-color: #cccccc;
+    border: 1px #FFFFFF solid;
+    color: #FFFFFF; }
+    .btn-readmore.blemil-gray:before {
+      background: #cccccc; }
+  .btn-readmore.blemil-gray-text {
+    background-color: #FFFFFF;
+    border: 1px #cccccc solid; }
+    .btn-readmore.blemil-gray-text:before {
+      background: #FFFFFF; }
+  .btn-readmore.blemil-gray.darken-1 {
+    background-color: #999999;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-gray.darken-1:before {
+      background: #999999 !important; }
+  .btn-readmore.blemil-gray-text {
+    background-color: #FFFFFF !important;
+    border: 1px #999999 solid; }
+    .btn-readmore.blemil-gray-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-gray.darken-2 {
+    background-color: #666666;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-gray.darken-2:before {
+      background: #666666 !important; }
+  .btn-readmore.blemil-gray-text {
+    background-color: #FFFFFF !important;
+    border: 1px #666666 solid; }
+    .btn-readmore.blemil-gray-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-gray.darken-3 {
+    background-color: #333333;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-gray.darken-3:before {
+      background: #333333 !important; }
+  .btn-readmore.blemil-gray-text {
+    background-color: #FFFFFF !important;
+    border: 1px #333333 solid; }
+    .btn-readmore.blemil-gray-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-green {
+    background-color: #009444;
+    border: 1px #FFFFFF solid;
+    color: #FFFFFF; }
+    .btn-readmore.blemil-green:before {
+      background: #009444; }
+  .btn-readmore.blemil-green-text {
+    background-color: #FFFFFF;
+    border: 1px #009444 solid; }
+    .btn-readmore.blemil-green-text:before {
+      background: #FFFFFF; }
+  .btn-readmore.blemil-green.lighten-1 {
+    background-color: #00c342;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-green.lighten-1:before {
+      background: #00c342 !important; }
+  .btn-readmore.blemil-green-text {
+    background-color: #FFFFFF !important;
+    border: 1px #00c342 solid; }
+    .btn-readmore.blemil-green-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.blemil-green.lighten-2 {
+    background-color: #71d73d;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.blemil-green.lighten-2:before {
+      background: #71d73d !important; }
+  .btn-readmore.blemil-green-text {
+    background-color: #FFFFFF !important;
+    border: 1px #71d73d solid; }
+    .btn-readmore.blemil-green-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.shades.black {
+    background-color: #000000;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.shades.black:before {
+      background: #000000 !important; }
+  .btn-readmore.shades-text {
+    background-color: #FFFFFF !important;
+    border: 1px #000000 solid; }
+    .btn-readmore.shades-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.shades.white {
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.shades.white:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.shades-text {
+    background-color: #FFFFFF !important;
+    border: 1px #FFFFFF solid; }
+    .btn-readmore.shades-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.shades.bluesecond {
+    background-color: #67a0d0;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.shades.bluesecond:before {
+      background: #67a0d0 !important; }
+  .btn-readmore.shades-text {
+    background-color: #FFFFFF !important;
+    border: 1px #67a0d0 solid; }
+    .btn-readmore.shades-text:before {
+      background: #FFFFFF !important; }
+  .btn-readmore.shades.transparent {
+    background-color: rgba(249, 249, 249, 0);
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important; }
+    .btn-readmore.shades.transparent:before {
+      background: rgba(249, 249, 249, 0) !important; }
+  .btn-readmore.shades-text {
+    background-color: #FFFFFF !important;
+    border: 1px rgba(249, 249, 249, 0) solid; }
+    .btn-readmore.shades-text:before {
+      background: #FFFFFF !important; }
+
+/* --------------------------------------------------------
+Các mục liên quan đến slide dạng carousel của material
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+/*
+author:Congdonglangsoi
+*/
+.font-size-10 {
+  font-size: 10px; }
+
+.font-size-11 {
+  font-size: 11px; }
+
+.font-size-12 {
+  font-size: 12px; }
+
+.font-size-13 {
+  font-size: 13px; }
+
+.font-size-14 {
+  font-size: 14px; }
+
+.font-size-15 {
+  font-size: 15px; }
+
+.font-size-16 {
+  font-size: 16px; }
+
+.font-size-17 {
+  font-size: 17px; }
+
+.font-size-18 {
+  font-size: 18px; }
+
+.font-size-19 {
+  font-size: 19px; }
+
+.font-size-20 {
+  font-size: 20px; }
+
+.font-size-21 {
+  font-size: 21px; }
+
+.font-size-22 {
+  font-size: 22px; }
+
+.font-size-23 {
+  font-size: 23px; }
+
+.font-size-24 {
+  font-size: 24px; }
+
+.font-size-25 {
+  font-size: 25px; }
+
+.font-size-26 {
+  font-size: 26px; }
+
+.font-size-27 {
+  font-size: 27px; }
+
+.font-size-28 {
+  font-size: 28px; }
+
+.font-size-29 {
+  font-size: 29px; }
+
+.font-size-30 {
+  font-size: 30px; }
+
+/* 4. Custom
+   ========================================================================== */
+/* --------------------------------------------------------
+Hotline
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.hotline {
+  margin-bottom: -75px; }
+  .hotline .content {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-image: -moz-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -webkit-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -ms-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    width: 235px;
+    height: 75px;
+    padding-left: 80px;
+    padding-top: 15px;
+    position: relative;
+    display: inline-block; }
+    .hotline .content i {
+      position: absolute;
+      overflow: hidden;
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 10px;
+      left: 20px;
+      font-size: 2rem;
+      display: inline-block;
+      vertical-align: middle;
+      color: #009444; }
+    .hotline .content .title {
+      display: inline-block;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 0;
+      font-family: "lato-medium", sans-serif; }
+    .hotline .content a {
+      font-size: 20px;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-family: "billy-bold", sans-serif; }
+
+/* --------------------------------------------------------
+Box
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.border-box {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #1b75bc;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "lato-black", sans-serif;
+  font-size: 1.3rem;
+  border: 7px #1b75bc solid;
+  border-radius: 20px;
+  padding: 0 !important;
+  white-space: nowrap;
+  overflow: hidden; }
+  .border-box .param {
+    border: 2px #FFFFFF dashed;
+    padding: 20px 0 !important;
+    border-radius: 20px; }
+    .border-box .param:after, .border-box .param:before {
+      content: " • ";
+      padding: 0 10px; }
+  .border-box.border-box-before {
+    margin-top: -80px; }
+    .border-box.border-box-before .param {
+      padding-top: 50px !important; }
+      @media screen and (max-width: 600px) {
+        .border-box.border-box-before .param {
+          margin-top: 20px; } }
+  .border-box.blemil-primary {
+    background-color: #1b75bc !important;
+    border: 7px #1b75bc solid; }
+  .border-box .blemil-primary.lighten-4 {
+    background-color: #99cccc !important;
+    border: 7px #99cccc solid; }
+  .border-box .blemil-primary.lighten-3 {
+    background-color: #9999cc !important;
+    border: 7px #9999cc solid; }
+  .border-box .blemil-primary.lighten-2 {
+    background-color: #6699cc !important;
+    border: 7px #6699cc solid; }
+  .border-box .blemil-primary.lighten-1 {
+    background-color: #3399cc !important;
+    border: 7px #3399cc solid; }
+  .border-box .blemil-primary.darken-1 {
+    background-color: #006699 !important;
+    border: 7px #006699 solid; }
+  .border-box .blemil-primary.darken-2 {
+    background-color: #003366 !important;
+    border: 7px #003366 solid; }
+  .border-box .blemil-primary.darken-3 {
+    background-color: #003333 !important;
+    border: 7px #003333 solid; }
+  .border-box .blemil-primary.darken-4 {
+    background-color: #000033 !important;
+    border: 7px #000033 solid; }
+  .border-box .blemil-primary.opacity-01 {
+    background-color: rgba(27, 117, 188, 0.1) !important;
+    border: 7px rgba(27, 117, 188, 0.1) solid; }
+  .border-box .blemil-primary.opacity-02 {
+    background-color: rgba(27, 117, 188, 0.2) !important;
+    border: 7px rgba(27, 117, 188, 0.2) solid; }
+  .border-box .blemil-primary.opacity-03 {
+    background-color: rgba(27, 117, 188, 0.3) !important;
+    border: 7px rgba(27, 117, 188, 0.3) solid; }
+  .border-box .blemil-primary.opacity-04 {
+    background-color: rgba(27, 117, 188, 0.4) !important;
+    border: 7px rgba(27, 117, 188, 0.4) solid; }
+  .border-box .blemil-primary.opacity-05 {
+    background-color: rgba(27, 117, 188, 0.5) !important;
+    border: 7px rgba(27, 117, 188, 0.5) solid; }
+  .border-box .blemil-primary.opacity-06 {
+    background-color: rgba(27, 117, 188, 0.6) !important;
+    border: 7px rgba(27, 117, 188, 0.6) solid; }
+  .border-box .blemil-primary.opacity-07 {
+    background-color: rgba(27, 117, 188, 0.7) !important;
+    border: 7px rgba(27, 117, 188, 0.7) solid; }
+  .border-box .blemil-primary.opacity-08 {
+    background-color: rgba(27, 117, 188, 0.8) !important;
+    border: 7px rgba(27, 117, 188, 0.8) solid; }
+  .border-box .blemil-primary.opacity-09 {
+    background-color: rgba(27, 117, 188, 0.9) !important;
+    border: 7px rgba(27, 117, 188, 0.9) solid; }
+  .border-box.blemil-pink {
+    background-color: #ec018c !important;
+    border: 7px #ec018c solid; }
+  .border-box.blemil-gray {
+    background-color: #cccccc !important;
+    border: 7px #cccccc solid; }
+  .border-box .blemil-gray.darken-1 {
+    background-color: #999999 !important;
+    border: 7px #999999 solid; }
+  .border-box .blemil-gray.darken-2 {
+    background-color: #666666 !important;
+    border: 7px #666666 solid; }
+  .border-box .blemil-gray.darken-3 {
+    background-color: #333333 !important;
+    border: 7px #333333 solid; }
+  .border-box.blemil-green {
+    background-color: #009444 !important;
+    border: 7px #009444 solid; }
+  .border-box .blemil-green.lighten-1 {
+    background-color: #00c342 !important;
+    border: 7px #00c342 solid; }
+  .border-box .blemil-green.lighten-2 {
+    background-color: #71d73d !important;
+    border: 7px #71d73d solid; }
+  .border-box .shades.black {
+    background-color: #000000 !important;
+    border: 7px #000000 solid; }
+  .border-box .shades.white {
+    background-color: #FFFFFF !important;
+    border: 7px #FFFFFF solid; }
+  .border-box .shades.bluesecond {
+    background-color: #67a0d0 !important;
+    border: 7px #67a0d0 solid; }
+  .border-box .shades.transparent {
+    background-color: rgba(249, 249, 249, 0) !important;
+    border: 7px rgba(249, 249, 249, 0) solid; }
+
+.shadow-box {
+  background: #FFFFFF;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-radial-gradient(#FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+  /* For Opera 11.1 to 12.0 */
+  background: -o-radial-gradient(#FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+  /* For Fx 3.6 to 15 */
+  background: -moz-radial-gradient(#FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+  /* Standard syntax */
+  background: radial-gradient(#FFFFFF, #FFFFFF, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary {
+    background: #1b75bc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#1b75bc, #1b75bc, #1b75bc, #1b75bc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#1b75bc, #1b75bc, #1b75bc, #1b75bc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#1b75bc, #1b75bc, #1b75bc, #1b75bc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#1b75bc, #1b75bc, #1b75bc, #1b75bc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.lighten-4 {
+    background: #99cccc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#99cccc, #99cccc, #99cccc, #99cccc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#99cccc, #99cccc, #99cccc, #99cccc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#99cccc, #99cccc, #99cccc, #99cccc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#99cccc, #99cccc, #99cccc, #99cccc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.lighten-3 {
+    background: #9999cc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#9999cc, #9999cc, #9999cc, #9999cc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#9999cc, #9999cc, #9999cc, #9999cc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#9999cc, #9999cc, #9999cc, #9999cc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#9999cc, #9999cc, #9999cc, #9999cc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.lighten-2 {
+    background: #6699cc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#6699cc, #6699cc, #6699cc, #6699cc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#6699cc, #6699cc, #6699cc, #6699cc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#6699cc, #6699cc, #6699cc, #6699cc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#6699cc, #6699cc, #6699cc, #6699cc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.lighten-1 {
+    background: #3399cc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#3399cc, #3399cc, #3399cc, #3399cc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#3399cc, #3399cc, #3399cc, #3399cc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#3399cc, #3399cc, #3399cc, #3399cc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#3399cc, #3399cc, #3399cc, #3399cc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.darken-1 {
+    background: #006699;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#006699, #006699, #006699, #006699, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#006699, #006699, #006699, #006699, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#006699, #006699, #006699, #006699, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#006699, #006699, #006699, #006699, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.darken-2 {
+    background: #003366;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#003366, #003366, #003366, #003366, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#003366, #003366, #003366, #003366, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#003366, #003366, #003366, #003366, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#003366, #003366, #003366, #003366, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.darken-3 {
+    background: #003333;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#003333, #003333, #003333, #003333, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#003333, #003333, #003333, #003333, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#003333, #003333, #003333, #003333, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#003333, #003333, #003333, #003333, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.darken-4 {
+    background: #000033;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#000033, #000033, #000033, #000033, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#000033, #000033, #000033, #000033, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#000033, #000033, #000033, #000033, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#000033, #000033, #000033, #000033, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-01 {
+    background: rgba(27, 117, 188, 0.1);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(27, 117, 188, 0.1), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-02 {
+    background: rgba(27, 117, 188, 0.2);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(27, 117, 188, 0.2), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-03 {
+    background: rgba(27, 117, 188, 0.3);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(27, 117, 188, 0.3), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-04 {
+    background: rgba(27, 117, 188, 0.4);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(27, 117, 188, 0.4), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-05 {
+    background: rgba(27, 117, 188, 0.5);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(27, 117, 188, 0.5), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-06 {
+    background: rgba(27, 117, 188, 0.6);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(27, 117, 188, 0.6), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-07 {
+    background: rgba(27, 117, 188, 0.7);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(27, 117, 188, 0.7), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-08 {
+    background: rgba(27, 117, 188, 0.8);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(27, 117, 188, 0.8), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-primary.opacity-09 {
+    background: rgba(27, 117, 188, 0.9);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(27, 117, 188, 0.9), rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-pink {
+    background: #ec018c;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#ec018c, #ec018c, #ec018c, #ec018c, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#ec018c, #ec018c, #ec018c, #ec018c, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#ec018c, #ec018c, #ec018c, #ec018c, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#ec018c, #ec018c, #ec018c, #ec018c, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-gray {
+    background: #cccccc;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#cccccc, #cccccc, #cccccc, #cccccc, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#cccccc, #cccccc, #cccccc, #cccccc, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#cccccc, #cccccc, #cccccc, #cccccc, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#cccccc, #cccccc, #cccccc, #cccccc, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-gray.darken-1 {
+    background: #999999;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#999999, #999999, #999999, #999999, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#999999, #999999, #999999, #999999, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#999999, #999999, #999999, #999999, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#999999, #999999, #999999, #999999, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-gray.darken-2 {
+    background: #666666;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#666666, #666666, #666666, #666666, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#666666, #666666, #666666, #666666, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#666666, #666666, #666666, #666666, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#666666, #666666, #666666, #666666, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-gray.darken-3 {
+    background: #333333;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#333333, #333333, #333333, #333333, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#333333, #333333, #333333, #333333, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#333333, #333333, #333333, #333333, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#333333, #333333, #333333, #333333, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-green {
+    background: #009444;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#009444, #009444, #009444, #009444, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#009444, #009444, #009444, #009444, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#009444, #009444, #009444, #009444, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#009444, #009444, #009444, #009444, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-green.lighten-1 {
+    background: #00c342;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#00c342, #00c342, #00c342, #00c342, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#00c342, #00c342, #00c342, #00c342, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#00c342, #00c342, #00c342, #00c342, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#00c342, #00c342, #00c342, #00c342, rgba(249, 249, 249, 0)); }
+  .shadow-box.blemil-green.lighten-2 {
+    background: #71d73d;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#71d73d, #71d73d, #71d73d, #71d73d, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#71d73d, #71d73d, #71d73d, #71d73d, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#71d73d, #71d73d, #71d73d, #71d73d, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#71d73d, #71d73d, #71d73d, #71d73d, rgba(249, 249, 249, 0)); }
+  .shadow-box.shades.black {
+    background: #000000;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#000000, #000000, #000000, #000000, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#000000, #000000, #000000, #000000, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#000000, #000000, #000000, #000000, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#000000, #000000, #000000, #000000, rgba(249, 249, 249, 0)); }
+  .shadow-box.shades.white {
+    background: #FFFFFF;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, rgba(249, 249, 249, 0)); }
+  .shadow-box.shades.bluesecond {
+    background: #67a0d0;
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(#67a0d0, #67a0d0, #67a0d0, #67a0d0, rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(#67a0d0, #67a0d0, #67a0d0, #67a0d0, rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(#67a0d0, #67a0d0, #67a0d0, #67a0d0, rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(#67a0d0, #67a0d0, #67a0d0, #67a0d0, rgba(249, 249, 249, 0)); }
+  .shadow-box.shades.transparent {
+    background: rgba(249, 249, 249, 0);
+    /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-radial-gradient(rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -o-radial-gradient(rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0));
+    /* For Fx 3.6 to 15 */
+    background: -moz-radial-gradient(rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0));
+    /* Standard syntax */
+    background: radial-gradient(rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0), rgba(249, 249, 249, 0)); }
+  .shadow-box.box-width-chicken {
+    padding-left: 12%;
+    position: relative;
+    padding-right: 12%; }
+    .shadow-box.box-width-chicken img.chicken-left {
+      position: absolute;
+      overflow: hidden;
+      left: -100px;
+      top: 40%;
+      display: inline-block;
+      vertical-align: middle; }
+    .shadow-box.box-width-chicken img.chicken-right {
+      position: absolute;
+      overflow: hidden;
+      right: -110px;
+      top: 40%;
+      display: inline-block;
+      vertical-align: middle; }
+    .shadow-box.box-width-chicken .box-content {
+      padding: 20px;
+      position: relative; }
+      .shadow-box.box-width-chicken .box-content .param {
+        text-align: justify;
+        text-align-last: center; }
+  .shadow-box .research-trapezoid {
+    position: relative;
+    padding: 60px; }
+    .shadow-box .research-trapezoid img.trapezoid {
+      position: absolute;
+      padding-top: 50px; }
+    .shadow-box .research-trapezoid .logo {
+      color: #FFFFFF;
+      font-family: "lato-black", sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px #000000; }
+      .shadow-box .research-trapezoid .logo i.logo-blemil {
+        vertical-align: middle; }
+      .shadow-box .research-trapezoid .logo span {
+        padding-left: 10px; }
+    .shadow-box .research-trapezoid .products-right {
+      position: absolute;
+      width: 50%;
+      z-index: 999999; }
+      .shadow-box .research-trapezoid .products-right img.blemil-product {
+        margin-top: -90px;
+        margin-left: 15px;
+        margin-bottom: -50px; }
+      .shadow-box .research-trapezoid .products-right img.chicken {
+        position: absolute;
+        max-height: 85px;
+        right: 125px; }
+    .shadow-box .research-trapezoid .products-left {
+      position: absolute;
+      width: 40%;
+      margin-left: 40%;
+      z-index: 999999; }
+      .shadow-box .research-trapezoid .products-left img.blemil-product {
+        margin-top: -90px;
+        margin-left: 15px;
+        margin-bottom: -50px; }
+      .shadow-box .research-trapezoid .products-left img.chicken {
+        position: absolute;
+        max-height: 85px;
+        left: 90px; }
+  .shadow-box .research-trapezoid-mobile {
+    position: relative;
+    padding-bottom: 30px; }
+    .shadow-box .research-trapezoid-mobile .logo {
+      color: #FFFFFF;
+      font-family: "lato-black", sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px #000000;
+      position: relative;
+      top: 100px; }
+      @media screen and (max-width: 376px) {
+        .shadow-box .research-trapezoid-mobile .logo {
+          top: 80px; } }
+      .shadow-box .research-trapezoid-mobile .logo i.logo-blemil {
+        vertical-align: middle; }
+      .shadow-box .research-trapezoid-mobile .logo span {
+        padding-left: 10px; }
+    .shadow-box .research-trapezoid-mobile .blemil-product {
+      position: absolute;
+      max-width: 80px;
+      left: 42%; }
+      @media screen and (max-width: 376px) {
+        .shadow-box .research-trapezoid-mobile .blemil-product {
+          max-width: 60px; } }
+    .shadow-box .research-trapezoid-mobile .readmore {
+      position: relative;
+      top: 110px;
+      margin: 0; }
+      @media screen and (max-width: 376px) {
+        .shadow-box .research-trapezoid-mobile .readmore {
+          top: 80px; } }
+
+.logo-blemil {
+  width: 95px;
+  content: url("../images/header/logo.png"); }
+  .logo-blemil.large {
+    width: 120px; }
+  .logo-blemil.medium {
+    width: 80px; }
+  .logo-blemil.tiny {
+    width: 50px; }
+
+/* --------------------------------------------------------
+Banner
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.banner {
+  position: relative; }
+  .banner .milk img {
+    width: 100%; }
+  .banner .logo {
+    position: absolute;
+    top: 10%;
+    left: 40%; }
+    .banner .logo .plus {
+      position: absolute;
+      width: 355px;
+      left: -75px;
+      top: 0; }
+  .banner .content {
+    position: absolute;
+    top: 15%;
+    left: 30%; }
+    .banner .content p.hide-on-med-and-down {
+      width: 35%;
+      font-size: 1.2rem;
+      text-align: right;
+      text-justify: auto; }
+    .banner .content p.hide-on-large-only {
+      margin-left: -20%;
+      margin-top: -5%;
+      width: 95%; }
+  .banner .products {
+    position: absolute;
+    left: 40%;
+    bottom: 15%; }
+    .banner .products .chicken {
+      position: absolute;
+      top: 15%;
+      left: 0; }
+    .banner .products .bottle {
+      max-width: 500px;
+      margin-left: 150px; }
+
+.fieldset {
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  border-top: 5px #1b75bc dashed;
+  margin-bottom: 30px; }
+  .fieldset.blemil-primary {
+    border-top: 5px #1b75bc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.lighten-4 {
+    border-top: 5px #99cccc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.lighten-3 {
+    border-top: 5px #9999cc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.lighten-2 {
+    border-top: 5px #6699cc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.lighten-1 {
+    border-top: 5px #3399cc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.darken-1 {
+    border-top: 5px #006699 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.darken-2 {
+    border-top: 5px #003366 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.darken-3 {
+    border-top: 5px #003333 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.darken-4 {
+    border-top: 5px #000033 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-01 {
+    border-top: 5px rgba(27, 117, 188, 0.1) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-02 {
+    border-top: 5px rgba(27, 117, 188, 0.2) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-03 {
+    border-top: 5px rgba(27, 117, 188, 0.3) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-04 {
+    border-top: 5px rgba(27, 117, 188, 0.4) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-05 {
+    border-top: 5px rgba(27, 117, 188, 0.5) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-06 {
+    border-top: 5px rgba(27, 117, 188, 0.6) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-07 {
+    border-top: 5px rgba(27, 117, 188, 0.7) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-08 {
+    border-top: 5px rgba(27, 117, 188, 0.8) dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-primary.opacity-09 {
+    border-top: 5px rgba(27, 117, 188, 0.9) dashed !important;
+    background: inherit !important; }
+  .fieldset.blemil-pink {
+    border-top: 5px #ec018c dashed !important;
+    background: inherit !important; }
+  .fieldset.blemil-gray {
+    border-top: 5px #cccccc dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-gray.darken-1 {
+    border-top: 5px #999999 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-gray.darken-2 {
+    border-top: 5px #666666 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-gray.darken-3 {
+    border-top: 5px #333333 dashed !important;
+    background: inherit !important; }
+  .fieldset.blemil-green {
+    border-top: 5px #009444 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-green.lighten-1 {
+    border-top: 5px #00c342 dashed !important;
+    background: inherit !important; }
+  .fieldset .blemil-green.lighten-2 {
+    border-top: 5px #71d73d dashed !important;
+    background: inherit !important; }
+  .fieldset .shades.black {
+    border-top: 5px #000000 dashed !important;
+    background: inherit !important; }
+  .fieldset .shades.white {
+    border-top: 5px #FFFFFF dashed !important;
+    background: inherit !important; }
+  .fieldset .shades.bluesecond {
+    border-top: 5px #67a0d0 dashed !important;
+    background: inherit !important; }
+  .fieldset .shades.transparent {
+    border-top: 5px rgba(249, 249, 249, 0) dashed !important;
+    background: inherit !important; }
+  .fieldset.fieldset-width-box legend {
+    min-width: 350px; }
+    @media screen and (max-width: 600px) {
+      .fieldset.fieldset-width-box legend {
+        min-width: inherit; } }
+
+/* --------------------------------------------------------
+Các đường gạch
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.solid {
+  margin-bottom: 0; }
+  .solid .solid-width-arrow {
+    background: #FFFFFF;
+    height: 4px;
+    position: relative;
+    margin-bottom: 10px !important; }
+    .solid .solid-width-arrow:before {
+      border-top: 10px solid #FFFFFF;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      content: "";
+      left: 45%;
+      position: absolute;
+      text-align: center; }
+
+.blemil-footer {
+  background: #1b75bc !important; }
+  .blemil-footer .blemil-footer-left {
+    color: #FFFFFF !important; }
+    .blemil-footer .blemil-footer-left h5 {
+      text-transform: uppercase;
+      font-weight: bold; }
+    .blemil-footer .blemil-footer-left .blemil-footer-information li {
+      padding: 7px 0px; }
+      .blemil-footer .blemil-footer-left .blemil-footer-information li .small-blemil-footer-information {
+        margin-bottom: 0px !important; }
+    .blemil-footer .blemil-footer-left .blemil-footer-top {
+      padding-top: 13px; }
+  .blemil-footer .blemil-footer-right .button-register {
+    background: #ec018c !important; }
+  .blemil-footer .blemil-footer-right .blemil-footer-right-social {
+    margin-top: 95px; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu {
+      padding: 0px 10px; }
+      .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu:last-child {
+        padding-left: 42px; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social .first-li {
+      border-right: 1px solid #FFFFFF; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social li {
+      padding: 7px 0px; }
+      .blemil-footer .blemil-footer-right .blemil-footer-right-social li a {
+        color: #FFFFFF; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li {
+      text-align: left; }
+      .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li .box-soical {
+        width: 35px;
+        text-align: center !important; }
+  .blemil-footer .blemil-footer-right .blemil-footer-email-register .value-input {
+    background: #FFFFFF;
+    color: #4d4d4d;
+    padding: 0px 0px 0px 16px !important;
+    width: 90%;
+    height: 2.3rem; }
+  .blemil-footer .backtop {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 83px;
+    left: 54px;
+    padding: 5px; }
+    .blemil-footer .backtop .small-backtop {
+      width: 100%;
+      height: 100%;
+      border: 1px dashed #1b75bc; }
+      .blemil-footer .backtop .small-backtop a {
+        color: #3399cc !important;
+        line-height: 57px; }
+        .blemil-footer .backtop .small-backtop a i {
+          transform: rotate(-90deg); }
+
+.readmore {
+  margin: 20px 0; }
+
+.bg-gift {
+  margin-top: 20px;
+  background-image: url("../images/main-home/gift.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 150px 160px; }
+  @media screen and (max-width: 1024px) {
+    .bg-gift {
+      background-size: 80%; } }
+  .bg-gift .content {
+    position: relative; }
+    .bg-gift .content img {
+      border-radius: 30px; }
+    .bg-gift .content .param {
+      position: absolute;
+      font-size: 1rem;
+      font-family: "lato-bold", "Roboto", sans-serif;
+      color: #FFFFFF;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      padding: 30px;
+      bottom: 0;
+      width: 100%;
+      background-image: -moz-linear-gradient(90deg, #1b75bc 0%, rgba(249, 249, 249, 0) 100%);
+      background-image: -webkit-linear-gradient(90deg, #1b75bc 0%, rgba(249, 249, 249, 0) 100%);
+      background-image: -ms-linear-gradient(90deg, #1b75bc 0%, rgba(249, 249, 249, 0) 100%); }
+    .bg-gift .content .chicken {
+      position: absolute;
+      right: -285px;
+      bottom: 20px; }
+      .bg-gift .content .chicken img {
+        max-width: 200px; }
+
+.location {
+  background-image: url("../images/main-home/bg-location.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%; }
+
+/* --------------------------------------------------------
+Animate
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.infinite-delay-30 {
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s; }
+
+.infinite-delay-29 {
+  -webkit-animation-duration: 29s;
+  animation-duration: 29s; }
+
+.infinite-delay-28 {
+  -webkit-animation-duration: 28s;
+  animation-duration: 28s; }
+
+.infinite-delay-27 {
+  -webkit-animation-duration: 27s;
+  animation-duration: 27s; }
+
+.infinite-delay-26 {
+  -webkit-animation-duration: 26s;
+  animation-duration: 26s; }
+
+.infinite-delay-25 {
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s; }
+
+.infinite-delay-24 {
+  -webkit-animation-duration: 24s;
+  animation-duration: 24s; }
+
+.infinite-delay-23 {
+  -webkit-animation-duration: 23s;
+  animation-duration: 23s; }
+
+.infinite-delay-22 {
+  -webkit-animation-duration: 22s;
+  animation-duration: 22s; }
+
+.infinite-delay-21 {
+  -webkit-animation-duration: 21s;
+  animation-duration: 21s; }
+
+.infinite-delay-20 {
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s; }
+
+.infinite-delay-19 {
+  -webkit-animation-duration: 19s;
+  animation-duration: 19s; }
+
+.infinite-delay-18 {
+  -webkit-animation-duration: 18s;
+  animation-duration: 18s; }
+
+.infinite-delay-17 {
+  -webkit-animation-duration: 17s;
+  animation-duration: 17s; }
+
+.infinite-delay-16 {
+  -webkit-animation-duration: 16s;
+  animation-duration: 16s; }
+
+.infinite-delay-15 {
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s; }
+
+.infinite-delay-14 {
+  -webkit-animation-duration: 14s;
+  animation-duration: 14s; }
+
+.infinite-delay-13 {
+  -webkit-animation-duration: 13s;
+  animation-duration: 13s; }
+
+.infinite-delay-12 {
+  -webkit-animation-duration: 12s;
+  animation-duration: 12s; }
+
+.infinite-delay-11 {
+  -webkit-animation-duration: 11s;
+  animation-duration: 11s; }
+
+.infinite-delay-10 {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s; }
+
+.infinite-delay-9 {
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s; }
+
+.infinite-delay-8 {
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s; }
+
+.infinite-delay-7 {
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s; }
+
+.infinite-delay-6 {
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s; }
+
+.infinite-delay-5 {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s; }
+
+.infinite-delay-4 {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s; }
+
+.infinite-delay-3 {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
+
+.infinite-delay-2 {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
+
+.infinite-delay-1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s; }
+
+@-webkit-keyframes swing-bottom {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); } }
+@keyframes swing-bottom {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); } }
+.swing-bottom {
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-animation-name: swing-bottom;
+  animation-name: swing-bottom; }
+
+/*# sourceMappingURL=blemil.css.map */

@@ -1,0 +1,85 @@
+$blemil-footer-margin: 7px 0px;
+.blemil-footer {
+  background: $blemil-blue !important;
+  .blemil-footer-left {
+    color: $blemil-white !important;
+    h5 {
+      @include bold;
+    }
+    .blemil-footer-information {
+      li {
+        padding: $blemil-footer-margin;
+        .small-blemil-footer-information {
+          margin-bottom: 0px !important;
+        }
+      }
+    }
+    .blemil-footer-top {
+      padding-top: 13px;
+    }
+  }
+  .blemil-footer-right {
+    .button-register {
+      background: $blemil-pink !important;
+    }
+    .blemil-footer-right-social {
+      ul.nav-menu .list-menu {
+        padding: 0px 10px;
+        &:last-child {
+          padding-left: 42px;
+        }
+      }
+      margin-top: 95px;
+      .first-li {
+        border-right: 1px solid $blemil-white;
+      }
+      li {
+        padding: $blemil-footer-margin;
+        a {
+          color: $blemil-white;
+        }
+      }
+      .social {
+        li {
+          text-align: left;
+          .box-soical {
+            width: 35px;
+            text-align: center !important;
+          }
+        ;
+        }
+      }
+    }
+    .blemil-footer-email-register {
+      .value-input {
+        background: $blemil-white;
+        color: darken($blemil-gray,50%);
+        padding: 0px 0px 0px 16px !important;
+        width: 90%;
+        height: 2.3rem;
+      }
+
+    }
+  }
+  .backtop {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 83px;
+    left: 54px;
+    padding: 5px;
+    .small-backtop {
+      width: 100%;
+      height: 100%;
+      border: 1px dashed $blemil-blue;
+      a {
+        color: color('blemil-primary','lighten-1') !important;
+        line-height: 57px;
+        i {
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+}
+

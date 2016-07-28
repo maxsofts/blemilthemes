@@ -1,0 +1,23 @@
+/* Fonts
+   ========================================================================== */
+$fonts: (
+        'lato-thin':"Lato thin",
+        'lato-black':"Lato black",
+        'lato-light':"Lato light",
+        'lato-regular':"Lato regular",
+        'lato-medium':"Lato Medium",
+        'billy-bold':"Billy bold",
+        'ionicons':"Ionicons",
+);
+
+@each $font-name, $font-call in $fonts {
+  @font-face {
+    font-family: $font-name;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/#{$font-name}.ttf') format('truetype');
+  }
+  .#{$font-name}-text {
+    font-family: $font-name, sans-serif;
+  }
+}
