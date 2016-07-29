@@ -21,3 +21,8 @@ $fonts: (
     font-family: $font-name, sans-serif;
   }
 }
+
+.text-justify-center{
+  text-align: justify;
+  text-align-last: center;
+}

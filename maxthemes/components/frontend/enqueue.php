@@ -12,7 +12,7 @@ class enqueue
 
     public function addStyles()
     {
-//        wp_enqueue_style('material-icons', 'http://fonts.googleapis.com/icon?family=Material+Icons');
+        wp_enqueue_style('material-icons', 'http://fonts.googleapis.com/icon?family=Material+Icons');
 
         wp_enqueue_style('material-css', MAXTHEMES_URI_ASSET . 'materialize/css/materialize.min.css');
 

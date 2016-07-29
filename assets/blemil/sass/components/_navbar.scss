@@ -45,7 +45,7 @@
           }
         }
 
-        &.active, &:hover {
+        &.active, &:hover,&.current_page_item {
           background: transparent;
           border-bottom: 2px $blemil-white solid;
         }

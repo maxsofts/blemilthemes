@@ -4,6 +4,9 @@
  *
  * @author: Tran Xuan Duc
  */
+#active plugin metabox
+require_once dirname( __FILE__ ) . '/class-tgm-plugin-activation.php';
+
 if (!defined('MAXTHEMES_VER')):
     define('MAXTHEMES_VER', '1.0.0');
 endif;
@@ -28,8 +31,8 @@ endif;
 if (!defined('MAXTHEMES_LAN_URI')):
     define('MAXTHEMES_LAN_URI', MAXTHEMES_URI . '/language/');
 endif;
-if (!defined('SF_PREFIX')) :
-    define('SF_PREFIX', 'sf_prefix_');
+if (!defined('MAXTHEMES_PREFIX')) :
+    define('MAXTHEMES_PREFIX', 'mt_prefix_');
 endif;
 
 require_once 'maxthemes/bootstrap.php';

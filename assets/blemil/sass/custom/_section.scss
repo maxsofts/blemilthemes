@@ -89,8 +89,26 @@
 
   ul.news-list-home {
     margin: 0;
-    .row{
+    .row {
       margin-bottom: 8px;
+
+      .content {
+        color: $blemil-white;
+        a{
+          font-family: "lato-light", sans-serif;
+          color: $blemil-white;
+          border-bottom: 1px $blemil-white solid;
+          margin:0;
+        }
+        p{
+          font-family: "lato-light", sans-serif;
+          margin:0;
+        }
+        .title{
+          font-family: "lato-black", sans-serif;
+          margin:0;
+        }
+      }
     }
   }
 }

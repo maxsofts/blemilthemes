@@ -1,0 +1,52 @@
+.card {
+  &.blemil-card-shadow {
+    position: relative;
+    margin: 0;
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-image: -moz-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+      background-image: -webkit-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+      background-image: -ms-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+    }
+
+    @each $color_name, $color in $colors {
+      @each $color_type, $color_value in $color {
+        @if $color_type == "base" {
+          &.#{$color_name} {
+            .card-content {
+              color: $blemil-white;
+              background-image: -moz-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%);
+              background-image: -webkit-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%);
+              background-image: -ms-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%)
+            }
+          }
+
+          &.#{$color_name}-text {
+            color: $color_value;
+            background-image: -moz-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+            background-image: -webkit-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+            background-image: -ms-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+          }
+        } @else {
+          &.#{$color_name}.#{$color_type} {
+            .card-content {
+              color: $blemil-white;
+              background-image: -moz-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%);
+              background-image: -webkit-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%);
+              background-image: -ms-linear-gradient(90deg, $color_value 0%, $blemil-transparent 100%)
+            }
+          }
+
+          &.#{$color_name}-text.#{$color_type}-text {
+            color: $color_value;
+            background-image: -moz-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+            background-image: -webkit-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+            background-image: -ms-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+          }
+        }
+      }
+    }
+  }
+}

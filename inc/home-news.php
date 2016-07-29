@@ -10,7 +10,16 @@
     <div class="clearfix"></div>
     <div class="container row">
         <div class="col s12 m6">
-            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/boy-men.jpg" alt="" class="responsive-img" />
+            <div class="card blemil-card-shadow blemil-gray darken-2">
+                <div class="card-image">
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/boy-men.jpg" alt="" class="responsive-img" />
+                </div>
+                <div class="card-content">
+                    <h6>Tiêu đề</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit...</p>
+                </div>
+            </div>
         </div>
         <div class="col s12 m6">
             <ul class="news-list-home">
@@ -20,7 +29,14 @@
                             <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/boy-men.jpg" alt="" class="responsive-img" />
                         </div>
                         <div class="col s8">
-                            Tiêu đề mấy dòng
+                            <div class="content">
+                                <h6 class="title">Tiêu đề</h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit...
+                                </p>
+                                <a class="view-more right" href="#">Xem chi tiết</a>
+                            </div>
                         </div>
                     </div>
                  </li>
@@ -30,7 +46,14 @@
                             <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/boy-men.jpg" alt="" class="responsive-img" />
                         </div>
                         <div class="col s8">
-                            Tiêu đề mấy dòng
+                            <div class="content">
+                                <h6 class="title">Tiêu đề</h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit...
+                                </p>
+                                <a class="view-more right" href="#">Xem chi tiết</a>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -40,7 +63,14 @@
                             <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/boy-men.jpg" alt="" class="responsive-img" />
                         </div>
                         <div class="col s8">
-                            Tiêu đề mấy dòng
+                            <div class="content">
+                                <h6 class="title">Tiêu đề</h6>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit...
+                                </p>
+                                <a class="view-more right" href="#">Xem chi tiết</a>
+                            </div>
                         </div>
                     </div>
                 </li>
