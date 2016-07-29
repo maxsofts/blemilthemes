@@ -1,0 +1,20 @@
+.tabs {
+  &.tabs-image {
+    height: 105px;
+    .tab{
+      min-width: 160px;
+      height: inherit;
+      margin-right: 5px;
+      background: $blemil-transparent;
+
+      &:hover,a.active{
+        img{
+          opacity: 1;
+        }
+      }
+      img{
+        opacity: .5;
+      }
+    }
+  }
+}

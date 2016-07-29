@@ -54,6 +54,34 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   }
 }
 
+.border-box-bottom {
+  background: $blemil-transparent !important;
+  text-align: center;
+  font-family: "lato-black", sans-serif;
+  font-size: 1.3rem;
+  padding: 0 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: $blemil-white;
+  margin-bottom: 20px;
+  @include bold();
+  .param {
+    padding: 20px 0 !important;
+    border-radius: 20px;
+    &:after, &:before {
+      content: " • ";
+      padding: 0 10px;
+    }
+    span {
+      padding-bottom: 20px;
+      border-bottom: 1px $blemil-white solid;
+    }
+  }
+}
+
 .shadow-box {
   background: $blemil-white; /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */

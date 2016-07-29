@@ -5,6 +5,4 @@
 
 <?php else: ?>
 
-
-
 <?php endif; ?>

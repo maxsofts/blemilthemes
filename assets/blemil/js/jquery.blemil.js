@@ -7,10 +7,18 @@ $(document).ready(function () {
         out_duration: 200, // Transition out duration
         starting_top: '4%', // Starting top style attribute
         ending_top: '10%' //, // Ending top style attribute
-       
-    });
 
+    });
+    $('.modal-trigger').leanModal({
+        starting_top: '4%', // Starting top style attribute
+        ending_top: '10%' //, // Ending top style attribute
+    });
+    $(".button-collapse").sideNav({
+        edge: 'right'
+    });
     $('select').material_select();
+
+    $('ul.tabs').tabs();
 });
 
 

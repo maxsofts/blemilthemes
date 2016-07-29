@@ -1,0 +1,57 @@
+.select-wrapper {
+
+  @each $color_name, $color in $colors {
+    @each $color_type, $color_value in $color {
+      @if $color_type == "base" {
+        &.#{$color_name} {
+          background-color: $color_value !important;
+          color: $blemil-white !important;
+          margin: 10px 0;
+          span {
+            color: $blemil-white !important;
+            right: 10px;
+          }
+          .dropdown-content li {
+            background-color: $color_value !important;
+            color: $blemil-white !important;
+
+            &:hover, &.active, &.selected {
+              span {
+                background-color: $blemil-white !important;
+                color: $color_value !important;
+              }
+            }
+          }
+
+          input.select-dropdown {
+            padding: 0 10px !important;
+            border: inherit !important;
+          }
+
+        }
+        &.#{$color_name}-text {
+          color: $color_value !important;
+          span {
+            color: $color_value !important;
+          }
+        }
+      } @else {
+        &.#{$color_name}.#{$color_type} {
+          background-color: $color_value !important;
+          color: $blemil-white !important;
+
+          span {
+            color: $blemil-white !important;
+          }
+        }
+        &.#{$color_name}-text.text-#{$color_type} {
+          color: $color_value !important;
+          span {
+            color: $color_value !important;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+
+.bg-gift {
+  margin-top: 20px;
+  background-image: url('../images/main-home/gift.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 150px 160px;
+  @media screen and (max-width: 1024px) {
+    background-size: 80%;
+  }
+  .content {
+    position: relative;
+
+    img {
+      border-radius: 30px;
+    }
+    .param {
+      position: absolute;
+      font-size: 1rem;
+      font-family: "lato-bold", "Roboto", sans-serif;
+      color: $blemil-white;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      padding: 30px;
+      bottom: 0;
+      width: 100%;
+      background-image: -moz-linear-gradient(90deg, $blemil-blue 0%, $blemil-transparent 100%);
+      background-image: -webkit-linear-gradient(90deg, $blemil-blue 0%, $blemil-transparent 100%);
+      background-image: -ms-linear-gradient(90deg, $blemil-blue 0%, $blemil-transparent 100%);
+
+    }
+    .chicken {
+      position: absolute;
+      right: -285px;
+      bottom: 20px;
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+//Section location
+.location {
+  background-image: url('../images/main-home/bg-location.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+
+  .location-list {
+    margin-top: 1rem;
+    max-height: 630px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .location-item {
+      margin: 10px 0;
+
+      .content {
+        .title {
+          font-family: "lato-black", sans-serif;
+          @include bold();
+        }
+        .address {
+          font-family: "lato-light", sans-serif;
+          font-size: 13px;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+//Setion Social
+.social {
+  font-family: "lato-regular", "Roboto", sans-serif;
+  text-align: center;
+  ul li {
+    display: inline;
+    padding: 15px;
+  }
+}
+
+//Custom news section
+.news {
+  padding-top: 10px;
+  margin-bottom: 0;
+
+  ul.news-list-home {
+    margin: 0;
+    .row{
+      margin-bottom: 8px;
+    }
+  }
+}

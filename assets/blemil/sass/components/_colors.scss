@@ -31,8 +31,22 @@ $blemil-gray-color: (
 );
 $blemil-green-color: (
         "base": #009444,
-        "lighten-1":#00c342,
+        "lighten-4":#33ff33,
         "lighten-2":#71d73d,
+        "lighten-3":#33cc33,
+        "lighten-1":#00c342,
+        "darken-1":#339933,
+        "darken-2":#336633,
+        "darken-3":#003300,
+        "opacity-01": rgba(51,153,51, .1),
+        "opacity-02": rgba(51,153,51, .2),
+        "opacity-03": rgba(51,153,51, .3),
+        "opacity-04": rgba(51,153,51, .4),
+        "opacity-05": rgba(51,153,51, .5),
+        "opacity-06": rgba(51,153,51, .6),
+        "opacity-07": rgba(51,153,51, .7),
+        "opacity-08": rgba(51,153,51, .8),
+        "opacity-09": rgba(51,153,51, .9)
 );
 $shades: (
         "black": #000000,
