@@ -1464,7 +1464,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       background: #FFFFFF !important; }
 
 /* --------------------------------------------------------
-Các mục liên quan đến slide dạng carousel của material
+C├íc mß╗Ñc li├¬n quan ─æß║┐n slide dß║íng carousel cß╗ºa material
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 ----------------------------------------------------------*/
@@ -2046,7 +2046,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box .param:after, .border-box .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
   .border-box.border-box-before {
     margin-top: -80px; }
@@ -2207,7 +2207,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box-bottom .param:after, .border-box-bottom .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
     .border-box-bottom .param span {
       padding-bottom: 20px;
@@ -3006,7 +3006,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     margin-top: 20px; }
 
 /* --------------------------------------------------------
-Các đường gạch
+C├íc ─æ╞░ß╗¥ng gß║ích
 
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
@@ -3402,5 +3402,62 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   transform-origin: bottom center;
   -webkit-animation-name: swing-bottom;
   animation-name: swing-bottom; }
+
+.border-box-color {
+  border: 1px dashed #FFFFFF; }
+
+.chickend-left {
+  position: absolute;
+  bottom: 33%;
+  max-height: 85px;
+  left: 0px; }
+
+.chickend-right {
+  position: absolute;
+  bottom: 33%;
+  max-height: 85px;
+  right: 0px; }
+
+.list-product {
+  position: relative; }
+  .list-product .logo {
+    color: #FFFFFF;
+    font-family: "lato-black", sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px #000000; }
+  .list-product .bg-product {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1; }
+  .list-product .product {
+    position: relative; }
+
+.content-product {
+  margin-top: 24px; }
+  .content-product .tab-content-product li {
+    padding: 5px;
+    margin-top: 20px; }
+    .content-product .tab-content-product li:hover {
+      background: #ec018c !important; }
+    .content-product .tab-content-product li .border-li {
+      cursor: pointer;
+      position: relative;
+      text-align: left;
+      padding: 10px 19px; }
+      .content-product .tab-content-product li .border-li i {
+        position: absolute;
+        right: 0px;
+        font-size: 25px;
+        width: 33px; }
+  .content-product .blemil-title-product {
+    padding: 5px; }
+    .content-product .blemil-title-product h5 {
+      text-transform: uppercase; }
+  .content-product .text-content-product {
+    padding-top: 20px; }
+    .content-product .text-content-product .text-content-product-left {
+      text-align: justify; }
 
 /*# sourceMappingURL=blemil.css.map */
