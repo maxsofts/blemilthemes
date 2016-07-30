@@ -2,6 +2,7 @@
 namespace max_themes\components;
 
 use max_themes\components\backend\metabox;
+use max_themes\components\backend\support;
 use max_themes\components\frontend\enqueue;
 use max_themes\components\backend\menu;
 
@@ -32,6 +33,7 @@ class init
          */
         new menu();
         new metabox();
+        new support();
     }
 
     /**

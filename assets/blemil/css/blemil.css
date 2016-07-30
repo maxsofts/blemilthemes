@@ -313,6 +313,15 @@ body {
   background-size: 50%;
   background-color: #FFFFFF; }
 
+p {
+  margin: 0; }
+
+main.container {
+  margin-bottom: 30px !important; }
+
+.padding-0 {
+  padding: 0; }
+
 .blemil-nav-top {
   background: -moz-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
   background: -webkit-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
@@ -418,9 +427,47 @@ body {
 .ionicons-text {
   font-family: "ionicons", sans-serif; }
 
+.column-4 {
+  -webkit-column-count: 4;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 4;
+  /* Firefox */
+  column-count: 4; }
+
+.column-3 {
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3; }
+
+.column-2 {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2; }
+
+.column-1 {
+  -webkit-column-count: 1;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 1;
+  /* Firefox */
+  column-count: 1; }
+
+@media screen and (max-width: 600px) {
+  .column-text {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important; } }
+
 .text-justify-center {
   text-align: justify;
   text-align-last: center; }
+
+.text-bold {
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .card.blemil-card-shadow {
   position: relative;

@@ -22,7 +22,28 @@ $fonts: (
   }
 }
 
-.text-justify-center{
+$text-column-max: 4 !default;
+@for $i from $text-column-max through 1 {
+  .column-#{$i} {
+    -webkit-column-count: $i; /* Chrome, Safari, Opera */
+    -moz-column-count: $i; /* Firefox */
+    column-count: $i;
+  }
+}
+
+.column-text {
+  @media screen and (max-width: $small-screen) {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important;
+  }
+}
+
+.text-justify-center {
   text-align: justify;
   text-align-last: center;
+}
+
+.text-bold {
+  @include bold();
 }

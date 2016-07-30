@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer class="page-footer blemil-primary blemil-footer opacity-08 white-text">
+<footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
         <div class="row">
             <div class="col s12 m6 blemil-footer-left">
