@@ -1,0 +1,74 @@
+@mixin chickend{
+  position: absolute;
+  bottom: 33%;
+  max-height: 85px;
+}
+.border-box-color{
+  border:1px dashed $blemil-white;
+}
+.chickend-left{
+  @include  chickend;
+  left: 0px;
+}
+.chickend-right{
+  @include  chickend;
+  right: 0px;
+}
+.list-product{
+   .logo{
+      color: #FFFFFF;
+      font-family: "lato-black", sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px #000000;
+    }
+;
+  position: relative;
+  .bg-product{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+  }
+  .product{
+    position: relative;
+  }
+
+}
+.content-product{
+  margin-top:24px;
+  .tab-content-product{
+    li{
+      &:hover{
+        background: $blemil-pink !important;
+      }
+      padding:5px;
+      margin-top:20px;
+      .border-li{
+        cursor:pointer;
+        position: relative;
+        text-align: left;
+        padding: 10px 19px;
+        i{
+          position: absolute;
+          right: 0px;
+          font-size: 25px;
+          width: 33px;
+        }
+      }
+    }
+
+  }
+  .blemil-title-product{
+    padding: 5px;
+    h5{
+      text-transform: uppercase;
+    }
+  }
+  .text-content-product{
+    padding-top:20px;
+    .text-content-product-left{
+      text-align: justify;
+    }
+  }
+}
