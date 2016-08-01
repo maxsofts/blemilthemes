@@ -40,3 +40,4 @@ require_once 'maxthemes/bootstrap.php';
 use max_themes\components\init;
 
 new init();
+include_once('maxthemes/dinh_function/posttype.php');

@@ -3419,45 +3419,82 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   right: 0px; }
 
 .list-product {
-  position: relative; }
-  .list-product .logo {
-    color: #FFFFFF;
-    font-family: "lato-black", sans-serif;
-    font-size: 2rem;
-    text-shadow: 1px 1px #000000; }
-  .list-product .bg-product {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1; }
+  position: relative;
+  margin-top: 60px; }
   .list-product .product {
     position: relative; }
+    .list-product .product .logo {
+      position: absolute;
+      width: 100%;
+      left: 0px;
+      text-align: center;
+      bottom: 3%;
+      color: #FFFFFF;
+      font-family: "lato-black", sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px #000000; }
+    .list-product .product .solid-width-arrow {
+      position: absolute;
+      bottom: 0px;
+      left: 4%; }
+  .list-product .bg-product {
+    width: 90%;
+    position: absolute;
+    bottom: -18px;
+    left: 5%;
+    height: 209px;
+    z-index: -1; }
 
 .content-product {
-  margin-top: 24px; }
-  .content-product .tab-content-product li {
-    padding: 5px;
-    margin-top: 20px; }
-    .content-product .tab-content-product li:hover {
+  margin-top: 36px; }
+  .content-product .tab-content-product {
+    margin-top: 47px;
+    padding-right: 10%; }
+    .content-product .tab-content-product .active {
       background: #ec018c !important; }
-    .content-product .tab-content-product li .border-li {
-      cursor: pointer;
-      position: relative;
-      text-align: left;
-      padding: 10px 19px; }
-      .content-product .tab-content-product li .border-li i {
-        position: absolute;
-        right: 0px;
-        font-size: 25px;
-        width: 33px; }
+    .content-product .tab-content-product li {
+      padding: 5px;
+      margin-top: 20px; }
+      .content-product .tab-content-product li:hover {
+        background: #ec018c !important; }
+      .content-product .tab-content-product li .border-li {
+        cursor: pointer;
+        position: relative;
+        text-align: left;
+        padding: 10px 19px; }
+        .content-product .tab-content-product li .border-li i {
+          position: absolute;
+          right: 0px;
+          font-size: 25px;
+          width: 33px; }
   .content-product .blemil-title-product {
+    position: relative;
+    text-align: center;
     padding: 5px; }
+    .content-product .blemil-title-product .blemil-line-left {
+      left: 10%;
+      position: absolute;
+      top: -43px;
+      z-index: -23; }
+    .content-product .blemil-title-product .blemil-line-right {
+      right: 10%;
+      position: absolute;
+      top: -43px;
+      z-index: -23; }
     .content-product .blemil-title-product h5 {
       text-transform: uppercase; }
   .content-product .text-content-product {
     padding-top: 20px; }
     .content-product .text-content-product .text-content-product-left {
       text-align: justify; }
+
+.tab-content .tab-body-content {
+  display: none; }
+.tab-content .active {
+  display: block; }
+
+@media screen and (max-width: 900px) {
+  .tab-content-product {
+    padding-right: 0px !important; } }
 
 /*# sourceMappingURL=blemil.css.map */
