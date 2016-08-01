@@ -57,26 +57,29 @@ get_header();
                     </div>
 
                 </div>
-                <img class="bg-product" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
+                <img class="bg-product" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt="">
             </div><!--end list product-->
             <div class="clearfix"></div>
             <div class="content-product row">
                 <div class="col m4 s12">
                     <ul class="tab-content-product">
-                        <li class="blemil-green border-radius-5">
+                        <li class="blemil-green border-radius-5 active">
                             <div class="white-text border-radius-5 border-li border-box-color">
                                 <a href="#content-fea">Đặc điểm nổi bật <i class="fa fa-play-circle" aria-hidden="true"></i></a>
                             </div>
                         </li>
                         <li class="blemil-green border-radius-5">
                             <div class="white-text border-radius-5 border-li border-box-color">
-                                <a href="#content-fea">Đặc điểm nổi bật <i class="fa fa-play-circle" aria-hidden="true"></i></a>
+                                <a href="#content-benefit">Lợi ích sản phẩm <i class="fa fa-play-circle" aria-hidden="true"></i></a>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col m8 s12">
+                <div class="col m8 s12 tab-content">
+                    <div id="content-fea" class="tab-body-content active">
                     <div class="blemil-title-product border-radius-5 blemil-pink  white-text">
+                        <img class="blemil-line-left" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/blemil-line.png" alt="">
+                        <img class="blemil-line-right" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/blemil-line.png" alt="">
                         <div class="border-box-color">
                             <h5 class="font-size-15">Đặc điểm nổi bật</h5>
                         </div>
@@ -105,8 +108,19 @@ get_header();
                                  class="blemil-product" alt="">
 
                         </div>
-                    </div>
+                    </div><!--text-content-product-->
+                    </div><!--end tab fee-->
+                    <div id="content-benefit" class="tab-body-content">
+                        <div class="blemil-title-product border-radius-5 blemil-pink  white-text">
+                            <img class="blemil-line-left" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/blemil-line.png" alt="">
+                            <img class="blemil-line-right" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/blemil-line.png" alt="">
+                            <div class="border-box-color">
+                                <h5 class="font-size-15">Lợi ích sản phẩm</h5>
+                            </div>
+                        </div><!--end blemil title-->
+                    </div><!--end tab benefit
                 </div>
+
             </div>
 
 

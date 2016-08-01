@@ -2040,51 +2040,6 @@ author:Congdonglangsoi
 /* 4. Custom
    ========================================================================== */
 /* --------------------------------------------------------
-Hotline
-
-author: Tran Xuan Duc
-email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
-----------------------------------------------------------*/
-.hotline {
-  margin-bottom: -75px; }
-  .hotline .content {
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
-    background-image: -moz-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
-    background-image: -webkit-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
-    background-image: -ms-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-    width: 235px;
-    height: 75px;
-    padding-left: 80px;
-    padding-top: 15px;
-    position: relative;
-    display: inline-block; }
-    .hotline .content i {
-      position: absolute;
-      overflow: hidden;
-      background: #FFFFFF;
-      border-radius: 10px;
-      padding: 10px;
-      left: 20px;
-      font-size: 2rem;
-      display: inline-block;
-      vertical-align: middle;
-      color: #009444; }
-    .hotline .content .title {
-      display: inline-block;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      font-size: 12px;
-      margin: 0;
-      font-family: "lato-medium", sans-serif; }
-    .hotline .content a {
-      font-size: 20px;
-      color: #FFFFFF;
-      font-weight: bold;
-      font-family: "billy-bold", sans-serif; }
-
-/* --------------------------------------------------------
 Box
 
 author: Tran Xuan Duc
@@ -3503,45 +3458,82 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   right: 0px; }
 
 .list-product {
-  position: relative; }
-  .list-product .logo {
-    color: #FFFFFF;
-    font-family: "lato-black", sans-serif;
-    font-size: 2rem;
-    text-shadow: 1px 1px #000000; }
-  .list-product .bg-product {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1; }
+  position: relative;
+  margin-top: 60px; }
   .list-product .product {
     position: relative; }
+    .list-product .product .logo {
+      position: absolute;
+      width: 100%;
+      left: 0px;
+      text-align: center;
+      bottom: 3%;
+      color: #FFFFFF;
+      font-family: "lato-black", sans-serif;
+      font-size: 2rem;
+      text-shadow: 1px 1px #000000; }
+    .list-product .product .solid-width-arrow {
+      position: absolute;
+      bottom: 0px;
+      left: 4%; }
+  .list-product .bg-product {
+    width: 90%;
+    position: absolute;
+    bottom: -18px;
+    left: 5%;
+    height: 209px;
+    z-index: -1; }
 
 .content-product {
-  margin-top: 24px; }
-  .content-product .tab-content-product li {
-    padding: 5px;
-    margin-top: 20px; }
-    .content-product .tab-content-product li:hover {
+  margin-top: 36px; }
+  .content-product .tab-content-product {
+    margin-top: 47px;
+    padding-right: 10%; }
+    .content-product .tab-content-product .active {
       background: #ec018c !important; }
-    .content-product .tab-content-product li .border-li {
-      cursor: pointer;
-      position: relative;
-      text-align: left;
-      padding: 10px 19px; }
-      .content-product .tab-content-product li .border-li i {
-        position: absolute;
-        right: 0px;
-        font-size: 25px;
-        width: 33px; }
+    .content-product .tab-content-product li {
+      padding: 5px;
+      margin-top: 20px; }
+      .content-product .tab-content-product li:hover {
+        background: #ec018c !important; }
+      .content-product .tab-content-product li .border-li {
+        cursor: pointer;
+        position: relative;
+        text-align: left;
+        padding: 10px 19px; }
+        .content-product .tab-content-product li .border-li i {
+          position: absolute;
+          right: 0px;
+          font-size: 25px;
+          width: 33px; }
   .content-product .blemil-title-product {
+    position: relative;
+    text-align: center;
     padding: 5px; }
+    .content-product .blemil-title-product .blemil-line-left {
+      left: 10%;
+      position: absolute;
+      top: -43px;
+      z-index: -23; }
+    .content-product .blemil-title-product .blemil-line-right {
+      right: 10%;
+      position: absolute;
+      top: -43px;
+      z-index: -23; }
     .content-product .blemil-title-product h5 {
       text-transform: uppercase; }
   .content-product .text-content-product {
     padding-top: 20px; }
     .content-product .text-content-product .text-content-product-left {
       text-align: justify; }
+
+.tab-content .tab-body-content {
+  display: none; }
+.tab-content .active {
+  display: block; }
+
+@media screen and (max-width: 900px) {
+  .tab-content-product {
+    padding-right: 0px !important; } }
 
 /*# sourceMappingURL=blemil.css.map */

@@ -34,6 +34,7 @@ class enqueue
         wp_enqueue_script('materialize', MAXTHEMES_URI_ASSET . 'materialize/js/materialize.min.js', array(), '', true);
 
         wp_enqueue_script('scripts', MAXTHEMES_URI_ASSET . 'blemil/js/jquery.blemil.js', array(), '', true);
+        wp_enqueue_script('research', MAXTHEMES_URI_ASSET . 'blemil/js/research.js', array(), '', true);
     }
 
 }

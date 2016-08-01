@@ -3,6 +3,11 @@
   bottom: 33%;
   max-height: 85px;
 }
+@mixin line{
+  position: absolute;
+  top: -43px;
+  z-index: -23;
+}
 .border-box-color{
   border:1px dashed $blemil-white;
 }
@@ -15,29 +20,43 @@
   right: 0px;
 }
 .list-product{
-   .logo{
+  .product{
+    position: relative;
+    .logo{
+      position: absolute;
+      width: 100%;
+      left: 0px;
+      text-align: center;
+      bottom: 3%;
       color: #FFFFFF;
       font-family: "lato-black", sans-serif;
       font-size: 2rem;
       text-shadow: 1px 1px #000000;
+    };
+    .solid-width-arrow{
+      position: absolute;
+      bottom: 0px;
+      left: 4%;
     }
-;
-  position: relative;
-  .bg-product{
-    width: 100%;
-    position: absolute;
-    top:0px;
-    left: 0px;
-    z-index: -1;
-  }
-  .product{
-    position: relative;
   }
 
+  position: relative;
+  margin-top:60px;
+  .bg-product{
+    width: 90%;
+    position: absolute;
+    bottom: -18px;
+    left: 5%;
+    height: 209px;
+    z-index: -1;
+  }
 }
 .content-product{
-  margin-top:24px;
+  margin-top:36px;
   .tab-content-product{
+    margin-top: 47px;
+    padding-right: 10%;
+    .active{ background: $blemil-pink !important;}
     li{
       &:hover{
         background: $blemil-pink !important;
@@ -60,6 +79,16 @@
 
   }
   .blemil-title-product{
+    position: relative;
+    text-align: center;
+    .blemil-line-left{
+      left:10%;
+      @include line;
+    }
+    .blemil-line-right{
+      right: 10%;
+      @include line;
+    }
     padding: 5px;
     h5{
       text-transform: uppercase;
@@ -71,4 +100,21 @@
       text-align: justify;
     }
   }
+}
+//tabs
+.tab-content{
+
+  .tab-body-content{
+    display: none;
+  }
+  .active{
+    display: block;
+  }
+}
+//responsive
+@media screen and (max-width: 900px){
+  .tab-content-product{
+    padding-right: 0px !important;
+  }
+
 }

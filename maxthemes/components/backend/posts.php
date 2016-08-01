@@ -12,6 +12,11 @@ class posts
         add_action('init', array($this, 'showroom_post'));
         add_filter('pre_get_posts', array($this, 'get_showroomPost'));
         add_action('init', array($this, 'create_taxonomy_showroom'), 0);
+        /**
+         * Tìm hiểu Blemil
+         */
+        add_action('init', array($this, 'detail_post'), 0);
+        add_filter('pre_get_posts', array($this, 'get_detailPost'));
     }
 
 
@@ -57,12 +62,16 @@ class posts
      */
     public function get_showroomPost($query)
     {
+        //Danh cho tìm kiếm
         if (is_home() && $query->is_main_query()) {
             $query->set('diem-ban', array('post'));
         }
         return $query;
     }
 
+    /**
+     * Taxonomy danh mục
+     */
     public function create_taxonomy_showroom()
     {
 
@@ -96,4 +105,74 @@ class posts
          */
         register_taxonomy('dia-diem-ban', array('diem-ban'), $args);
     }
+
+    /**
+     *  Tìm hiểu Blemil
+     */
+    public function detail_post()
+    {
+        $labels = array(
+            'name' => 'Tìm hiểu Blemil',
+            'singular_name' => 'tim-hieu',
+//            'menu_name' => 'Blemil',
+//            'name_admin_bar' => 'Post Type',
+//            'parent_item_colon' => 'Parent Item:',
+//            'all_items' => 'Tất cả',
+//            'add_new_item' => 'Add New Item',
+//            'add_new' => 'Thêm mới',
+//            'new_item' => 'New Item',
+//            'edit_item' => 'Edit Item',
+//            'update_item' => 'Update Item',
+//            'view_item' => 'View Item',
+//            'search_items' => 'Search Item',
+//            'not_found' => 'Not found',
+//            'not_found_in_trash' => 'Not found in Trash',
+        );
+
+        $rewrite = array(
+            'with_front' => true,
+            'pages' => true,
+            'feeds' => true,
+        );
+        $args = array(
+            'label' => 'Tìm hiểu',
+            'description' => 'Tìm hiểu Blemil',
+            'labels' => $labels,
+            'supports' => array(
+                'title',
+                'thumbnail',
+            ),
+            'taxonomies' => array(),
+            'hierarchical' => false,
+            'public' => true,
+            'show_ui' => true,
+            'show_in_menu' => true,
+            'menu_position' => 6,
+            'show_in_admin_bar' => true,
+            'show_in_nav_menus' => true,
+            'can_export' => true,
+            'has_archive' => true,
+            'menu_icon' => 'dashicons-megaphone',
+            'exclude_from_search' => false,
+            'publicly_queryable' => true,
+            'rewrite' => $rewrite,
+            'capability_type' => 'page',
+        );
+
+        register_post_type('tim-hieu', $args);
+    }
+
+    /**
+     * filter
+     */
+    public function get_detailPost($query)
+    {
+        //Danh cho tìm kiếm
+        if (is_home() && $query->is_main_query()) {
+            $query->set('tim-hieu', array('post'));
+        }
+        return $query;
+    }
+
+
 }

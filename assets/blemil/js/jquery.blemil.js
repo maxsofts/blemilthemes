@@ -21,6 +21,40 @@ $(document).ready(function () {
     $('ul.tabs').tabs();
 
     $('.materialboxed').materialbox();
+
+
+    /**
+     * Research - Định
+     */
+    $('.tab-content-product li').click(function () {
+        var id = $(this).find('a').attr('id');
+        $('.tab-content-product li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-body-content').removeClass('active');
+        $(id).addClass('active');
+    })
+
+    /**
+     * Back-top
+     */
+    $(".backtop").hide();
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.backtop').fadeIn();
+            } else {
+                $('.backtop').fadeOut();
+            }
+        });
+
+        // scroll body to 0px on click
+        $('.backtop').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
 });
 
 
