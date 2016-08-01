@@ -2,10 +2,20 @@
 namespace max_themes\components;
 
 use max_themes\components\backend\metabox;
+use max_themes\components\backend\posts;
 use max_themes\components\backend\support;
 use max_themes\components\frontend\enqueue;
 use max_themes\components\backend\menu;
 
+/*
+ * Themes Options
+ */
+require 'backend/options.php';
+
+/**
+ * Class init
+ * @package max_themes\components
+ */
 class init
 {
     public function __construct()
@@ -34,6 +44,7 @@ class init
         new menu();
         new metabox();
         new support();
+        new posts();
     }
 
     /**

@@ -6,9 +6,10 @@
                 <div class="blemil-footer-top center-align">
                     <h5 class="text-center font-size-18">nhận thông tin ưu đãi và giải đáp thắc mắc</h5>
 
-                    <p class="text-center font-size-14">bản quyền thuộc công ty cổ phần BT Foods</p>
+                    <p class="text-center font-size-14">Sản phẩm được phân phối bởi công ty BT Foods</p>
+                    <br/>
 
-                    <p class="text-center"><img class="img-responsive" src="assets/blemil/images/footer/bfood.png"></p>
+                    <p class="text-center"><i class="logo-blemil large"></i></p>
                 </div>
                 <div class="blemil-footer-information">
                     <ul>
@@ -21,21 +22,21 @@
                         <li>
                             <div class="row font-size-14 small-blemil-footer-information">
                                 <div class="col s2">E-mail:</div>
-                                <div class="col s10">support@blemilplus.com</div>
+                                <div class="col s10">support@btvietnam.com.vn</div>
                             </div>
                         </li>
                         <li>
                             <div class="row font-size-14 small-blemil-footer-information">
                                 <div class="col s2">Địa chỉ:</div>
-                                <div class="col s10">số 3/2 khu đô thị ParkCity, Lê Trọng Tấn, Hà Đông,Hà Nội</div>
+                                <div class="col s10">Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội</div>
                             </div>
                         </li>
-                        <li>
-                            <div class="row font-size-14 small-blemil-footer-information">
-                                <div class="col s2">VPGD:</div>
-                                <div class="col s10">số 7,ngõ 102 Khuất Duy Tiến-Thanh Xuân -Hà Nội</div>
-                            </div>
-                        </li>
+<!--                        <li>-->
+<!--                            <div class="row font-size-14 small-blemil-footer-information">-->
+<!--                                <div class="col s2">VPGD:</div>-->
+<!--                                <div class="col s10">số 7,ngõ 102 Khuất Duy Tiến-Thanh Xuân -Hà Nội</div>-->
+<!--                            </div>-->
+<!--                        </li>-->
                         <li>
                             <div class="row font-size-14 small-blemil-footer-information">
                                 <div class="col s2">Website:</div>

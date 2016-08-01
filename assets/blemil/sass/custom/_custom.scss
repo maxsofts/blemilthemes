@@ -2,6 +2,43 @@
   margin: 20px 0;
 }
 
+/**POST**/
+.post-item {
+  .content {
+    .title {
+      margin: 0;
+      font-weight: bold;
+      font-family: "lato-bold", sans-serif;
+    }
+    .excerpt {
+      padding-top: 10px;
+      font-size: 13px;
+      font-family: "lato-regular", sans-serif;
+    }
+  }
+}
+
+.single-post {
+  .content {
+    .info {
+      .title {
+        margin: 0;
+      }
+      .left {
+        font-family: "lato-regular", sans-serif;
+      }
+    }
+    .the_content {
+      margin: 10px 0;
+      font-family: "lato-regular", "Roboto", sans-serif;
+    }
+    .excerpt {
+      font-family: "lato-heavy", sans-serif;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+  }
+}
 
 /**video**/
 .video {

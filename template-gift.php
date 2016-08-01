@@ -1,6 +1,6 @@
 <?php
-/**
- * Template Name: Quà tặng bé yêu
+/*
+ * Template Name : Quà tặng bé yêu
  */
 get_header(); ?>
     <main class="container shadow-box">

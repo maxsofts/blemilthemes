@@ -23,12 +23,20 @@
     <nav class="blemil-nav-top">
         <div class="nav-wrapper container">
             <a class="brand-logo">
-                <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/logo.png" alt="Logo" class="responsive-img"/>
+                <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" alt="Logo"
+                     class="responsive-img"/>
             </a>
             <a href="#" data-activates="side-mobile" class="button-collapse right"><i
                     class="material-icons">menu</i></a>
             <!-- menu for large screens -->
             <div class="large-screens hide-on-med-and-down">
+                <ul class="right">
+                    <li>
+                        <a href="#modal_search" class="modal-trigger">
+                            <i class="material-icons">search</i>
+                        </a>
+                    </li>
+                </ul>
                 <?php
                 wp_nav_menu(array(
                     'theme_location' => 'header-menu', // tên location cần hiển thị
@@ -55,18 +63,6 @@
                     'depth' => 2,
                 ));
                 ?>
-<!--                <ul class="center-align">-->
-<!--                    <li class="active">-->
-<!--                        <a href="#!/">-->
-<!--                            <i class="material-icons small">home</i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li ng-repeat="menu in $ctrl.menus">-->
-<!--                        <a href="{{menu.link}}">-->
-<!--                            {{menu.name}}-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                </ul><!-- end menu for mobile -->-->
             </div>
         </div>
     </nav><!-- End menu top -->
@@ -85,12 +81,13 @@
     <!-- Banner -->
     <div class="banner">
         <div class="milk">
-            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/banner-background.png" class="responsive-img"/>
+            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/banner-background.png"
+                 class="responsive-img"/>
         </div>
         <!-- Logo-->
         <div class="logo hide-on-med-and-down">
-            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/logo.png" class="responsive-img"/>
-            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/logo-plus.png" class="plus"/>
+            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" class="responsive-img"/>
+            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo-plus.png" class="plus"/>
         </div><!-- End logo-->
         <div class="content">
             <p class="billy-bold-text white-text hide-on-med-and-down">
@@ -105,24 +102,16 @@
         </div>
         <!--Chickend-->
         <div class="products hide-on-med-and-down">
-            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/milk-bottle.png" class="bottle animated"/>
-            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET;?>blemil/images/header/chicken.png"
+            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/milk-bottle.png"
+                 class="bottle animated"/>
+            <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/chicken.png"
                  class="chicken animated swing-bottom infinite infinite-delay-30"/>
         </div><!--End Chickend-->
     </div><!--End banner -->
     <!-- Modal Seach -->
     <div class="modal bottom-sheet" id="modal_search">
         <div class="modal-content">
-            <form method="get" action="#" class="row">
-                <div class="input-field col s12 m9">
-                    <i class="material-icons prefix">search</i>
-                    <input id="search" type="text" class="validate">
-                    <label for="search">Bạn đang cần tìm kiếm</label>
-                </div>
-                <div class="col s12 m3 center">
-                    <button type="submit" class="btn">Tìm kiếm</button>
-                </div>
-            </form>
+            <?php get_search_form(); ?>
         </div>
     </div><!-- End modal search -->
 </header><!--End header-->

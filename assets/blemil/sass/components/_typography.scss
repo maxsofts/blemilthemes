@@ -6,6 +6,7 @@ $fonts: (
         'lato-light':"Lato light",
         'lato-regular':"Lato regular",
         'lato-medium':"Lato Medium",
+        'lato-heavy':"Lato Heavy",
         'billy-bold':"Billy bold",
         'ionicons':"Ionicons",
 );
@@ -37,6 +38,10 @@ $text-column-max: 4 !default;
     -moz-column-count: 1 !important;
     column-count: 1 !important;
   }
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-justify-center {
