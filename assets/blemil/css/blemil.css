@@ -1522,7 +1522,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       background: #FFFFFF !important; }
 
 /* --------------------------------------------------------
-Các mục liên quan đến slide dạng carousel của material
+C├íc mß╗Ñc li├¬n quan ─æß║┐n slide dß║íng carousel cß╗ºa material
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 ----------------------------------------------------------*/
@@ -2040,6 +2040,51 @@ author:Congdonglangsoi
 /* 4. Custom
    ========================================================================== */
 /* --------------------------------------------------------
+Hotline
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.hotline {
+  margin-bottom: -75px; }
+  .hotline .content {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-image: -moz-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -webkit-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -ms-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    width: 235px;
+    height: 75px;
+    padding-left: 80px;
+    padding-top: 15px;
+    position: relative;
+    display: inline-block; }
+    .hotline .content i {
+      position: absolute;
+      overflow: hidden;
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 10px;
+      left: 20px;
+      font-size: 2rem;
+      display: inline-block;
+      vertical-align: middle;
+      color: #009444; }
+    .hotline .content .title {
+      display: inline-block;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 0;
+      font-family: "lato-medium", sans-serif; }
+    .hotline .content a {
+      font-size: 20px;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-family: "billy-bold", sans-serif; }
+
+/* --------------------------------------------------------
 Box
 
 author: Tran Xuan Duc
@@ -2063,7 +2108,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box .param:after, .border-box .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
   .border-box.border-box-before {
     margin-top: -80px; }
@@ -2224,7 +2269,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box-bottom .param:after, .border-box-bottom .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
     .border-box-bottom .param span {
       padding-bottom: 20px;
@@ -3023,7 +3068,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     margin-top: 20px; }
 
 /* --------------------------------------------------------
-Các đường gạch
+C├íc ─æ╞░ß╗¥ng gß║ích
 
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
@@ -3044,7 +3089,11 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       position: absolute;
       text-align: center; }
 
+.clearfix-margin {
+  margin-bottom: 0px !important; }
+
 .blemil-footer {
+  padding-top: 0px !important;
   background: #1b75bc !important;
   margin-top: 0 !important; }
   .blemil-footer .blemil-footer-left {
@@ -3052,6 +3101,10 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     .blemil-footer .blemil-footer-left h5 {
       text-transform: uppercase;
       font-weight: bold; }
+      @media screen and (max-width: 768px) {
+        .blemil-footer .blemil-footer-left h5 {
+          font-size: 12px;
+          line-height: 20px; } }
     .blemil-footer .blemil-footer-left .blemil-footer-information li {
       padding: 7px 0px; }
       .blemil-footer .blemil-footer-left .blemil-footer-information li .small-blemil-footer-information {
@@ -3060,23 +3113,23 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       padding-top: 13px; }
   .blemil-footer .blemil-footer-right .button-register {
     background: #ec018c !important; }
-  .blemil-footer .blemil-footer-right .blemil-footer-right-social {
-    margin-top: 95px; }
-    .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu {
-      padding: 0px 10px; }
-      .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu:last-child {
-        padding-left: 42px; }
-    .blemil-footer .blemil-footer-right .blemil-footer-right-social .first-li {
-      border-right: 1px solid #FFFFFF; }
-    .blemil-footer .blemil-footer-right .blemil-footer-right-social li {
-      padding: 7px 0px; }
-      .blemil-footer .blemil-footer-right .blemil-footer-right-social li a {
-        color: #FFFFFF; }
-    .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li {
-      text-align: left; }
-      .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li .box-soical {
-        width: 35px;
-        text-align: center !important; }
+  .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu {
+    padding: 0px 10px; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social ul.nav-menu .list-menu:last-child {
+      padding-left: 42px; }
+  .blemil-footer .blemil-footer-right .blemil-footer-right-social .first-li {
+    border-right: 1px solid #FFFFFF; }
+  .blemil-footer .blemil-footer-right .blemil-footer-right-social li {
+    padding: 7px 0px; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social li a {
+      color: #FFFFFF; }
+  .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li {
+    text-align: left; }
+    .blemil-footer .blemil-footer-right .blemil-footer-right-social .social li .box-soical {
+      width: 35px;
+      text-align: center !important; }
+  .blemil-footer .blemil-footer-right .blemil-footer-email-register .row {
+    margin-bottom: 0px !important; }
   .blemil-footer .blemil-footer-right .blemil-footer-email-register .value-input {
     background: #FFFFFF;
     color: #4d4d4d;
@@ -3084,8 +3137,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     width: 90%;
     height: 2.3rem; }
   .blemil-footer .backtop {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     bottom: 83px;
     left: 54px;
@@ -3096,9 +3149,16 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       border: 1px dashed #1b75bc; }
       .blemil-footer .backtop .small-backtop a {
         color: #3399cc !important;
-        line-height: 57px; }
+        line-height: 50px; }
         .blemil-footer .backtop .small-backtop a i {
           transform: rotate(-90deg); }
+    @media screen and (max-width: 480px) {
+      .blemil-footer .backtop {
+        left: auto;
+        right: 5px;
+        bottom: 5px;
+        width: 50px;
+        height: 50px; } }
 
 .bg-gift {
   margin-top: 20px;

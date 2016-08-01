@@ -1,63 +1,70 @@
 <!-- footer -->
 <footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
-        <div class="row">
+        <div class="row clearfix-margin" >
             <div class="col s12 m6 blemil-footer-left">
                 <div class="blemil-footer-top center-align">
                     <h5 class="text-center font-size-18">nhận thông tin ưu đãi và giải đáp thắc mắc</h5>
-
-                    <p class="text-center font-size-14">Sản phẩm được phân phối bởi công ty BT Foods</p>
-                    <br/>
-
-                    <p class="text-center"><i class="logo-blemil large"></i></p>
                 </div>
-                <div class="blemil-footer-information">
-                    <ul>
-                        <li>
-                            <div class="row font-size-14 small-blemil-footer-information">
-                                <div class="col s2">Hotline:</div>
-                                <div class="col s10">1800 6698</div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="row font-size-14 small-blemil-footer-information">
-                                <div class="col s2">E-mail:</div>
-                                <div class="col s10">support@btvietnam.com.vn</div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="row font-size-14 small-blemil-footer-information">
-                                <div class="col s2">Địa chỉ:</div>
-                                <div class="col s10">Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội</div>
-                            </div>
-                        </li>
-<!--                        <li>-->
-<!--                            <div class="row font-size-14 small-blemil-footer-information">-->
-<!--                                <div class="col s2">VPGD:</div>-->
-<!--                                <div class="col s10">số 7,ngõ 102 Khuất Duy Tiến-Thanh Xuân -Hà Nội</div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-                        <li>
-                            <div class="row font-size-14 small-blemil-footer-information">
-                                <div class="col s2">Website:</div>
-                                <div class="col s10">www.blemilplus.vn</div>
-                            </div>
-                        </li>
+              </div>
+            <div class="col s12 m6 blemil-footer-right">
+            <div class="blemil-footer-email-register ">
+                <form class="row">
+                    <div class="input-field col s8">
+                        <input placeholder="Nhập email" class="validate value-input" id="email" type="text">
+                    </div>
+                    <div class="col s4 input-field ">
+                        <a class="waves-effect waves-light btn waves-block button-register">Đăng ký</a>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div><!--end div 1-->
+        <div class="row blemil-footer-top center-align clearfix-margin">
+            <div class="col s12 m6">
+            <p class="text-center font-size-14 ">Sản phẩm được phân phối bởi công ty BT Foods</p>
+            <br/>
+            <p class="text-center"><i class="logo-blemil large"></i></p>
+            </div>
+            </div><!--end div 2-->
+        <div class="row">
+            <div class="blemil-footer-information col s12 m6 blemil-footer-left">
+                <ul>
+                    <li>
+                        <div class="row font-size-14 small-blemil-footer-information">
+                            <div class="col s2">Hotline:</div>
+                            <div class="col s10">1800 6698</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row font-size-14 small-blemil-footer-information">
+                            <div class="col s2">E-mail:</div>
+                            <div class="col s10">support@btvietnam.com.vn</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row font-size-14 small-blemil-footer-information">
+                            <div class="col s2">Địa chỉ:</div>
+                            <div class="col s10">Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội</div>
+                        </div>
+                    </li>
+                    <!--                        <li>-->
+                    <!--                            <div class="row font-size-14 small-blemil-footer-information">-->
+                    <!--                                <div class="col s2">VPGD:</div>-->
+                    <!--                                <div class="col s10">số 7,ngõ 102 Khuất Duy Tiến-Thanh Xuân -Hà Nội</div>-->
+                    <!--                            </div>-->
+                    <!--                        </li>-->
+                    <li>
+                        <div class="row font-size-14 small-blemil-footer-information">
+                            <div class="col s2">Website:</div>
+                            <div class="col s10">www.blemilplus.vn</div>
+                        </div>
+                    </li>
 
-                    </ul>
-                </div>
+                </ul>
             </div>
             <div class="col s12 m6 blemil-footer-right">
-                <div class="blemil-footer-email-register">
-                    <form class="row">
-                        <div class="input-field col s8">
-                            <input placeholder="Nhập email" class="validate value-input" id="email" type="text">
-                        </div>
-                        <div class="col s4 input-field ">
-                            <a class="waves-effect waves-light btn waves-block button-register">Đăng ký</a>
-                        </div>
-                    </form>
-                </div>
+
                 <div class="blemil-footer-right-bottom row">
                     <div class="blemil-footer-right-social col s12 m8 offset-m4">
                         <ul class="nav-menu row white-text">
@@ -98,7 +105,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div><!--end div 3-->
     </div>
     <div class="footer-copyright white-text green center-align">
         Copyright © 2016 BT Foods. All right Reserved.
