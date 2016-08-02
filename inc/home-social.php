@@ -34,10 +34,11 @@ $query = new WP_Query($args);
                     <?php while ($query->have_posts()):$query->the_post(); ?>
                         <div id="tab_video_<?php echo $i; ?>">
                             <div class="video">
-                                <?php if ( has_post_thumbnail() ): ?>
-                                    <?php the_post_thumbnail( 'video', array( 'class' => 'img-responsive' ) ); ?>
+                                <?php if (has_post_thumbnail()): ?>
+                                    <?php the_post_thumbnail('video', array('class' => 'img-responsive')); ?>
                                 <?php else: ?>
-                                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/video.png" alt=""
+                                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/video.png"
+                                         alt=""
                                          class="responsive-img"/>
                                 <?php endif; ?>
                                 <!--<iframe width="100%" height="100%" src="https://www.youtube.com/embed/<?php echo rwmb_meta('video_id', get_the_ID()); ?>?showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>-->
@@ -45,20 +46,6 @@ $query = new WP_Query($args);
                         </div>
                         <?php $i++;
                     endwhile; ?>
-                    <!--                    <div id="test2">-->
-                    <!--                        <div class="video">-->
-                    <!--                            <img src="--><?php //echo MAXTHEMES_URI_ASSET;
-                    ?><!--blemil/images/main-home/video.png" alt=""-->
-                    <!--                                 class="responsive-img"/>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
-                    <!--                    <div id="test3">-->
-                    <!--                        <div class="video">-->
-                    <!--                            <img src="--><?php //echo MAXTHEMES_URI_ASSET;
-                    ?><!--blemil/images/main-home/video.png" alt=""-->
-                    <!--                                 class="responsive-img"/>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
                 </div>
 
                 <div>
@@ -85,23 +72,27 @@ $query = new WP_Query($args);
                 <?php endif; ?>
             </div>
             <div class="col s12 m4">
-                Facebook plugin
+                <div class="fb-page hidden-xs"
+                     data-href="<?php echo $maxthemes['basic-social-facebook'] ? $maxthemes['basic-social-facebook'] : "https://www.facebook.com/suablemilplus/"; ?>"
+                     data-hide-cover="false"
+                     data-show-facepile="true"
+                     data-show-posts="false"></div>
 
                 <div class="social">
                     <h6 class="title">Theo Dõi Blemil Plus tại</h6>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="<?php echo $maxthemes['basic-social-facebook'] ? $maxthemes['basic-social-facebook'] : ""; ?>">
                                 <i class="fa fa-facebook-official blemil-primary-text fa-3x"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?php echo $maxthemes['basic-social-youtube'] ? $maxthemes['basic-social-youtube'] : ""; ?>">
                                 <i class="fa fa-youtube-square blemil-primary-text fa-3x"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?php echo $maxthemes['basic-social-google'] ? $maxthemes['basic-social-google'] : ""; ?>">
                                 <i class="fa fa-google-plus-square blemil-primary-text fa-3x"></i>
                             </a>
                         </li>
