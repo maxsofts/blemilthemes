@@ -55,10 +55,29 @@ $(document).ready(function () {
             return false;
         });
     });
+
+
+    /**
+     * Ajax district
+     */
+    $('select#district').ajaxAction();
+
 });
 
 
 //Function
 (function () {
+    $.fn.ajaxAction = function (options) {
+        var defaults = {
+            action: "myaction",
+            data: "object|string",
+            type: "selectOptions",
+            event: "onChange",
+            return_id: "results"
+        };
 
+        this.change(function () {
+            console.log($(this).val());
+        });
+    };
 })(jQuery);

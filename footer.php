@@ -9,14 +9,8 @@
               </div>
             <div class="col s12 m6 blemil-footer-right">
             <div class="blemil-footer-email-register ">
-                <form class="row">
-                    <div class="input-field col s8">
-                        <input placeholder="Nhập email" class="validate value-input" id="email" type="text">
-                    </div>
-                    <div class="col s4 input-field ">
-                        <a class="waves-effect waves-light btn waves-block button-register">Đăng ký</a>
-                    </div>
-                </form>
+                <?php echo do_shortcode('[ef span="true"]'); ?>
+
             </div>
             </div>
         </div><!--end div 1-->
@@ -117,5 +111,6 @@
     </div>
 </footer><!-- End footer-->
 <?php wp_footer(); ?>
+
 </body>
 </html>

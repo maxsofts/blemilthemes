@@ -1,6 +1,7 @@
 <?php
 namespace max_themes\components;
 
+use max_themes\components\backend\ajax;
 use max_themes\components\backend\metabox;
 use max_themes\components\backend\posts;
 use max_themes\components\backend\support;
@@ -45,6 +46,7 @@ class init
         new metabox();
         new support();
         new posts();
+        new ajax();
     }
 
     /**

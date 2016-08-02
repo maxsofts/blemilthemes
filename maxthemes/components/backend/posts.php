@@ -7,6 +7,10 @@ class posts
     public function __construct()
     {
         /**
+         * Post format
+         */
+        add_theme_support('post-formats', array('video'));
+        /**
          * Địa điểm bán
          */
         add_action('init', array($this, 'showroom_post'));
@@ -113,7 +117,7 @@ class posts
     {
         $labels = array(
             'name' => 'Tìm hiểu Blemil',
-            'singular_name' => 'tim-hieu',
+            'singular_name' => 'Tìm hiểu Blemil',
 //            'menu_name' => 'Blemil',
 //            'name_admin_bar' => 'Post Type',
 //            'parent_item_colon' => 'Parent Item:',

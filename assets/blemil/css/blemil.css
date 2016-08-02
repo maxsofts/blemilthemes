@@ -2046,7 +2046,8 @@ author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 ----------------------------------------------------------*/
 .hotline {
-  margin-bottom: -75px; }
+  margin-bottom: -75px;
+  position: relative; }
   .hotline .content {
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
@@ -3203,7 +3204,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   .location .location-list {
     margin-top: 1rem;
     max-height: 630px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden; }
     .location .location-list .location-item {
       margin: 10px 0; }

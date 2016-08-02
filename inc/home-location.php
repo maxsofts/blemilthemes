@@ -10,182 +10,67 @@
         <div class="container shadow-box ">
             <div class="row">
                 <div class="col s12 m3">
+                    <?php
+                    $args = array(
+                        'taxonomy' => 'dia-diem-ban',
+                        'parent' => 0,
+                        'hide_empty' => 0
+                    );
+                    $districts = get_categories($args);
+                    ?>
                     <div class="input-field col s12">
-                        <select class="blemil-pink">
-                            <option value="" selected>Chọn Tỉnh</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                        <select id="district" class="blemil-pink">
+                            <option>Chọn Tỉnh</option>
+                            <?php if ($districts):foreach ($districts as $district): ?>
+                                <option
+                                    value="<?php echo $district->term_id; ?>"><?php echo $district->name; ?></option>
+                            <?php endforeach; ?>
+                            <?php endif; ?>
                         </select>
                     </div>
                     <div class="input-field col s12">
-                        <select class="blemil-pink">
+                        <select class="blemil-pink" id="province">
                             <option value="" selected>Chọn Huyện</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
                         </select>
                     </div>
                 </div>
                 <div class="col s12 m9 row location-list">
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
+                    <?php
+                    $args = array(
+                        'post_type' => 'diem-ban',
+                        'order' => 'ASC',
+                    );
 
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
+                    $list = get_posts($args);
 
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
+                    foreach ($list as $post) {
+                        ?>
+                        <div class="col s6">
+                            <article id="address_<?php echo $post->ID; ?>" class="location-item">
+                                <?php if (has_post_thumbnail($story_page->ID)): ?>
+                                    <?php echo get_the_post_thumbnail($story_page->ID, 'rectangle', array("class" => 'responsive-img ')); ?>
+                                <?php else: ?>
+                                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg"
+                                         alt=""
+                                         class="responsive-img"/>
+                                <?php endif; ?>
+
+                                <div class="content">
+                                    <h6 class="title blemil-pink-text"><?php echo $post->post_title; ?></h6>
+
+                                    <div class="address">
+                                        <?php echo $content = apply_filters("the_content", $post->post_content); ?>
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
                         </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
-
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
-
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
-
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
-
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
-
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
-
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
-
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
-
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6">
-                        <div class="location-item">
-                            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg" alt=""
-                                 class="responsive-img"/>
-
-                            <div class="content">
-                                <h6 class="title blemil-pink-text">Cửa hàng 1</h6>
-
-                                <div class="address">
-                                    <p>
-                                        Tầng 7, Toà nhà Vincom 2, 114 Mai Hắc Đế, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
-                                    </p>
-                                    <p>
-                                        (04) 38 XXXXXX
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <?php
+                    }
+                    ?>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="chicken center hide-on-med-and-down">
-        <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-center.png" alt=""/>
-    </div>
+        <div class="chicken center hide-on-med-and-down">
+            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-center.png" alt=""/>
+        </div>
 </section><!--End location-->

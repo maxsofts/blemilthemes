@@ -189,11 +189,62 @@ Redux::setSection($opt_name, array(
             'data' => 'post',
             'args' => array(
                 'post_type' => array(
-                    ''
+                    'tim-hieu'
                 )
             ),
-            'title' => __('Chọn trang câu truyện Blemil', 'maxthemes'),
-            'desc' => __('Là trang hiển thị thông tin về câu truyện Blemil - nội dung hiển thị tại trang chủ sẽ được lấy từ đây', 'maxthemes'),
+            'title' => __('Sản phẩm 1', 'maxthemes'),
+            'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
+        ),
+
+        array(
+            'id' => 'home-research-product-2',
+            'type' => 'Select',
+            'data' => 'post',
+            'args' => array(
+                'post_type' => array(
+                    'tim-hieu'
+                )
+            ),
+            'title' => __('Sản phẩm 2', 'maxthemes'),
+            'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
+        ), array(
+            'id' => 'home-research-product-3',
+            'type' => 'Select',
+            'data' => 'post',
+            'args' => array(
+                'post_type' => array(
+                    'tim-hieu'
+                )
+            ),
+            'title' => __('Sản phẩm 3', 'maxthemes'),
+            'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
+        ), array(
+            'id' => 'home-research-product-4',
+            'type' => 'Select',
+            'data' => 'post',
+            'args' => array(
+                'post_type' => array(
+                    'tim-hieu'
+                )
+            ),
+            'title' => __('Sản phẩm 4', 'maxthemes'),
+            'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
+        )
+    )
+));
+
+Redux::setSection($opt_name, array(
+    'title' => __('Quà tặng bé yêu', 'maxthemes'),
+    'id' => 'home-gift',
+    'subsection' => true,
+    'customizer_width' => '450px',
+    'fields' => array(
+        array(
+            'id' => 'home-gift-page',
+            'type' => 'Select',
+            'data' => 'pages',
+            'title' => __('Chọn trang câu quà tặng bé', 'maxthemes'),
+            'desc' => __('Là trang hiển thị thông tin về quà tặng bé yêu', 'maxthemes'),
         )
     )
 ));
