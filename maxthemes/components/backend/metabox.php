@@ -20,71 +20,105 @@ class metabox
          * Thông tin trang tìm hiểu
          */
         $meta_boxes[] = array(
-            'title' => __('Box đặc điểm nổi bật', 'features'),
+            'title' => __('Box đặc điểm nổi bật', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
                     'id' => 'name_highlights',
-                    'name' => __('Tiêu đề', 'features'),
+                    'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
                     'std' => "Đặc điểm nổi bật"
                 ),
                 array(
                     'id' => 'content_highlights',
-                    'name' => __('Nội dung', 'features'),
+                    'name' => __('Nội dung', 'maxthemes'),
                     'type' => 'wysiwyg',
                 ),)
 
         );
         $meta_boxes[] = array(
-            'title' => __('Box lợi ích sản phẩm', 'features'),
+            'title' => __('Box lợi ích sản phẩm', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
                     'id' => 'name_benefit',
-                    'name' => __('Tiêu đề', 'features'),
+                    'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
                 ),
                 array(
                     'id' => 'content_benefit',
-                    'name' => __('Nội dung', 'features'),
+                    'name' => __('Nội dung', 'maxthemes'),
                     'type' => 'wysiwyg',
                 ),)
 
         );
         $meta_boxes[] = array(
-            'title' => __('Box thông tin dinh dưỡng', 'features'),
+            'title' => __('Box thông tin dinh dưỡng', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
                     'id' => 'name_information',
-                    'name' => __('Tiêu đề', 'features'),
+                    'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
                 ),
                 array(
                     'id' => 'content_information',
-                    'name' => __('Nội dung', 'features'),
+                    'name' => __('Nội dung', 'maxthemes'),
                     'type' => 'wysiwyg',
                 ),)
 
         );
         $meta_boxes[] = array(
-            'title' => __('Box quy tắc đóng gói', 'features'),
+            'title' => __('Box quy tắc đóng gói', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
                     'id' => 'name_rule',
-                    'name' => __('Tiêu đề', 'features'),
+                    'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
                 ),
                 array(
                     'id' => 'content_rule',
-                    'name' => __('Nội dung', 'features'),
+                    'name' => __('Nội dung', 'maxthemes'),
                     'type' => 'wysiwyg',
                 ),)
 
         ); //End thông tin trang tìm hiểu
 
+        /**
+         * Video
+         */
+        $meta_boxes[] = array(
+            // Meta box id, UNIQUE per meta box. Optional since 4.1.5
+            'id' => 'videos',
+            // Meta box title - Will appear at the drag and drop handle bar. Required.
+            'title' => __( 'Thông tin video', 'maxthemes' ),
+            // Post types, accept custom post types as well - DEFAULT is 'post'. Can be array (multiple post types) or string (1 post type). Optional.
+            'post_types' => array( 'post' ),
+            // Where the meta box appear: normal (default), advanced, side. Optional.
+            'context' => 'normal',
+            // Order of meta box: high (default), low. Optional.
+            'priority' => 'high',
+            // Auto save: true, false (default). Optional.
+            'autosave' => true,
+            // List of meta fields
+            'location' => 'normal',
+            'display_condition' => 'post-format-video',
+            'fields' => array(
+                array(
+                    // Field name - Will be used as label
+                    'name' => __( 'Youtube Video ID', 'maxthemes' ),
+                    // Field ID, i.e. the meta key
+                    'id' => "{$this->prefix}video_id",
+                    // Field description (optional)
+                    'desc' => __( 'Là ID của video ví dụ : https://youtu.be/eb7UA_X8OVw => eb7UA_X8OVw là ID của videos', 'maxthemes' ),
+                    'type' => 'text',
+                    'placeholder' => __( 'Nhập ID của videos', 'maxthemes' ),
+                    'before' => __( "<p style='color: red'>Chỉ hiển thị trang chủ khi -  Ghim bài ở trang chủ và Định dạng Video</p>" ),
+                    'after' => __( "<p style='color: red'>Hình ảnh hiển thị bên ngoài trang trước khi chạy Videos là hình ảnh chức năng của bài viết nằm ở phía tay phải </p> " ),
+                ),
+            ),
+        );
 
         return $meta_boxes;
     }

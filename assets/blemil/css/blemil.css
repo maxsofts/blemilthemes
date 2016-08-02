@@ -2040,6 +2040,52 @@ author:Congdonglangsoi
 /* 4. Custom
    ========================================================================== */
 /* --------------------------------------------------------
+Hotline
+
+author: Tran Xuan Duc
+email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
+----------------------------------------------------------*/
+.hotline {
+  margin-bottom: -75px;
+  position: relative; }
+  .hotline .content {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-image: -moz-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -webkit-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    background-image: -ms-linear-gradient(90deg, #8dc63f 0%, #009444 100%);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    width: 235px;
+    height: 75px;
+    padding-left: 80px;
+    padding-top: 15px;
+    position: relative;
+    display: inline-block; }
+    .hotline .content i {
+      position: absolute;
+      overflow: hidden;
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 10px;
+      left: 20px;
+      font-size: 2rem;
+      display: inline-block;
+      vertical-align: middle;
+      color: #009444; }
+    .hotline .content .title {
+      display: inline-block;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 0;
+      font-family: "lato-medium", sans-serif; }
+    .hotline .content a {
+      font-size: 20px;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-family: "billy-bold", sans-serif; }
+
+/* --------------------------------------------------------
 Box
 
 author: Tran Xuan Duc
@@ -3143,7 +3189,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   .location .location-list {
     margin-top: 1rem;
     max-height: 630px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden; }
     .location .location-list .location-item {
       margin: 10px 0; }

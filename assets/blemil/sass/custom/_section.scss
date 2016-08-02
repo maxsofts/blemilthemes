@@ -52,7 +52,7 @@
   .location-list {
     margin-top: 1rem;
     max-height: 630px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     .location-item {
       margin: 10px 0;

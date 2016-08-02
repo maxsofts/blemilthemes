@@ -1,4 +1,5 @@
 <!--Research-->
+<?php global $maxthemes; ?>
 <section class="research">
     <fieldset class="fieldset fieldset-width-box blemil-green">
         <legend class="row">
@@ -28,7 +29,7 @@
                         <i class="logo-blemil large"></i><span>1</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="#">
+                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -47,7 +48,7 @@
                         <i class="logo-blemil large"></i><span>2</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="#">
+                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -71,7 +72,7 @@
                         <i class="logo-blemil large"></i><span>3</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="#">
+                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -90,7 +91,7 @@
                         <i class="logo-blemil large"></i><span>4</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="#">
+                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -108,7 +109,7 @@
                     <i class="logo-blemil"></i><span>1</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="#">
+                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -123,7 +124,7 @@
                     <i class="logo-blemil"></i><span>2</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="#">
+                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -138,7 +139,7 @@
                     <i class="logo-blemil"></i><span>3</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="#">
+                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -153,7 +154,7 @@
                     <i class="logo-blemil"></i><span>4</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="#">
+                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
                         Tìm hiểu
                     </a>
                 </div>

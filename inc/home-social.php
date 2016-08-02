@@ -14,6 +14,7 @@
                         <div class="video">
                             <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/video.png" alt=""
                                  class="responsive-img"/>
+
                         </div>
                     </div>
                     <div id="test2">
