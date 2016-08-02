@@ -44,7 +44,7 @@ class metabox
                     'id' => 'name_benefit',
                     'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
-                    'std' => "lợi ích sản phẩm"
+                    'std' => "Lợi ích sản phẩm"
                 ),
                 array(
                     'id' => 'content_benefit',

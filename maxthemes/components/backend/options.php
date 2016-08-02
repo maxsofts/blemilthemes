@@ -92,7 +92,7 @@ $args = array(
     'database' => '',
     // possible: options, theme_mods, theme_mods_expanded, transient. Not fully functional, warning!
     'use_cdn' => true,
-    // If you prefer not to use the CDN for Select2, Ace Editor, and others, you may download the Redux Vendor Support plugin yourself and run locally or embed it in your code.
+    // If you prefer not to use the CDN for select2, Ace Editor, and others, you may download the Redux Vendor Support plugin yourself and run locally or embed it in your code.
 
     // HINTS
     'hints' => array(
@@ -161,7 +161,7 @@ Redux::setSection($opt_name, array(
     'fields' => array(
         array(
             'id' => 'home-story-page',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'pages',
             'title' => __('Chọn trang câu truyện Blemil', 'maxthemes'),
             'desc' => __('Là trang hiển thị thông tin về câu truyện Blemil - nội dung hiển thị tại trang chủ sẽ được lấy từ đây', 'maxthemes'),
@@ -185,7 +185,7 @@ Redux::setSection($opt_name, array(
     'fields' => array(
         array(
             'id' => 'home-research-product-1',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'post',
             'args' => array(
                 'post_type' => array(
@@ -198,7 +198,7 @@ Redux::setSection($opt_name, array(
 
         array(
             'id' => 'home-research-product-2',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'post',
             'args' => array(
                 'post_type' => array(
@@ -209,7 +209,7 @@ Redux::setSection($opt_name, array(
             'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
         ), array(
             'id' => 'home-research-product-3',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'post',
             'args' => array(
                 'post_type' => array(
@@ -220,7 +220,7 @@ Redux::setSection($opt_name, array(
             'desc' => __('Chọn bài có đường dẫn đến sản phẩm 1', 'maxthemes'),
         ), array(
             'id' => 'home-research-product-4',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'post',
             'args' => array(
                 'post_type' => array(
@@ -241,7 +241,7 @@ Redux::setSection($opt_name, array(
     'fields' => array(
         array(
             'id' => 'home-gift-page',
-            'type' => 'Select',
+            'type' => 'select',
             'data' => 'pages',
             'title' => __('Chọn trang câu quà tặng bé', 'maxthemes'),
             'desc' => __('Là trang hiển thị thông tin về quà tặng bé yêu', 'maxthemes'),

@@ -24,7 +24,7 @@
                     </div>
                     <div class="chicken">
                         <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-after.png" alt=""
-                             class="right"/>
+                             class="right animated swing-bottom infinite infinite-delay-27"/>
                     </div>
                 </div>
                 <div class="readmore center">

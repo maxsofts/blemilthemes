@@ -12,6 +12,8 @@ class menu
         register_nav_menus(
             array(
                 'header-menu' => 'Menu chính',
+                'menu-footer-right' => 'Menu Cuối trang bên phải',
+                'menu-footer-left' => 'Menu Cuối trang bên trái'
             )
         );
     }

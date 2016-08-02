@@ -18,7 +18,7 @@
                 <div class="products-right">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken animated swing-bottom infinite infinite-delay-19"
                          alt="">
 
                     <div class="center row solid">
@@ -37,7 +37,7 @@
                 <div class="products-left">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken animated swing-bottom infinite infinite-delay-27"
                          alt="">
 
                     <div class="center row solid">
@@ -61,7 +61,7 @@
                 <div class="products-right">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken animated swing-bottom infinite infinite-delay-26"
                          alt="">
 
                     <div class="center row solid">
@@ -80,7 +80,7 @@
                 <div class="products-left">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken animated swing-bottom infinite infinite-delay-25"
                          alt="">
 
                     <div class="center row solid">

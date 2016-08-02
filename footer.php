@@ -10,14 +10,7 @@
             </div>
             <div class="col s12 m6 blemil-footer-right">
                 <div class="blemil-footer-email-register ">
-                    <form class="row">
-                        <div class="input-field col s8">
-                            <input placeholder="Nhập email" class="validate value-input" id="email" type="text">
-                        </div>
-                        <div class="col s4 input-field ">
-                            <a class="waves-effect waves-light btn waves-block button-register">Đăng ký</a>
-                        </div>
-                    </form>
+                    <?php echo do_shortcode('[ef span="true"]'); ?>
                 </div>
             </div>
         </div><!--end div 1-->
@@ -36,7 +29,8 @@
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Hotline:</div>
                             <div class="col s10">
-                                <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
+                                <a href="tel:<?php echo $maxthemes['basic-about-hotline'] ? str_replace(" ", ".", $maxthemes['basic-about-hotline']) : ""; ?>"
+                                   class="mobile"><?php echo $maxthemes['basic-about-hotline'] ? $maxthemes['basic-about-hotline'] : ""; ?></a>
 
                             </div>
                         </div>
@@ -44,20 +38,23 @@
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">E-mail:</div>
-                            <div class="col s10"><?php echo $maxthemes['basic-about-email'] ? $maxthemes['basic-about-email'] : ""; ?></div>
+                            <div
+                                class="col s10"><?php echo $maxthemes['basic-about-email'] ? $maxthemes['basic-about-email'] : ""; ?></div>
                         </div>
                     </li>
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Địa chỉ:</div>
-                            <div class="col s10"><?php echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : ""; ?>
+                            <div
+                                class="col s10"><?php echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : ""; ?>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Website:</div>
-                            <div class="col s10"><?php echo $maxthemes['basic-about-website'] ? $maxthemes['basic-about-website'] : ""; ?></div>
+                            <div
+                                class="col s10"><?php echo $maxthemes['basic-about-website'] ? $maxthemes['basic-about-website'] : ""; ?></div>
                         </div>
                     </li>
 
@@ -69,18 +66,26 @@
                     <div class="blemil-footer-right-social col s12 m8 offset-m4">
                         <ul class="nav-menu row white-text">
                             <li class="col m5 s6 first-li list-menu">
-                                <ul class="sub-menu">
-                                    <li><a href="#">Trang chủ</a></li>
-                                    <li><a href="#">Về BT Foot</a></li>
-                                    <li><a href="#">Liên hệ</a></li>
-                                </ul>
+                                <?php
+                                wp_nav_menu(array(
+                                    'theme_location' => 'menu-footer-left', // tên location cần hiển thị
+                                    'container' => 'ul', // thẻ container của menu
+                                    'container_class' => '', //class của container
+                                    'menu_class' => 'sub-menu', // class của menu bên trong
+                                    'depth' => 1,
+                                ));
+                                ?>
                             </li>
                             <li class="col m7 s6 list-menu">
-                                <ul class="sub-menu ">
-                                    <li><a href="#">Tin tức</a></li>
-                                    <li><a href="#">Khuyến mãi</a></li>
-                                    <li><a href="#">Hệ thống phân phối</a></li>
-                                </ul>
+                                <?php
+                                wp_nav_menu(array(
+                                    'theme_location' => 'menu-footer-right', // tên location cần hiển thị
+                                    'container' => 'ul', // thẻ container của menu
+                                    'container_class' => '', //class của container
+                                    'menu_class' => 'sub-menu', // class của menu bên trong
+                                    'depth' => 1,
+                                ));
+                                ?>
                             </li>
                         </ul>
                         <div class="social">
@@ -117,6 +122,7 @@
     </div>
 </footer><!-- End footer-->
 <?php wp_footer(); ?>
+
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -127,5 +133,6 @@
         js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=1143384549034929";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
 </body>
 </html>

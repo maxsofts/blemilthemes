@@ -71,6 +71,6 @@
             </div>
         </div>
         <div class="chicken center hide-on-med-and-down">
-            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-center.png" alt=""/>
+            <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-center.png" alt="" class="animated move-rotated infinite infinite-delay-20"/>
         </div>
 </section><!--End location-->
