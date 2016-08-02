@@ -3595,5 +3595,20 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 @media screen and (max-width: 900px) {
   .tab-content-product {
     padding-right: 0px !important; } }
+.error404 .banner {
+  display: none; }
+.error404 .hotline {
+  display: none; }
+.error404 .page-content-error {
+  padding: 50px; }
+  .error404 .page-content-error .blemil-error-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px; }
+    .error404 .page-content-error .blemil-error-text i {
+      font-size: 32px;
+      padding-right: 10px; }
+  .error404 .page-content-error .link-home-error:hover {
+    color: blue !important; }
 
 /*# sourceMappingURL=blemil.css.map */
