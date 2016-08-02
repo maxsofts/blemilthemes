@@ -1,5 +1,4 @@
 <!-- footer -->
-<?php global $maxthemes; ?>
 <footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
         <div class="row clearfix-margin">
@@ -88,22 +87,22 @@
                                 ?>
                             </li>
                         </ul>
-                        <div class="social">
-                            <ul>
-                                <li>
-                                    <a href="<?php echo $maxthemes['basic-social-facebook'] ? $maxthemes['basic-social-facebook'] : ""; ?>">
-                                        <i class="fa fa-facebook-official white-text fa-3x"></i>
-                                    </a>
+                        <div class="social nav-wrapper">
+                            <ul class=" bluesecond-text">
+                                <li class=" col s4 m4">
+                                    <div class="white box-soical waves-effect waves-light border-radius-3"><a href="#"
+                                                                                                              class="font-size-20"><i
+                                                class="fa fa-facebook" aria-hidden="true"></i></a></div>
                                 </li>
-                                <li>
-                                    <a href="<?php echo $maxthemes['basic-social-youtube'] ? $maxthemes['basic-social-youtube'] : ""; ?>">
-                                        <i class="fa fa-youtube-square white-text fa-3x"></i>
-                                    </a>
+                                <li class=" col s4 m4">
+                                    <div class="white box-soical waves-effect waves-light border-radius-3"><a href="#"
+                                                                                                              class=" font-size-20"><i
+                                                class="fa fa-google-plus" aria-hidden="true"></i></a></div>
                                 </li>
-                                <li>
-                                    <a href="<?php echo $maxthemes['basic-social-google'] ? $maxthemes['basic-social-google'] : ""; ?>">
-                                        <i class="fa fa-google-plus-square white-text fa-3x"></i>
-                                    </a>
+                                <li class=" col s4 m4">
+                                    <div class="white box-soical waves-effect waves-light border-radius-3"><a href="#"
+                                                                                                              class="font-size-20"><i
+                                                class="fa fa-youtube" aria-hidden="true"></i></a></div>
                                 </li>
                             </ul>
                         </div>
@@ -122,7 +121,6 @@
     </div>
 </footer><!-- End footer-->
 <?php wp_footer(); ?>
-
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
