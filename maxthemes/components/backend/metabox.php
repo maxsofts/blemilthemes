@@ -44,6 +44,7 @@ class metabox
                     'id' => 'name_benefit',
                     'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
+                    'std' => "lợi ích sản phẩm"
                 ),
                 array(
                     'id' => 'content_benefit',
@@ -60,6 +61,7 @@ class metabox
                     'id' => 'name_information',
                     'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
+                    'std' => 'Thông tin dinh dưỡng'
                 ),
                 array(
                     'id' => 'content_information',
@@ -76,6 +78,7 @@ class metabox
                     'id' => 'name_rule',
                     'name' => __('Tiêu đề', 'maxthemes'),
                     'type' => 'text',
+                    'std' => 'Quy tắc đóng gói'
                 ),
                 array(
                     'id' => 'content_rule',
@@ -109,7 +112,7 @@ class metabox
                     // Field name - Will be used as label
                     'name' => __( 'Youtube Video ID', 'maxthemes' ),
                     // Field ID, i.e. the meta key
-                    'id' => "{$this->prefix}video_id",
+                    'id' => "video_id",
                     // Field description (optional)
                     'desc' => __( 'Là ID của video ví dụ : https://youtu.be/eb7UA_X8OVw => eb7UA_X8OVw là ID của videos', 'maxthemes' ),
                     'type' => 'text',
