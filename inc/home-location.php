@@ -20,7 +20,7 @@
                     ?>
                     <div class="input-field col s12">
                         <select id="district" class="blemil-pink">
-                            <option>Chọn Tỉnh</option>
+                            <option value="0">Chọn Tỉnh</option>
                             <?php if ($districts):foreach ($districts as $district): ?>
                                 <option
                                     value="<?php echo $district->term_id; ?>"><?php echo $district->name; ?></option>
@@ -30,11 +30,11 @@
                     </div>
                     <div class="input-field col s12">
                         <select class="blemil-pink" id="province">
-                            <option value="" selected>Chọn Huyện</option>
+                            <option value="0">Chọn Huyện</option>
                         </select>
                     </div>
                 </div>
-                <div class="col s12 m9 row location-list">
+                <div class="col s12 m9 row location-list" id="locations_list">
                     <?php
                     $args = array(
                         'post_type' => 'diem-ban',
@@ -47,8 +47,8 @@
                         ?>
                         <div class="col s6">
                             <article id="address_<?php echo $post->ID; ?>" class="location-item">
-                                <?php if (has_post_thumbnail($story_page->ID)): ?>
-                                    <?php echo get_the_post_thumbnail($story_page->ID, 'rectangle', array("class" => 'responsive-img ')); ?>
+                                <?php if (has_post_thumbnail($post->ID)): ?>
+                                    <?php echo get_the_post_thumbnail($post->ID, 'rectangle', array("class" => 'responsive-img ')); ?>
                                 <?php else: ?>
                                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg"
                                          alt=""
