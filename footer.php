@@ -27,31 +27,29 @@
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Hotline:</div>
-                            <div class="col s10">1800 6698</div>
+                            <div class="col s10">
+                                <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
+
+                            </div>
                         </div>
                     </li>
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">E-mail:</div>
-                            <div class="col s10">support@btvietnam.com.vn</div>
+                            <div class="col s10"><?php echo $maxthemes['basic-about-email'] ? $maxthemes['basic-about-email'] : ""; ?></div>
                         </div>
                     </li>
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Địa chỉ:</div>
-                            <div class="col s10">Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội</div>
+                            <div class="col s10"><?php echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : ""; ?>
+                            </div>
                         </div>
                     </li>
-                    <!--                        <li>-->
-                    <!--                            <div class="row font-size-14 small-blemil-footer-information">-->
-                    <!--                                <div class="col s2">VPGD:</div>-->
-                    <!--                                <div class="col s10">số 7,ngõ 102 Khuất Duy Tiến-Thanh Xuân -Hà Nội</div>-->
-                    <!--                            </div>-->
-                    <!--                        </li>-->
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Website:</div>
-                            <div class="col s10">www.blemilplus.vn</div>
+                            <div class="col s10"><?php echo $maxthemes['basic-about-website'] ? $maxthemes['basic-about-website'] : ""; ?></div>
                         </div>
                     </li>
 

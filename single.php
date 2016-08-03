@@ -46,7 +46,7 @@
                 </article>
             </div>
             <div class="col s12 m3">
-                Sidebar
+                <?php get_sidebar();?>
             </div>
         </div>
 

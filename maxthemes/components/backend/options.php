@@ -259,7 +259,7 @@ Redux::setSection($opt_name, array(
 ));
 
 Redux::setSection($opt_name, array(
-    'title' => __('Lời giới thiệu', 'maxthemes'),
+    'title' => __('Giới thiệu', 'maxthemes'),
     'id' => 'basic-about',
     'subsection' => true,
     'customizer_width' => '450px',
@@ -267,10 +267,71 @@ Redux::setSection($opt_name, array(
         array(
             'id' => 'basic-about-text',
             'type' => 'text',
-            'title' => __('Các thông tin hiển thị tại trang chủ', 'maxthemes'),
+            'title' => __('Giới thiệu về Blemil Plus', 'maxthemes'),
             'subtitle' => __('Lời giới thiệu của công ty', 'maxthemes'),
             'default' => 'Dòng sữa Bio Premium - Sữa công thức sinh học cao cấp chất lượng vượt trội, được nhập khẩu nguyên hộp từ châu Âu'
-        )
+        ),
+        array(
+            'id' => 'basic-about-hotline',
+            'type' => 'text',
+            'title' => __('Đường dây nóng', 'maxthemes'),
+            'subtitle' => __('Hotline', 'maxthemes'),
+            'default' => '1800 6698'
+        ),
+        array(
+            'id' => 'basic-about-email',
+            'type' => 'text',
+            'validate' => 'email',
+            'title' => __('Thư điện tử', 'maxthemes'),
+            'subtitle' => __('Email', 'maxthemes'),
+            'msg' => 'Nhập định dạng Email',
+            'default' => 'support@btvietnam.com.vn'
+        ),
+        array(
+            'id' => 'basic-about-address',
+            'type' => 'text',
+            'title' => __('Địa chỉ', 'maxthemes'),
+            'subtitle' => __('address', 'maxthemes'),
+            'default' => 'Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội'
+        ),
+        array(
+            'id' => 'basic-about-website',
+            'type' => 'text',
+            'title' => __('Trang Web', 'maxthemes'),
+            'subtitle' => __('Website', 'maxthemes'),
+            'default' => 'www.blemilplus.vn'
+        ),
+    )
+));
+
+
+Redux::setSection($opt_name, array(
+    'title' => __('Mạng xã hội', 'maxthemes'),
+    'id' => 'basic-social',
+    'subsection' => true,
+    'customizer_width' => '450px',
+    'fields' => array(
+        array(
+            'id' => 'basic-social-facebook',
+            'type' => 'text',
+            'title' => __('Facebook Page', 'maxthemes'),
+            'subtitle' => __('Là đường dẫn facebook (Ví dụ: https://www.facebook.com/suablemilplus/ ) ', 'maxthemes'),
+            'default' => 'https://www.facebook.com/suablemilplus/'
+        ),
+        array(
+            'id' => 'basic-social-google',
+            'type' => 'text',
+            'title' => __('Google Page', 'maxthemes'),
+            'subtitle' => __('Là đường dẫn facebook (Ví dụ: https://plus.google.com/+laboratoriosordesa ) ', 'maxthemes'),
+            'default' => 'https://plus.google.com/+laboratoriosordesa'
+        ),
+        array(
+            'id' => 'basic-social-youtube',
+            'type' => 'text',
+            'title' => __('Google Page', 'maxthemes'),
+            'subtitle' => __('Là đường dẫn facebook (Ví dụ:https://www.youtube.com/channel/UCiI5aWf5_boMJytelLcCwPQ ) ', 'maxthemes'),
+            'default' => 'https://www.youtube.com/channel/UCiI5aWf5_boMJytelLcCwPQ'
+        ),
     )
 ));
 

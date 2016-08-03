@@ -18,6 +18,7 @@
 </head>
 <body <?php body_class(); ?>
 <!-- Header-->
+<?php global $maxthemes; ?>
 <header>
     <!-- Menu top -->
     <nav class="blemil-nav-top">
@@ -71,9 +72,8 @@
         <div class="hotline right hide-on-med-and-down">
             <div class="content">
                 <i class="material-icons">phone</i>
-
                 <p class="title">Chuyên gia tư vấn</p>
-                <a href="tel:1800.6698" class="mobile">1800 6698</a>
+                <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
             </div>
         </div>
     </div><!--endhotline-->
@@ -91,13 +91,11 @@
         </div><!-- End logo-->
         <div class="content">
             <p class="billy-bold-text white-text hide-on-med-and-down">
-                Dòng sữa Bio Premium - Sữa công thức sinh học cao cấp chất lượng vượt trội, được nhập khẩu nguyên hộp từ
-                châu Âu
+                <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
             </p>
 
             <p class="billy-bold-text white-text hide-on-large-only">
-                Dòng sữa Bio Premium - Sữa công thức sinh học cao cấp chất lượng vượt trội, được nhập khẩu nguyên hộp từ
-                châu Âu
+                <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
             </p>
         </div>
         <!--Chickend-->

@@ -1,0 +1,53 @@
+.widgets{
+  margin-bottom:28px;
+  h2{
+    margin-top: 0px;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    &:before{
+      content: '';
+      height: 100%;
+      width: 3px;
+      position: absolute;
+      left: 2%;
+      background: $blemil-white;
+      z-index: 9;
+      bottom: 0px;
+      display: block;
+  }
+  }
+  ul{
+    li{margin-bottom:9px;
+    .text-left-sidebar{
+      padding-left: 0px;
+      a{
+        color: $blemil-black;
+        &:hover{
+          color:$blemil-green;
+        }
+      }
+    }
+    }
+  }
+  .tab-content-product
+  {
+    padding: 0px 30px;
+
+   li{
+    &.active{
+      border-bottom:1px solid $blemil-green;
+      a{
+        color: $blemil-green;
+      }
+    };
+    cursor: pointer;
+    text-align: center;
+    a{
+      text-transform:uppercase;
+      color: $blemil-black;
+    }
+   }
+  }
+}

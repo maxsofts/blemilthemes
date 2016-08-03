@@ -28,11 +28,14 @@ class support
 
         add_image_size( 'square', 500, 500, array( 'center', 'center' ) );
 
+        add_image_size( 'home-rectangle', 650, 375, array( 'center', 'center' ) );
+
         add_image_size( 'rectangle-large', 750, 500, array( 'center', 'center' ) );
 
         add_image_size( 'thumbnail-video', 170, 110, array( 'center', 'center' ) );
 
         add_image_size( 'video', 750, 300, array( 'center', 'center' ) );
+        add_image_size( 'thumbnail-sidebar', 47, 47, array( 'center', 'center' ) );
     }
 
     /**
