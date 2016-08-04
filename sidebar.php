@@ -46,40 +46,21 @@
     </div>
     <div class="row tabs-sidebar">
             <ul class="tab-content-product font-size-13">
-                <li class="col s12 m4 active"><a id="#day">Ngày</a></li>
-                <li class="col s12 m4"><a id="#week">Tuần</a></li>
-                <li class="col s12 m4"><a id="#month">Tháng</a></li>
+                <li class="col s4  m4 active"><a id="#day">Ngày</a></li>
+                <li class="col s4 m4"><a id="#week">Tuần</a></li>
+                <li class="col  s4 m4"><a id="#month">Tháng</a></li>
             </ul>
     </div>
     <div class="content-widget tab-content">
         <div class="tab-body-content active" id="day">
-            <ul>
-                <li class="row">
-                    <img  alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/news1.jpg" alt="Logo"
-                          class="responsive-img col s12 m3"/>
-                    <p class="col s12 m9 font-size-13 text-left-sidebar"><a href="#">7 bài tập giúp lưng bạn luôn khỏe mạnh</a></p>
-                </li>
-                <li class="row">
-                    <img  alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/news1.jpg" alt="Logo"
-                          class="responsive-img col s12 m3"/>
-                    <p class="col s12 m9  font-size-13 text-left-sidebar"><a href="#">7 bài tập giúp lưng bạn luôn khỏe mạnh</a></p>
-                </li>
-            </ul>
+            <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="1"]');?>
         </div><!--end day-->
         <!--begin week-->
         <div class="tab-body-content" id="week">
-            <ul>
-                <li class="row">
-                    <img  alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/news1.jpg" alt="Logo"
-                          class="responsive-img col s12 m3"/>
-                    <p class="col s12 m9 font-size-13 text-left-sidebar"><a href="#">7 bài tập giúp lưng bạn luôn khỏe mạnh</a></p>
-                </li>
-                <li class="row">
-                    <img  alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/news1.jpg" alt="Logo"
-                          class="responsive-img col s12 m3"/>
-                    <p class="col s12 m9  font-size-13 text-left-sidebar"><a href="#">7 bài tập giúp lưng bạn luôn khỏe mạnh</a></p>
-                </li>
-            </ul>
+            <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="7"]');?>
+        </div><!--end week-->
+        <div class="tab-body-content" id="month">
+            <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="30"]');?>
         </div><!--end week-->
     </div>
 </div>

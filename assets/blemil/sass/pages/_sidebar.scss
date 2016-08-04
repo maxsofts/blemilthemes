@@ -34,6 +34,9 @@
   .tab-content-product
   {
     padding: 0px 30px;
+    @media screen and (max-width:480px){
+      padding:0px !important;
+    }
 
    li{
     &.active{
@@ -49,5 +52,14 @@
       color: $blemil-black;
     }
    }
+  }
+  .content-widget{
+
+      li{
+        @media screen and (max-width:480px){
+         text-align: center;
+        }
+      }
+
   }
 }

@@ -3641,6 +3641,9 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
           color: #009444; }
   .widgets .tab-content-product {
     padding: 0px 30px; }
+    @media screen and (max-width: 480px) {
+      .widgets .tab-content-product {
+        padding: 0px !important; } }
     .widgets .tab-content-product li {
       cursor: pointer;
       text-align: center; }
@@ -3651,5 +3654,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       .widgets .tab-content-product li a {
         text-transform: uppercase;
         color: #000000; }
+  @media screen and (max-width: 480px) {
+    .widgets .content-widget li {
+      text-align: center; } }
 
 /*# sourceMappingURL=blemil.css.map */
