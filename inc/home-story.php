@@ -3,14 +3,14 @@
 <section class="story row">
     <div class="border-box border-box-before border-box-logo col s12 m8 offset-m2 l4 offset-l4 blemil-pink">
         <div class="param">
-            Câu truyện <i class="logo-blemil"></i>
+            Câu chuyện <i class="logo-blemil"></i>
         </div>
     </div>
     <div class="clearfix"></div>
     <div class="row content shadow-box container box-width-chicken">
-        <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-left.png" alt=""
+        <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" alt=""
              class="chicken-left hide-on-med-and-down animated swing-bottom infinite infinite-delay-20"/>
-        <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-right.png" alt=""
+        <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" alt=""
              class="chicken-right hide-on-med-and-down animated swing-bottom infinite infinite-delay-30"/>
 
         <div class="center box-content">

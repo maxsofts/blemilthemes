@@ -54,7 +54,6 @@ function the_excerpt_max_charlength($charlength)
 {
     $excerpt = get_the_excerpt();
     $charlength++;
-
     if (mb_strlen($excerpt) > $charlength) {
         $subex = mb_substr($excerpt, 0, $charlength - 5);
         $exwords = explode(' ', $subex);

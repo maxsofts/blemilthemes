@@ -305,9 +305,6 @@
    ========================================================================== */
 /* 3. Component
    ========================================================================== */
-html {
-  font-family: "lato-regular", "Roboto", sans-serif; }
-
 body {
   background-image: url("../images/global/background.svg");
   background-size: 50%;
@@ -322,11 +319,16 @@ main.container {
 .padding-0 {
   padding: 0; }
 
+.content ul, article ul {
+  list-style-type: disc;
+  -webkit-padding-start: 40px; }
+  .content ul li, article ul li {
+    list-style-type: disc; }
+
 .blemil-nav-top {
   background: -moz-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
   background: -webkit-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
   background: -ms-linear-gradient(90deg, #409be4 0%, #1b75bc 100%);
-  font-family: "lato-bold", "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase; }
   .blemil-nav-top .brand-logo img {
@@ -371,54 +373,6 @@ main.container {
 
 /* Fonts
    ========================================================================== */
-@font-face {
-  font-family: "lato-thin";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-thin.ttf") format("truetype"); }
-.lato-thin-text {
-  font-family: "lato-thin", sans-serif; }
-
-@font-face {
-  font-family: "lato-black";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-black.ttf") format("truetype"); }
-.lato-black-text {
-  font-family: "lato-black", sans-serif; }
-
-@font-face {
-  font-family: "lato-light";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-light.ttf") format("truetype"); }
-.lato-light-text {
-  font-family: "lato-light", sans-serif; }
-
-@font-face {
-  font-family: "lato-regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-regular.ttf") format("truetype"); }
-.lato-regular-text {
-  font-family: "lato-regular", sans-serif; }
-
-@font-face {
-  font-family: "lato-medium";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-medium.ttf") format("truetype"); }
-.lato-medium-text {
-  font-family: "lato-medium", sans-serif; }
-
-@font-face {
-  font-family: "lato-heavy";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/lato-heavy.ttf") format("truetype"); }
-.lato-heavy-text {
-  font-family: "lato-heavy", sans-serif; }
-
 @font-face {
   font-family: "billy-bold";
   font-style: normal;
@@ -490,6 +444,9 @@ main.container {
     background-image: -moz-linear-gradient(90deg, #FFFFFF 0%, rgba(249, 249, 249, 0) 100%);
     background-image: -webkit-linear-gradient(90deg, #FFFFFF 0%, rgba(249, 249, 249, 0) 100%);
     background-image: -ms-linear-gradient(90deg, #FFFFFF 0%, rgba(249, 249, 249, 0) 100%); }
+    .card.blemil-card-shadow .card-content .title {
+      font-size: 1.2em;
+      font-weight: bold; }
   .card.blemil-card-shadow.blemil-primary .card-content {
     color: #FFFFFF;
     background-image: -moz-linear-gradient(90deg, #1b75bc 0%, rgba(249, 249, 249, 0) 100%);
@@ -2078,13 +2035,11 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       color: #FFFFFF;
       text-transform: uppercase;
       font-size: 12px;
-      margin: 0;
-      font-family: "lato-medium", sans-serif; }
+      margin: 0; }
     .hotline .content a {
       font-size: 20px;
       color: #FFFFFF;
-      font-weight: bold;
-      font-family: "billy-bold", sans-serif; }
+      font-weight: bold; }
 
 /* --------------------------------------------------------
 Box
@@ -2098,7 +2053,6 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   background: #1b75bc;
   text-align: center;
   color: #FFFFFF;
-  font-family: "lato-black", sans-serif;
   font-size: 1.3rem;
   border: 7px #1b75bc solid;
   border-radius: 20px;
@@ -2255,7 +2209,6 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .border-box-bottom {
   background: rgba(249, 249, 249, 0) !important;
   text-align: center;
-  font-family: "lato-black", sans-serif;
   font-size: 1.3rem;
   padding: 0 !important;
   white-space: nowrap;
@@ -2779,17 +2732,19 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     .shadow-box.box-width-chicken img.chicken-left {
       position: absolute;
       overflow: hidden;
-      left: -100px;
+      left: -120px;
       top: 40%;
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: middle;
+      max-height: 200px; }
     .shadow-box.box-width-chicken img.chicken-right {
       position: absolute;
       overflow: hidden;
-      right: -110px;
+      right: -90px;
       top: 40%;
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: middle;
+      max-height: 200px; }
     .shadow-box.box-width-chicken .box-content {
       padding: 20px;
       position: relative; }
@@ -2804,7 +2759,6 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       padding-top: 50px; }
     .shadow-box .research-trapezoid .logo {
       color: #FFFFFF;
-      font-family: "lato-black", sans-serif;
       font-size: 2rem;
       text-shadow: 1px 1px #000000; }
       .shadow-box .research-trapezoid .logo i.logo-blemil {
@@ -2841,7 +2795,6 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding-bottom: 30px; }
     .shadow-box .research-trapezoid-mobile .logo {
       color: #FFFFFF;
-      font-family: "lato-black", sans-serif;
       font-size: 2rem;
       text-shadow: 1px 1px #000000;
       position: relative;
@@ -2902,14 +2855,14 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     top: 20%;
     left: 30%; }
     .banner .content p.hide-on-med-and-down {
-      width: 35%;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       text-align: right;
       text-justify: auto; }
     .banner .content p.hide-on-large-only {
       margin-left: -20%;
       margin-top: -5%;
-      width: 95%; }
+      text-align: center;
+      width: 100%; }
   .banner .products {
     position: absolute;
     left: 40%;
@@ -3235,15 +3188,14 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       .news ul.news-list-home .row .content {
         color: #FFFFFF; }
         .news ul.news-list-home .row .content a {
-          font-family: "lato-light", sans-serif;
           color: #FFFFFF;
           border-bottom: 1px #FFFFFF solid;
           margin: 0; }
         .news ul.news-list-home .row .content p {
-          font-family: "lato-light", sans-serif;
           margin: 0; }
         .news ul.news-list-home .row .content .title {
-          font-family: "lato-black", sans-serif;
+          font-size: 1.2em;
+          font-weight: bold;
           margin: 0; }
 
 .readmore {
@@ -3252,22 +3204,16 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 /**POST**/
 .post-item .content .title {
   margin: 0;
-  font-weight: bold;
-  font-family: "lato-bold", sans-serif; }
+  font-weight: bold; }
 .post-item .content .excerpt {
   padding-top: 10px;
-  font-size: 13px;
-  font-family: "lato-regular", sans-serif; }
+  font-size: 13px; }
 
 .single-post .content .info .title {
   margin: 0; }
-.single-post .content .info .left {
-  font-family: "lato-regular", sans-serif; }
 .single-post .content .the_content {
-  margin: 10px 0;
-  font-family: "lato-regular", "Roboto", sans-serif; }
+  margin: 10px 0; }
 .single-post .content .excerpt {
-  font-family: "lato-heavy", sans-serif;
   font-weight: bold;
   margin: 10px 0; }
 

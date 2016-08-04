@@ -44,7 +44,7 @@ $query = new WP_Query($args);
                                     <?php endif; ?>
                                 </div>
                                 <div class="card-content">
-                                    <h6><?php the_title(); ?></h6>
+                                    <h6 class="title"><?php the_title(); ?></h6>
 
                                     <p><?php the_excerpt_max_charlength(60); ?></p>
                                 </div>
@@ -71,7 +71,7 @@ $query = new WP_Query($args);
                             </div>
                             <div class="col s8">
                                 <div class="content">
-                                    <a href="<?php the_permalink(); ?>"><h6><?php the_title(); ?></h6></a>
+                                    <a href="<?php the_permalink(); ?>"><h6 class="title"><?php the_title(); ?></h6></a>
 
                                     <p><?php the_excerpt_max_charlength(40); ?></p>
 

@@ -9,6 +9,10 @@
       background-image: -moz-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
       background-image: -webkit-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
       background-image: -ms-linear-gradient(90deg, $blemil-white 0%, $blemil-transparent 100%);
+      .title{
+        font-size: 1.2em;
+        font-weight: bold;
+      }
     }
 
     @each $color_name, $color in $colors {

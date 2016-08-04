@@ -9,7 +9,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   background: $blemil-blue;
   text-align: center;
   color: $blemil-white;
-  font-family: "lato-black", sans-serif;
+  //font-family: "lato-black", sans-serif;
   font-size: 1.3rem;
   border: 7px $blemil-blue solid;
   border-radius: 20px;
@@ -57,7 +57,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .border-box-bottom {
   background: $blemil-transparent !important;
   text-align: center;
-  font-family: "lato-black", sans-serif;
+  //font-family: "lato-black", sans-serif;
   font-size: 1.3rem;
   padding: 0 !important;
   white-space: nowrap;
@@ -131,18 +131,20 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       &.chicken-left {
         position: absolute;
         overflow: hidden;
-        left: -100px;
+        left: -120px;
         top: 40%;
         display: inline-block;
         vertical-align: middle;
+        max-height: 200px;
       }
       &.chicken-right {
         position: absolute;
         overflow: hidden;
-        right: -110px;
+        right: -90px;
         top: 40%;
         display: inline-block;
         vertical-align: middle;
+        max-height: 200px;
       }
 
     }
@@ -165,7 +167,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     }
     .logo {
       color: $blemil-white;
-      font-family: "lato-black", sans-serif;
+      //font-family: "lato-black", sans-serif;
       font-size: 2rem;
       text-shadow: 1px 1px $blemil-black;
 
@@ -222,7 +224,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 
     .logo {
       color: $blemil-white;
-      font-family: "lato-black", sans-serif;
+      //font-family: "lato-black", sans-serif;
       font-size: 2rem;
       text-shadow: 1px 1px $blemil-black;
       position: relative;

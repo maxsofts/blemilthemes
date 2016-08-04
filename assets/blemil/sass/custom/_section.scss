@@ -95,17 +95,19 @@
       .content {
         color: $blemil-white;
         a{
-          font-family: "lato-light", sans-serif;
+          //font-family: "lato-light", sans-serif;
           color: $blemil-white;
           border-bottom: 1px $blemil-white solid;
           margin:0;
         }
         p{
-          font-family: "lato-light", sans-serif;
+          //font-family: "lato-light", sans-serif;
           margin:0;
         }
         .title{
-          font-family: "lato-black", sans-serif;
+          //font-family: "lato-black", sans-serif;
+          font-size: 1.2em;
+          font-weight: bold;
           margin:0;
         }
       }

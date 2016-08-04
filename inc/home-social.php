@@ -35,7 +35,7 @@ $query = new WP_Query($args);
                         <div id="tab_video_<?php echo $i; ?>">
                             <div class="video">
                                 <?php if (has_post_thumbnail()): ?>
-                                    <?php the_post_thumbnail('video', array('class' => 'img-responsive')); ?>
+                                    <?php the_post_thumbnail('rectangle-large', array('class' => 'img-responsive')); ?>
                                 <?php else: ?>
                                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/video.png"
                                          alt=""

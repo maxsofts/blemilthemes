@@ -47,7 +47,17 @@ class support
             register_sidebar(array(
                 'name' => 'Đăng ký nhận thông tin',
                 'id' => 'email_sidebar',
-                'description' => 'These are widgets for the sidebar.',
+                'description' => 'Phần đăng ký thông tin ở footer',
+                'before_widget' => '<div id="%1$s" class="widget %2$s">',
+                'after_widget' => '</div>',
+                'before_title' => '<h2>',
+                'after_title' => '</h2>'
+            ));
+
+            register_sidebar(array(
+                'name' => 'Thanh tiện ích',
+                'id' => 'widget_left',
+                'description' => 'Thanh tiện ích nằm bên phải giao diện',
                 'before_widget' => '<div id="%1$s" class="widget %2$s">',
                 'after_widget' => '</div>',
                 'before_title' => '<h2>',

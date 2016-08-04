@@ -66,7 +66,7 @@ if (have_posts()) {
                          src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt="">
                 </div><!--end list product-->
                 <div class="clearfix"></div>
-                <div class="content-product row container">
+                <div class="content-product row container shadow-box">
                     <div class="col m4 s12">
                         <!--begin list menu left-->
                         <ul class="tab-content-product">

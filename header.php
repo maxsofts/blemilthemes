@@ -90,11 +90,11 @@
             <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo-plus.png" class="plus"/>
         </div><!-- End logo-->
         <div class="content">
-            <p class="billy-bold-text white-text hide-on-med-and-down">
+            <p class="text-bold white-text hide-on-med-and-down">
                 <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
             </p>
 
-            <p class="billy-bold-text white-text hide-on-large-only">
+            <p class="text-bold center-align white-text hide-on-large-only">
                 <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
             </p>
         </div>

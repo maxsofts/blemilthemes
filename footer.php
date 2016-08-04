@@ -1,4 +1,5 @@
 <!-- footer -->
+<?php global $maxthemes; ?>
 <footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
         <div class="row clearfix-margin">
