@@ -33,7 +33,7 @@ if (have_posts()) {
                                 $list_product->the_post();
 
                                 ?>
-                                <div class="product col s12 l3 m6">
+                                <div class="product col s12 l3 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php if (has_post_thumbnail()): ?>
                                             <?php the_post_thumbnail(); ?>
@@ -144,8 +144,8 @@ if (have_posts()) {
         <h4 class="center-align white-text">Sữa mẹ là tốt nhất cho trẻ sơ sinh và trẻ nhỏ<h4>
     </div>
     <div class="modal-content">
-        Thông tin này chỉ dành cho cán bộ y tế và mang tính chất nội bộ.
-        Vui lòng xác nhận trước khi đọc tiếp
+        Thông tin này chỉ dành cho cán bộ y tế và mang tính chất tham khảo.
+        Vui lòng xác nhận trước khi đọc tiếp.
     </div>
     <div class="modal-footer">
         <a href="#!" onclick="$('#content-show').removeClass('hide')"
@@ -154,7 +154,7 @@ if (have_posts()) {
         </a>
 
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
-            Không cảm ơn
+            Không, Cảm ơn
         </a>
     </div>
 </div>
