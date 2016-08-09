@@ -3522,7 +3522,10 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .list-product {
   position: relative;
   margin-top: 60px; }
+  .list-product .active {
+    opacity: 1 !important; }
   .list-product .product {
+    opacity: 0.8;
     position: relative; }
     .list-product .product .logo {
       position: absolute;
@@ -3538,6 +3541,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       position: absolute;
       bottom: 0px;
       left: 4%; }
+    .list-product .product:hover {
+      opacity: 1; }
   .list-product .bg-product {
     width: 90%;
     position: absolute;
