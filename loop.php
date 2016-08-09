@@ -22,5 +22,5 @@
 <?php endwhile; ?>
 
 <?php else: ?>
-
+    <h1>Không có bài viết hiển thị</h1>
 <?php endif; ?>

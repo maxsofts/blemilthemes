@@ -28,7 +28,7 @@ get_header(); ?>
             <?php endif; ?>
             <h5 class="center-align text-bold"><?php the_title(); ?></h5>
             <div class="clearfix"></div>
-            <div class="content text-justify-center column-text column-2">
+            <div class="content text-justify column-text column-2">
 
                 <?php the_content(); ?>
 

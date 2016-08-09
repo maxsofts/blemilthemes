@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 <main class="single-post container shadow-box">
     <?php if (have_posts()): the_post(); ?>
+        <?php
+        postview_set(get_the_ID());
+        ?>
+
         <?php $category = get_the_category(get_the_ID()); ?>
         <div class="row">
             <div class="border-box border-box-before col hide-on-med-and-down m8 offset-m2 l6 offset-l3 blemil-green">
@@ -46,7 +50,7 @@
                 </article>
             </div>
             <div class="col s12 m3">
-                Sidebar
+                <?php get_sidebar();?>
             </div>
         </div>
 

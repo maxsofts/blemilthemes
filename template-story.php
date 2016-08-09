@@ -17,7 +17,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="clearfix"></div>
-        <div class="content text-justify-center column-text column-3">
+        <div class="content text-justify column-text column-3">
             <?php if (have_posts):the_post(); ?>
 
                 <?php the_content(); ?>

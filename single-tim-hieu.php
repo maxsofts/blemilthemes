@@ -66,7 +66,7 @@ if (have_posts()) {
                          src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt="">
                 </div><!--end list product-->
                 <div class="clearfix"></div>
-                <div class="content-product row container shadow-box">
+                <div class="content-product row container shadow-box hide" id="content-show">
                     <div class="col m4 s12">
                         <!--begin list menu left-->
                         <ul class="tab-content-product">
@@ -128,7 +128,6 @@ if (have_posts()) {
                             <!--end content-rright-->
                         <?php } ?>
                     </div>
-
                 </div>
 
 
@@ -139,4 +138,25 @@ if (have_posts()) {
     }
 }
 ?>
+<!--modal popup-->
+<div class="modal" id="checklink">
+    <div class="modal-header blemil-green padding-20">
+        <h4 class="center-align white-text">Sữa mẹ là tốt nhất cho trẻ sơ sinh và trẻ nhỏ<h4>
+    </div>
+    <div class="modal-content">
+        Thông tin này chỉ dành cho cán bộ y tế và mang tính chất nội bộ.
+        Vui lòng xác nhận trước khi đọc tiếp
+    </div>
+    <div class="modal-footer">
+        <a href="#!" onclick="$('#content-show').removeClass('hide')"
+           class="modal-action modal-close waves-effect waves-green btn-flat teal white-text">
+            Tôi là nhân viên y tế
+        </a>
+
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
+            Không cảm ơn
+        </a>
+    </div>
+</div>
+
 <?php get_footer(); ?>

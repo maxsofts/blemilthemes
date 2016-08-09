@@ -89,3 +89,8 @@ function max_text_charlength($text, $charlength)
         echo $text;
     }
 }
+/*
+ * view post
+ * */
+//??m l??t ??c
+

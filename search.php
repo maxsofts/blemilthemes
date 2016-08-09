@@ -25,28 +25,8 @@
 		</div><!--end content left-->
 		<!-- content right-->
 		<div class="col s12 m3">
-			sidebar
+			<?php get_sidebar();?>
 		</div><!--end content right -->
 	</div><!-- end content -->
 </main>
 <?php get_footer(); ?>
-<!---->
-<?php //get_header(); ?>
-<!---->
-<!--	<main role="main">-->
-<!--		<!-- section -->-->
-<!--		<section>-->
-<!---->
-<!--			<h1></h1>-->
-<!---->
-<!--			--><?php //get_template_part('loop'); ?>
-<!---->
-<!--			--><?php //get_template_part('pagination'); ?>
-<!---->
-<!--		</section>-->
-<!--		<!-- /section -->-->
-<!--	</main>-->
-<!---->
-<?php //get_sidebar(); ?>
-<!---->
-<?php //get_footer(); ?>

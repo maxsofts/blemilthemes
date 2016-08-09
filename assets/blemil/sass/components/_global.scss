@@ -20,7 +20,11 @@ main.container {
   padding: 0;
 }
 
-.content,article{
+.padding-20 {
+  padding: 20px;
+}
+
+.content, article {
   ul {
     list-style-type: disc;
     -webkit-padding-start: 40px;

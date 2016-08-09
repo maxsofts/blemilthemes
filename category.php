@@ -25,7 +25,7 @@
         </div><!--end content left-->
         <!-- content right-->
         <div class="col s12 m3">
-            sidebar
+            <?php get_sidebar();?>
         </div><!--end content right -->
     </div><!-- end content -->
 </main>

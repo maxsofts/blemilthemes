@@ -319,6 +319,9 @@ main.container {
 .padding-0 {
   padding: 0; }
 
+.padding-20 {
+  padding: 20px; }
+
 .content ul, article ul {
   list-style-type: disc;
   -webkit-padding-start: 40px; }
@@ -3636,5 +3639,50 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       padding-right: 10px; }
   .error404 .page-content-error .link-home-error:hover {
     color: blue !important; }
+
+.widgets {
+  margin-bottom: 28px; }
+  .widgets h2 {
+    margin-top: 0px;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative; }
+    .widgets h2:before {
+      content: '';
+      height: 100%;
+      width: 3px;
+      position: absolute;
+      left: 2%;
+      background: #FFFFFF;
+      z-index: 9;
+      bottom: 0px;
+      display: block; }
+  .widgets ul li {
+    margin-bottom: 9px; }
+    .widgets ul li .text-left-sidebar {
+      padding-left: 0px; }
+      .widgets ul li .text-left-sidebar a {
+        color: #000000; }
+        .widgets ul li .text-left-sidebar a:hover {
+          color: #009444; }
+  .widgets .tab-content-product {
+    padding: 0px 30px; }
+    @media screen and (max-width: 480px) {
+      .widgets .tab-content-product {
+        padding: 0px !important; } }
+    .widgets .tab-content-product li {
+      cursor: pointer;
+      text-align: center; }
+      .widgets .tab-content-product li.active {
+        border-bottom: 1px solid #009444; }
+        .widgets .tab-content-product li.active a {
+          color: #009444; }
+      .widgets .tab-content-product li a {
+        text-transform: uppercase;
+        color: #000000; }
+  @media screen and (max-width: 480px) {
+    .widgets .content-widget li {
+      text-align: center; } }
 
 /*# sourceMappingURL=blemil.css.map */

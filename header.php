@@ -16,14 +16,14 @@
     <?php wp_head(); ?>
 
 </head>
-<body <?php body_class(); ?>
+<body <?php body_class(); ?>>
 <!-- Header-->
 <?php global $maxthemes; ?>
 <header>
     <!-- Menu top -->
     <nav class="blemil-nav-top">
         <div class="nav-wrapper container">
-            <a class="brand-logo">
+            <a class="brand-logo" href="<?php bloginfo('home') ?>">
                 <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" alt="Logo"
                      class="responsive-img"/>
             </a>
@@ -72,8 +72,10 @@
         <div class="hotline right hide-on-med-and-down">
             <div class="content">
                 <i class="material-icons">phone</i>
+
                 <p class="title">Chuyên gia tư vấn</p>
-                <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
+                <a href="tel:<?php echo $maxthemes['basic-about-hotline'] ? str_replace(" ", ".", $maxthemes['basic-about-hotline']) : ""; ?>"
+                   class="mobile"><?php echo $maxthemes['basic-about-hotline'] ? $maxthemes['basic-about-hotline'] : ""; ?></a>
             </div>
         </div>
     </div><!--endhotline-->

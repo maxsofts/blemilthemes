@@ -103,11 +103,16 @@ $(document).ready(function () {
         'return_id': 'locations_list',
         'type': "renderLocations"
     });
+
+    if($('#checklink').length){
+        $('#checklink').openModal();
+    }
 });
 
 
 //Function
 (function () {
+
     $.fn.ajaxAction = function (options) {
         var defaults = {
             action: "myaction",

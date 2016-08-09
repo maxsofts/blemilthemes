@@ -11,6 +11,7 @@
             <div class="col s12 m6 blemil-footer-right">
                 <div class="blemil-footer-email-register ">
                     <?php echo do_shortcode('[ef span="true"]'); ?>
+
                 </div>
             </div>
         </div><!--end div 1-->
@@ -132,6 +133,18 @@
         js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=1143384549034929";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/57a41872b21680ea50429be0/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>

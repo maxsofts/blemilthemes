@@ -18,7 +18,8 @@
                 <div class="products-right">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken animated swing-bottom infinite infinite-delay-19"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png"
+                         class="chicken animated swing-bottom infinite infinite-delay-19"
                          alt="">
 
                     <div class="center row solid">
@@ -29,7 +30,8 @@
                         <i class="logo-blemil large"></i><span>1</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
+                        <a class="btn-readmore blemil-green lighten-1 modal-trigger"
+                           href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -37,7 +39,8 @@
                 <div class="products-left">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken animated swing-bottom infinite infinite-delay-27"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png"
+                         class="chicken animated swing-bottom infinite infinite-delay-27"
                          alt="">
 
                     <div class="center row solid">
@@ -48,7 +51,8 @@
                         <i class="logo-blemil large"></i><span>2</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
+                        <a class="btn-readmore blemil-green lighten-1 modal-trigger"
+                           href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -61,7 +65,8 @@
                 <div class="products-right">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png" class="chicken animated swing-bottom infinite infinite-delay-26"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png"
+                         class="chicken animated swing-bottom infinite infinite-delay-26"
                          alt="">
 
                     <div class="center row solid">
@@ -72,7 +77,8 @@
                         <i class="logo-blemil large"></i><span>3</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
+                        <a class="btn-readmore blemil-green lighten-1"
+                           href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -80,7 +86,8 @@
                 <div class="products-left">
                     <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png" class="chicken animated swing-bottom infinite infinite-delay-25"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png"
+                         class="chicken animated swing-bottom infinite infinite-delay-25"
                          alt="">
 
                     <div class="center row solid">
@@ -91,7 +98,8 @@
                         <i class="logo-blemil large"></i><span>4</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
+                        <a class="btn-readmore blemil-green lighten-1"
+                           href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
@@ -109,7 +117,8 @@
                     <i class="logo-blemil"></i><span>1</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
+                    <a class="btn-readmore blemil-green lighten-2"
+                       href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -124,7 +133,8 @@
                     <i class="logo-blemil"></i><span>2</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
+                    <a class="btn-readmore blemil-green lighten-2"
+                       href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -139,7 +149,8 @@
                     <i class="logo-blemil"></i><span>3</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
+                    <a class="btn-readmore blemil-green lighten-2"
+                       href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
@@ -154,7 +165,8 @@
                     <i class="logo-blemil"></i><span>4</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
+                    <a class="btn-readmore blemil-green lighten-2"
+                       href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
                         Tìm hiểu
                     </a>
                 </div>
