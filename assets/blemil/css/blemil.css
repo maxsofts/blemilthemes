@@ -2756,10 +2756,13 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
         text-align-last: center; }
   .shadow-box .research-trapezoid {
     position: relative;
-    padding: 60px; }
-    .shadow-box .research-trapezoid img.trapezoid {
-      position: absolute;
-      padding-top: 50px; }
+    margin-top: 100px;
+    background-image: url("../images/main-home/trapezoid.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%; }
+    .shadow-box .research-trapezoid .col {
+      position: relative; }
     .shadow-box .research-trapezoid .logo {
       color: #FFFFFF;
       font-size: 2rem;
@@ -2768,31 +2771,15 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
         vertical-align: middle; }
       .shadow-box .research-trapezoid .logo span {
         padding-left: 10px; }
-    .shadow-box .research-trapezoid .products-right {
-      position: absolute;
-      width: 50%;
-      z-index: 999999; }
-      .shadow-box .research-trapezoid .products-right img.blemil-product {
-        margin-top: -90px;
-        margin-left: 15px;
-        margin-bottom: -50px; }
-      .shadow-box .research-trapezoid .products-right img.chicken {
-        position: absolute;
-        max-height: 85px;
-        right: 125px; }
-    .shadow-box .research-trapezoid .products-left {
-      position: absolute;
-      width: 40%;
-      margin-left: 40%;
-      z-index: 999999; }
-      .shadow-box .research-trapezoid .products-left img.blemil-product {
-        margin-top: -90px;
-        margin-left: 15px;
-        margin-bottom: -50px; }
-      .shadow-box .research-trapezoid .products-left img.chicken {
-        position: absolute;
-        max-height: 85px;
-        left: 90px; }
+    .shadow-box .research-trapezoid .blemil-product {
+      margin-top: -120px;
+      margin-bottom: 20px; }
+    .shadow-box .research-trapezoid .chicken {
+      position: absolute; }
+      .shadow-box .research-trapezoid .chicken.set-right {
+        right: 20px; }
+      .shadow-box .research-trapezoid .chicken.set-left {
+        left: 20px; }
   .shadow-box .research-trapezoid-mobile {
     position: relative;
     padding-bottom: 30px; }
@@ -3549,7 +3536,10 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .list-product {
   position: relative;
   margin-top: 60px; }
+  .list-product .active {
+    opacity: 1 !important; }
   .list-product .product {
+    opacity: 0.8;
     position: relative; }
     .list-product .product .logo {
       position: absolute;
@@ -3565,6 +3555,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       position: absolute;
       bottom: 0px;
       left: 4%; }
+    .list-product .product:hover {
+      opacity: 1; }
   .list-product .bg-product {
     width: 90%;
     position: absolute;

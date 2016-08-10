@@ -14,12 +14,12 @@
     <div class="content shadow-box container">
         <div class="hide-on-med-and-down">
             <!-- product Desktop -->
-            <div class="research-trapezoid center">
-                <div class="products-right">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+            <div class="research-trapezoid center row">
+                <div class="col m4">
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/01.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png"
-                         class="chicken animated swing-bottom infinite infinite-delay-19"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/egg.png"
+                         class="chicken set-right animated swing-bottom infinite infinite-delay-19"
                          alt="">
 
                     <div class="center row solid">
@@ -30,17 +30,17 @@
                         <i class="logo-blemil large"></i><span>1</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1 modal-trigger"
+                        <a class="btn-readmore blemil-gray darken-1  modal-trigger"
                            href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
                 </div>
-                <div class="products-left">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+                <div class="col m4">
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/02.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png"
-                         class="chicken animated swing-bottom infinite infinite-delay-27"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-02.png"
+                         class="chicken set-left animated swing-bottom infinite infinite-delay-19"
                          alt="">
 
                     <div class="center row solid">
@@ -51,22 +51,17 @@
                         <i class="logo-blemil large"></i><span>2</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1 modal-trigger"
+                        <a class="btn-readmore blemil-gray darken-1 modal-trigger"
                            href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
                 </div>
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
-                     class="responsive-img"/>
-            </div><!-- End products desktop-->
-            <!-- product Desktop -->
-            <div class="research-trapezoid center">
-                <div class="products-right">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+                <div class="col m4">
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/03.png"
                          class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_03.png"
-                         class="chicken animated swing-bottom infinite infinite-delay-26"
+                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken-02.png"
+                         class="chicken set-left animated swing-bottom infinite infinite-delay-19"
                          alt="">
 
                     <div class="center row solid">
@@ -77,47 +72,24 @@
                         <i class="logo-blemil large"></i><span>3</span>
                     </div>
                     <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1"
+                        <a class="btn-readmore blemil-gray darken-1 modal-trigger"
                            href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
                             Tìm hiểu
                         </a>
                     </div>
                 </div>
-                <div class="products-left">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
-                         class="blemil-product" alt="">
-                    <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/chicken_02.png"
-                         class="chicken animated swing-bottom infinite infinite-delay-25"
-                         alt="">
-
-                    <div class="center row solid">
-                        <div class="solid-width-arrow col s12 offset-m3 m6 offset-l4 l4">
-                        </div>
-                    </div>
-                    <div class="logo">
-                        <i class="logo-blemil large"></i><span>4</span>
-                    </div>
-                    <div class="readmore">
-                        <a class="btn-readmore blemil-green lighten-1"
-                           href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
-                            Tìm hiểu
-                        </a>
-                    </div>
-                </div>
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
-                     class="responsive-img"/>
             </div><!-- End products desktop-->
         </div>
         <div class="hide-on-large-only">
             <div class="research-trapezoid-mobile center">
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/01.png"
                      class="blemil-product" alt="">
 
                 <div class="logo">
                     <i class="logo-blemil"></i><span>1</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2"
+                    <a class="btn-readmore blemil-gray darken-1 lighten-2"
                        href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
                         Tìm hiểu
                     </a>
@@ -126,14 +98,14 @@
                      class="responsive-img"/>
             </div>
             <div class="research-trapezoid-mobile center">
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/02.png"
                      class="blemil-product" alt="">
 
                 <div class="logo">
                     <i class="logo-blemil"></i><span>2</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2"
+                    <a class="btn-readmore blemil-gray darken-1 lighten-2"
                        href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
                         Tìm hiểu
                     </a>
@@ -142,31 +114,15 @@
                      class="responsive-img"/>
             </div>
             <div class="research-trapezoid-mobile center">
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
+                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/03.png"
                      class="blemil-product" alt="">
 
                 <div class="logo">
                     <i class="logo-blemil"></i><span>3</span>
                 </div>
                 <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2"
+                    <a class="btn-readmore blemil-gray darken-1 lighten-2"
                        href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
-                        Tìm hiểu
-                    </a>
-                </div>
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
-                     class="responsive-img"/>
-            </div>
-            <div class="research-trapezoid-mobile center">
-                <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/product-1.png"
-                     class="blemil-product" alt="">
-
-                <div class="logo">
-                    <i class="logo-blemil"></i><span>4</span>
-                </div>
-                <div class="readmore">
-                    <a class="btn-readmore blemil-green lighten-2"
-                       href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
                         Tìm hiểu
                     </a>
                 </div>

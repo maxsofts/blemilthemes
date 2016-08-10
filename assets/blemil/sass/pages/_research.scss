@@ -8,6 +8,8 @@
   top: -43px;
   z-index: -23;
 }
+$opacity_default:0.8;
+$opacity_hover:1;
 .border-box-color{
   border:1px dashed $blemil-white;
 }
@@ -20,7 +22,11 @@
   right: 0px;
 }
 .list-product{
+  .active{
+    opacity: $opacity_hover !important;
+  }
   .product{
+    opacity: $opacity_default;
     position: relative;
     .logo{
       position: absolute;
@@ -37,6 +43,9 @@
       position: absolute;
       bottom: 0px;
       left: 4%;
+    }
+    &:hover{
+      opacity: 1;
     }
   }
 
