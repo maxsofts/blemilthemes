@@ -53,7 +53,7 @@
     </div>
     <div class="content-widget tab-content">
         <div class="tab-body-content active" id="day">
-          
+            <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="1"]');?>
         </div><!--end day-->
         <!--begin week-->
         <div class="tab-body-content" id="week">
@@ -64,4 +64,3 @@
         </div><!--end week-->
     </div>
 </div>
-<?php dynamic_sidebar( 'widget_left' ); ?>
