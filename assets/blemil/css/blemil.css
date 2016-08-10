@@ -3539,11 +3539,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   margin-top: 60px; }
   .list-product .active {
     opacity: 1 !important; }
-<<<<<<< HEAD
-=======
   .list-product .three-product {
     padding: 0px 30px; }
->>>>>>> 8c3a42e42cb2b6a340067f6f41c877369947b649
   .list-product .product {
     opacity: 0.8;
     position: relative; }
@@ -3619,12 +3616,15 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .tab-content .active {
   display: block; }
 
-@media screen and (max-width: 900px) {
-  .tab-content-product {
-    padding-right: 0px !important; } }
 @media screen and (max-width: 480px) {
   .tab-content-product {
-    padding-right: 21px !important; } }
+    padding: 21px !important; }
+
+  .list-product .product:first-child img {
+    margin-left: 20%; }
+
+  .blemil-footer-email-register .button-register {
+    padding: 0px 10%; } }
 .error404 .banner {
   display: none; }
 .error404 .hotline {
