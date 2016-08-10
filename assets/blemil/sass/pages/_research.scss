@@ -25,6 +25,9 @@ $opacity_hover:1;
   .active{
     opacity: $opacity_hover !important;
   }
+  .three-product{
+    padding:0px 30px
+  }
   .product{
     opacity: $opacity_default;
     position: relative;
@@ -86,6 +89,7 @@ $opacity_hover:1;
       }
     }
 
+
   }
   .blemil-title-product{
     position: relative;
@@ -124,6 +128,12 @@ $opacity_hover:1;
 @media screen and (max-width: 900px){
   .tab-content-product{
     padding-right: 0px !important;
+  }
+
+}
+@media screen and (max-width: 480px){
+  .tab-content-product{
+    padding-right: 21px !important;
   }
 
 }

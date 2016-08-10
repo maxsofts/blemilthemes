@@ -2756,7 +2756,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
         text-align-last: center; }
   .shadow-box .research-trapezoid {
     position: relative;
-    margin-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 150px;
     background-image: url("../images/main-home/trapezoid.png");
     background-repeat: no-repeat;
     background-position: top center;
@@ -3538,6 +3539,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   margin-top: 60px; }
   .list-product .active {
     opacity: 1 !important; }
+  .list-product .three-product {
+    padding: 0px 30px; }
   .list-product .product {
     opacity: 0.8;
     position: relative; }
@@ -3616,6 +3619,9 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 @media screen and (max-width: 900px) {
   .tab-content-product {
     padding-right: 0px !important; } }
+@media screen and (max-width: 480px) {
+  .tab-content-product {
+    padding-right: 21px !important; } }
 .error404 .banner {
   display: none; }
 .error404 .hotline {
@@ -3676,5 +3682,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
   @media screen and (max-width: 480px) {
     .widgets .content-widget li {
       text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .widgets .content-widget img {
+      width: 100%; } }
 
 /*# sourceMappingURL=blemil.css.map */
