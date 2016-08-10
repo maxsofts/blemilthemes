@@ -57,7 +57,7 @@
         </div><!--end day-->
         <!--begin week-->
         <div class="tab-body-content" id="week">
-            <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="7"]');?>
+                <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="7"]');?>
         </div><!--end week-->
         <div class="tab-body-content" id="month">
             <?php echo do_shortcode('[viewpost number="4" width_img="47" height_img="47" day="30"]');?>
