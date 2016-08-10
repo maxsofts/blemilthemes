@@ -16,12 +16,12 @@ if (have_posts()) {
             <div class="clearfix"></div>
             <div class="content">
                 <div class="list-product  center row">
-                    <div class="container">
+                    <div class="container three-product">
                         <!-- list sản phẩm-->
                         <?php
                         $arg = array(
                             'post_type' => 'tim-hieu',
-                            'posts_per_page' => '4',
+                            'posts_per_page' => '3',
                             'orderby' => 'name',
                             'orderby' => 'ASC'
                         );
@@ -33,17 +33,17 @@ if (have_posts()) {
                                 $list_product->the_post();
 
                                 ?>
-                                <div class="product col s12 l3 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
+                   <div class="product col s12 l4 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php if (has_post_thumbnail()): ?>
-                                            <?php the_post_thumbnail(); ?>
+                                            <?php echo get_the_post_thumbnail($post->ID, 'thumbnail-product', array("class" => 'responsive-img ')); ?>
                                         <?php else: ?>
                                             <img
                                                 src="<?php echo MAXTHEMES_URI_ASSET ?>blemil/images/main-home/product-1.png"
                                                 alt=""/>
                                         <?php endif; ?>
                                         <div class="logo">
-                                            <i class="logo-blemil large"></i><span><?php echo $count; ?></span>
+                                            <i class="logo-blemil large"></i><span> <?php echo $count; ?></span>
                                         </div>
                                         <?php if ($id_product == get_the_ID()) {
                                             ?>
@@ -63,7 +63,7 @@ if (have_posts()) {
                         ?>
                     </div>
                     <img class="bg-product hide-on-med-and-down"
-                         src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt="">
+                         src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/bg_product.png" alt="">
                 </div><!--end list product-->
                 <div class="clearfix"></div>
                 <div class="content-product row container shadow-box hide" id="content-show">
@@ -152,7 +152,6 @@ if (have_posts()) {
            class="modal-action modal-close waves-effect waves-green btn-flat teal white-text">
             Tôi là nhân viên y tế
         </a>
-
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
             Không, Cảm ơn
         </a>
