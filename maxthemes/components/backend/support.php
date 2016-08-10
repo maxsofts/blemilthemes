@@ -36,6 +36,7 @@ class support
 
         add_image_size( 'video', 750, 300, array( 'center', 'center' ) );
         add_image_size( 'thumbnail-sidebar', 47, 47, array( 'center', 'center' ) );
+        add_image_size( 'thumbnail-product', 160, 241, array( 'center', 'center' ) );
     }
 
     /**

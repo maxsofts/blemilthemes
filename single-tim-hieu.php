@@ -36,14 +36,14 @@ if (have_posts()) {
                                 <div class="product col s12 l4 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php if (has_post_thumbnail()): ?>
-                                            <?php the_post_thumbnail(); ?>
+                                            <?php echo get_the_post_thumbnail($post->ID, 'thumbnail-product', array("class" => 'responsive-img ')); ?>
                                         <?php else: ?>
                                             <img
                                                 src="<?php echo MAXTHEMES_URI_ASSET ?>blemil/images/main-home/product-1.png"
                                                 alt=""/>
                                         <?php endif; ?>
                                         <div class="logo">
-                                            <i class="logo-blemil large"></i><span><?php echo $count; ?></span>
+                                            <i class="logo-blemil large"></i><span> <?php echo $count; ?></span>
                                         </div>
                                         <?php if ($id_product == get_the_ID()) {
                                             ?>
