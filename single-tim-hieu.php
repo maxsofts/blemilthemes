@@ -33,7 +33,7 @@ if (have_posts()) {
                                 $list_product->the_post();
 
                                 ?>
-                                <div class="product col s12 l4 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
+                   <div class="product col s12 l4 m6  <?php if ($id_product == get_the_ID()) {echo 'active';}?>">
                                     <a href="<?php the_permalink(); ?>">
                                         <?php if (has_post_thumbnail()): ?>
                                             <?php echo get_the_post_thumbnail($post->ID, 'thumbnail-product', array("class" => 'responsive-img ')); ?>
@@ -152,9 +152,7 @@ if (have_posts()) {
            class="modal-action modal-close waves-effect waves-green btn-flat teal white-text">
             Tôi là nhân viên y tế
         </a>
-
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
-
             Không, Cảm ơn
         </a>
     </div>

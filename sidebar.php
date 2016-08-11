@@ -64,4 +64,3 @@
         </div><!--end week-->
     </div>
 </div>
-<?php dynamic_sidebar( 'widget_left' ); ?>

@@ -125,15 +125,22 @@ $opacity_hover:1;
   }
 }
 //responsive
-@media screen and (max-width: 900px){
-  .tab-content-product{
-    padding-right: 0px !important;
-  }
-
-}
 @media screen and (max-width: 480px){
   .tab-content-product{
-    padding-right: 21px !important;
+    padding: 21px !important;
   }
-
+  .list-product{
+    .product{
+      &:first-child{
+        img{
+          margin-left: 20%;
+        }
+      }
+    }
+  }
+.blemil-footer-email-register{
+  .button-register{
+    padding:0px 10%
+  }
+}
 }

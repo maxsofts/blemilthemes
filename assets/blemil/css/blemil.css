@@ -1482,7 +1482,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       background: #FFFFFF !important; }
 
 /* --------------------------------------------------------
-Các mục liên quan đến slide dạng carousel của material
+C├íc mß╗Ñc li├¬n quan ─æß║┐n slide dß║íng carousel cß╗ºa material
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 ----------------------------------------------------------*/
@@ -2067,7 +2067,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box .param:after, .border-box .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
   .border-box.border-box-before {
     margin-top: -80px; }
@@ -2227,7 +2227,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box-bottom .param:after, .border-box-bottom .param:before {
-      content: " • ";
+      content: " ΓÇó ";
       padding: 0 10px; }
     .border-box-bottom .param span {
       padding-bottom: 20px;
@@ -3014,7 +3014,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     margin-top: 20px; }
 
 /* --------------------------------------------------------
-Các đường gạch
+C├íc ─æ╞░ß╗¥ng gß║ích
 
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
@@ -3616,12 +3616,15 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .tab-content .active {
   display: block; }
 
-@media screen and (max-width: 900px) {
-  .tab-content-product {
-    padding-right: 0px !important; } }
 @media screen and (max-width: 480px) {
   .tab-content-product {
-    padding-right: 21px !important; } }
+    padding: 21px !important; }
+
+  .list-product .product:first-child img {
+    margin-left: 20%; }
+
+  .blemil-footer-email-register .button-register {
+    padding: 0px 10%; } }
 .error404 .banner {
   display: none; }
 .error404 .hotline {
