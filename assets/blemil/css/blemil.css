@@ -3690,4 +3690,8 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 .infor-right-content ul {
   margin-top: 0px; }
 
+@media screen and (max-width: 480px) {
+  .infor-right-content ul {
+    margin-top: 10px; } }
+
 /*# sourceMappingURL=blemil.css.map */
