@@ -1,11 +1,12 @@
 <!--Research-->
+<?php $currentLang = qtranxf_getLanguage();?>
 <?php global $maxthemes; ?>
 <section class="research">
     <fieldset class="fieldset fieldset-width-box blemil-green">
         <legend class="row">
             <div class="border-box border-box-logo blemil-green">
                 <div class="param">
-                    Tìm hiểu <i class="logo-blemil"></i>
+                    <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                 </div>
             </div>
         </legend>
@@ -30,7 +31,7 @@
                     </div>
                     <div class="readmore">
                         <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
-                            Tìm hiểu
+                            <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?>
                         </a>
                     </div>
                 </div>
@@ -49,7 +50,7 @@
                     </div>
                     <div class="readmore">
                         <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
-                            Tìm hiểu
+                            <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?>
                         </a>
                     </div>
                 </div>
@@ -73,7 +74,7 @@
                     </div>
                     <div class="readmore">
                         <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
-                            Tìm hiểu
+                            <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?>
                         </a>
                     </div>
                 </div>
@@ -92,7 +93,7 @@
                     </div>
                     <div class="readmore">
                         <a class="btn-readmore blemil-green lighten-1" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
-                            Tìm hiểu
+                            <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?>
                         </a>
                     </div>
                 </div>
@@ -110,7 +111,7 @@
                 </div>
                 <div class="readmore">
                     <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-1']); ?>">
-                        Tìm hiểu
+                        <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                     </a>
                 </div>
                 <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
@@ -125,7 +126,7 @@
                 </div>
                 <div class="readmore">
                     <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-2']); ?>">
-                        Tìm hiểu
+                        <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                     </a>
                 </div>
                 <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
@@ -140,7 +141,7 @@
                 </div>
                 <div class="readmore">
                     <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-3']); ?>">
-                        Tìm hiểu
+                        <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                     </a>
                 </div>
                 <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""
@@ -155,7 +156,7 @@
                 </div>
                 <div class="readmore">
                     <a class="btn-readmore blemil-green lighten-2" href="<?php echo get_permalink($maxthemes['home-research-product-4']); ?>">
-                        Tìm hiểu
+                        <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                     </a>
                 </div>
                 <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/trapezoid.png" alt=""

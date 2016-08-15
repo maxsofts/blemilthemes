@@ -3,16 +3,17 @@
  * Template Name: Câu truyện Blemil
  */
 get_header(); ?>
+<?php $currentLang = qtranxf_getLanguage();?>
     <main class="container shadow-box">
         <div class="row">
             <div class="border-box border-box-before col hide-on-med-and-down m8 offset-m2 l6 offset-l3 blemil-pink">
                 <div class="param">
-                    <span>Câu chuyện <i class="logo-blemil"></i></span>
+                    <span><?php echo $currentLang == 'en' ? "History": 'Câu chuyện'; ?><i class="logo-blemil"></i></span>
                 </div>
             </div>
             <div class="border-box col s12 hide-on-large-only blemil-pink">
                 <div class="param">
-                    <span>Câu chuyện <i class="logo-blemil"></i></span>
+                    <span><?php echo $currentLang == 'en' ? "History": 'Câu chuyện'; ?> <i class="logo-blemil"></i></span>
                 </div>
             </div>
         </div>

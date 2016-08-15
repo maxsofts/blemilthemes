@@ -19,6 +19,7 @@
 <body <?php body_class(); ?>
 <!-- Header-->
 <?php global $maxthemes; ?>
+<?php $currentLang = qtranxf_getLanguage();?>
 <header>
     <!-- Menu top -->
     <nav class="blemil-nav-top">
@@ -31,13 +32,23 @@
                     class="material-icons">menu</i></a>
             <!-- menu for large screens -->
             <div class="large-screens hide-on-med-and-down">
-                <ul class="right">
-                    <li>
-                        <a href="#modal_search" class="modal-trigger">
-                            <i class="material-icons">search</i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="right">
+                    <ul class="left">
+                        <li>
+                            <a href="#modal_search" class="modal-trigger">
+                                <i class="material-icons">search</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="language right">
+                        <?php if ( is_active_sidebar( 'language' ) ) : ?>
+                            <?php dynamic_sidebar( 'language' ); ?>
+                        <?php endif; ?>
+
+                    </div>
+
+                </div>
+
                 <?php
                 wp_nav_menu(array(
                     'theme_location' => 'header-menu', // tên location cần hiển thị

@@ -1,9 +1,10 @@
 <!--story -->
+<?php $currentLang = qtranxf_getLanguage();?>
 <?php global $maxthemes; ?>
 <section class="story row">
     <div class="border-box border-box-before border-box-logo col s12 m8 offset-m2 l4 offset-l4 blemil-pink">
         <div class="param">
-            Câu truyện <i class="logo-blemil"></i>
+            <?php echo $currentLang == 'en' ? "History": 'Câu chuyện'; ?><i class="logo-blemil"></i>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -26,12 +27,12 @@
                 </div>
                 <div class="readmore">
                     <a class="btn-readmore blemil-green-text" href="<?php echo $story_page->guid; ?>">
-                        Xem thêm
+                        <?php echo $currentLang == 'en' ? "See more": 'Xem thêm'; ?>
                     </a>
                 </div>
             <?php else: ?>
                 <article>
-                    <h1>Chưa có nội dung hiển thị</h1>
+                    <h1><?php echo $currentLang == 'en' ? "No content display": 'Chưa có nội dung hiển thị'; ?></h1>
                 </article>
             <?php endif; ?>
         </div>

@@ -4,12 +4,13 @@
  */
 get_header();
 ?>
+<?php $currentLang = qtranxf_getLanguage();?>
     <!--location-->
     <section class="location">
         <div class="row">
             <div class="border-box blemil-pink col s12 m8 offset-m2 l4 offset-l4">
                 <div class="param">
-                    Mua <i class="logo-blemil"></i> ở đâu
+                    <?php echo $currentLang == 'en' ? "Buy": 'Mua'; ?> <i class="logo-blemil"></i> <?php echo $currentLang == 'en' ? "Where to": 'Ở đâu'; ?>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -26,7 +27,7 @@ get_header();
                         ?>
                         <div class="input-field col s12">
                             <select id="district" class="blemil-pink">
-                                <option value="0">Chọn Tỉnh</option>
+                                <option value="0"><?php echo $currentLang == 'en' ? "Select province": 'Chọn tỉnh'; ?></option>
                                 <?php if ($districts):foreach ($districts as $district): ?>
                                     <option
                                         value="<?php echo $district->term_id; ?>"><?php echo $district->name; ?></option>
@@ -36,7 +37,7 @@ get_header();
                         </div>
                         <div class="input-field col s12">
                             <select class="blemil-pink" id="province">
-                                <option value="0">Chọn Huyện</option>
+                                <option value="0"><?php echo $currentLang == 'en' ? "Select district": 'Chọn huyện'; ?></option>
                             </select>
                         </div>
                     </div>

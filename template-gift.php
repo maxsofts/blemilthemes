@@ -7,12 +7,12 @@ get_header(); ?>
         <div class="row">
             <div class="border-box border-box-before col hide-on-med-and-down m8 offset-m2 l6 offset-l3 blemil-primary">
                 <div class="param">
-                    <span>Quà tặng bé yêu</span>
+                    <span><?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?></span>
                 </div>
             </div>
             <div class="border-box col s12 hide-on-large-only blemil-primary">
                 <div class="param">
-                    <span>Quà tặng bé yêu</span>
+                    <span><?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?></span>
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
 //App init
 $(document).ready(function () {
+    //Language
+    $('li.lang-en span').text('EN');
+    $('li.lang-vi span').text('VI');
     $('.modal-trigger').leanModal({
         dismissible: true, // Modal can be dismissed by clicking outside of the modal
         opacity: .5, // Opacity of modal background

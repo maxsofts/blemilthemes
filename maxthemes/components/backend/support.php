@@ -53,6 +53,15 @@ class support
                 'before_title' => '<h2>',
                 'after_title' => '</h2>'
             ));
+            register_sidebar(array(
+                'name' => 'Language',
+                'id' => 'language',
+                'description' => 'this is laguage in web.',
+                'before_widget' => '<div id="%1$s" class="widget %2$s">',
+                'after_widget' => '</div>',
+                'before_title' => '<h2>',
+                'after_title' => '</h2>'
+            ));
         }
     }
 }

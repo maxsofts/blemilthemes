@@ -10,7 +10,7 @@ if (have_posts()) {
             <div
                 class="border-box border-box-before border-box-logo col s12 m8 offset-m2 l4 offset-l4 blemil-green clearfix">
                 <div class="param">
-                    Tìm hiểu <i class="logo-blemil"></i>
+                    <?php echo $currentLang == 'en' ? "Research": 'Tìm hiểu'; ?> <i class="logo-blemil"></i>
                 </div>
             </div>
             <div class="clearfix"></div>
