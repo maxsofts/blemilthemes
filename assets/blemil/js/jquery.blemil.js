@@ -2,7 +2,7 @@
 $(document).ready(function () {
     $('li.lang-en span').text('EN');
     $('li.lang-vi span').text('VI');
-   /* $('.modal-trigger').leanModal({
+   $('.modal-trigger').leanModal({
         dismissible: true, // Modal can be dismissed by clicking outside of the modal
         opacity: .5, // Opacity of modal background
         in_duration: 300, // Transition in duration
@@ -11,6 +11,7 @@ $(document).ready(function () {
         ending_top: '10%' //, // Ending top style attribute
 
     });
+    /*
     $('.modal-trigger').leanModal({
         starting_top: '4%', // Starting top style attribute
         ending_top: '10%' //, // Ending top style attribute
