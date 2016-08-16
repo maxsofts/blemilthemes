@@ -84,13 +84,16 @@ class ajax
             ?>
             <div class="col s6">
                 <article id="address_<?php echo $post->ID; ?>" class="location-item">
-                    <?php if (has_post_thumbnail($post->ID)): ?>
+
+                    <?php /*if (has_post_thumbnail($post->ID)): ?>
+
                         <?php echo get_the_post_thumbnail($post->ID, 'rectangle', array("class" => 'responsive-img ')); ?>
                     <?php else: ?>
                         <img src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/main-home/cuahang1.jpg"
                              alt=""
                              class="responsive-img"/>
-                    <?php endif; ?>
+
+                    <?php endif; */?>
 
                     <div class="content">
                         <h6 class="title blemil-pink-text"><?php echo $post->post_title; ?></h6>

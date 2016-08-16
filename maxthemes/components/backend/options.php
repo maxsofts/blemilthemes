@@ -272,12 +272,20 @@ Redux::setSection($opt_name, array(
             'default' => 'Dòng sữa Bio Premium - Sữa công thức sinh học cao cấp chất lượng vượt trội, được nhập khẩu nguyên hộp từ châu Âu'
         ),
         array(
+            'id' => 'basic-about-text_en',
+            'type' => 'text',
+            'title' => __('Giới thiệu về Blemil Plus tiếng anh', 'maxthemes'),
+            'subtitle' => __('Lời giới thiệu của công ty bằng tiếng anh', 'maxthemes'),
+            'default' => 'Dòng sữa Bio Premium - Sữa công thức sinh học cao cấp chất lượng vượt trội, được nhập khẩu nguyên hộp từ châu Âu'
+        ),
+        array(
             'id' => 'basic-about-hotline',
             'type' => 'text',
             'title' => __('Đường dây nóng', 'maxthemes'),
             'subtitle' => __('Hotline', 'maxthemes'),
             'default' => '1800 6698'
         ),
+
         array(
             'id' => 'basic-about-email',
             'type' => 'text',
@@ -295,6 +303,13 @@ Redux::setSection($opt_name, array(
             'default' => 'Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội'
         ),
         array(
+            'id' => 'basic-about-address_en',
+            'type' => 'text',
+            'title' => __('Địa chỉ tiếng anh', 'maxthemes'),
+            'subtitle' => __('address', 'maxthemes'),
+            'default' => 'Số nhà 28 ngõ 46 Phạm Ngọc Thạch, Phường Phương Liên, Quận Đống Đa, Hà Nội'
+        ),
+        array(
             'id' => 'basic-about-website',
             'type' => 'text',
             'title' => __('Trang Web', 'maxthemes'),
@@ -303,7 +318,42 @@ Redux::setSection($opt_name, array(
         ),
     )
 ));
-
+Redux::setSection($opt_name, array(
+    'title' => __('Thông tin popup', 'maxthemes'),
+    'id' => 'basic-popup',
+    'subsection' => true,
+    'customizer_width' => '450px',
+    'fields' => array(
+        array(
+            'id' => 'basic-popup-title',
+            'type' => 'text',
+            'title' => __('Tiêu đề', 'maxthemes'),
+            'subtitle' => __('là tiêu đề popup tìm hiểu blemil ', 'maxthemes'),
+            'default' => 'Sữa mẹ là tốt nhất cho trẻ sơ sinh và trẻ nhỏ'
+        ),
+        array(
+            'id' => 'basic-popup-title-en',
+            'type' => 'text',
+            'title' => __('Tiêu đề tiếng anh', 'maxthemes'),
+            'subtitle' => __('là tiêu đề popup tìm hiểu blemil ', 'maxthemes'),
+            'default' => 'Sữa mẹ là tốt nhất cho trẻ sơ sinh và trẻ nhỏ'
+        ),
+        array(
+            'id' => 'basic-social-content',
+            'type' => 'text',
+            'title' => __('Nội dung', 'maxthemes'),
+            'subtitle' => __('là tiêu đề popup tìm hiểu blemil ', 'maxthemes'),
+            'default' => 'Thông tin này chỉ dành cho cán bộ y tế và mang tính chất tham khảo. Vui lòng xác nhận trước khi đọc tiếp.'
+        ),
+        array(
+            'id' => 'basic-social-content-en',
+            'type' => 'text',
+            'title' => __('Nội dung', 'maxthemes'),
+            'subtitle' => __('là tiêu đề popup tìm hiểu blemil ', 'maxthemes'),
+            'default' => 'Thông tin này chỉ dành cho cán bộ y tế và mang tính chất tham khảo. Vui lòng xác nhận trước khi đọc tiếp.'
+        ),
+    )
+));
 
 Redux::setSection($opt_name, array(
     'title' => __('Mạng xã hội', 'maxthemes'),

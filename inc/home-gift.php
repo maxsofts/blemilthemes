@@ -1,9 +1,10 @@
 <?php global $maxthemes; ?>
+<?php $currentLang = qtranxf_getLanguage();?>
 <!-- Gift-->
 <section class="gift row shadow-box">
     <div class="border-box blemil-primary col s12 m8 offset-m2 l4 offset-l4">
         <div class="param">
-            Quà tặng bé yêu
+            <?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -29,7 +30,7 @@
                 </div>
                 <div class="readmore center">
                     <a class="btn-readmore blemil-primary" href="<?php echo $post->guid; ?>">
-                        Xem chi tiết
+                        <?php echo $currentLang == 'en' ? "See details": 'Xem chi tiết'; ?>
                     </a>
                 </div>
             </div><!-- End For desktop -->
@@ -52,7 +53,7 @@
                     <div class="card-action">
                         <div class="readmore center">
                             <a class="btn-readmore blemil-primary-text" href="<?php echo $post->guid; ?>">
-                                Xem chi tiết
+                                <?php echo $currentLang == 'en' ? "See details": 'Xem chi tiết'; ?>
                             </a>
                         </div>
                     </div>
@@ -61,7 +62,7 @@
 
         <?php else: ?>
             <article>
-                <h1>Chưa có nội dung hiển thị</h1>
+                <h1><?php echo $currentLang == 'en' ? "No display content": 'Chưa có nội dung hiện thị'; ?></h1>
             </article>
         <?php endif; ?>
     </div>

@@ -1,6 +1,6 @@
 <?php
 global $maxthemes;
-
+$currentLang = qtranxf_getLanguage();
 $args = array(
     'posts_per_page' => -1,
     'post__in' => get_option('sticky_posts'),
@@ -19,7 +19,7 @@ $query = new WP_Query($args);
     <div class="row">
         <div class="border-box blemil-primary col s12 m8 offset-m2 l4 offset-l4">
             <div class="param">
-                Cộng đồng mẹ thông thái
+                <?php echo $currentLang == 'en' ? "Community SmartWoman": 'Cộng đồng mẹ thông thái'; ?>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@ $query = new WP_Query($args);
                     </ul>
                 </div>
                 <?php else: ?>
-                    <h1>Xin lỗi chúng tôi chưa có Video để hiển thị</h1>
+                    <h1><?php echo $currentLang == 'en' ? "Sorry our video not have to show": 'Xin lỗi chúng tôi chưa có Video để hiển thị'; ?></h1>
                 <?php endif; ?>
             </div>
             <div class="col s12 m4">
@@ -79,7 +79,7 @@ $query = new WP_Query($args);
                      data-show-posts="false"></div>
 
                 <div class="social">
-                    <h6 class="title">Theo Dõi Blemil Plus tại</h6>
+                    <h6 class="title"><?php echo $currentLang == 'en' ? "Subscribe Blemil at": 'Theo dõi Blemil tại'; ?></h6>
                     <ul>
                         <li>
                             <a href="<?php echo $maxthemes['basic-social-facebook'] ? $maxthemes['basic-social-facebook'] : ""; ?>">

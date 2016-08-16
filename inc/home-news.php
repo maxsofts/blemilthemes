@@ -1,4 +1,5 @@
 <!--News-->
+<?php $currentLang = qtranxf_getLanguage();?>
 <?php
 
 $args = array(
@@ -21,7 +22,7 @@ $query = new WP_Query($args);
     </fieldset>
     <div class="border-box-bottom col s12 m8 offset-m2 l4 offset-l4">
         <div class="param">
-            <span>Tin tức</span>
+            <span><?php echo $currentLang == 'en' ? "News": 'Tin tức'; ?></span>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -75,7 +76,7 @@ $query = new WP_Query($args);
 
                                     <p><?php the_excerpt_max_charlength(40); ?></p>
 
-                                    <a class="view-more right" href="<?php the_permalink(); ?>">Xem chi tiết</a>
+                                    <a class="view-more right" href="<?php the_permalink(); ?>"> <?php echo $currentLang == 'en' ? "View more": 'Xem chi tiết'; ?></a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ $query = new WP_Query($args);
                 </div>
             <?php endif; ?>
         <?php else: ?>
-            <h1>Thông tin chưa được cập nhật</h1>
+            <h1> <?php echo $currentLang == 'en' ? "Information is not updated": 'Thông tin chưa được cập nhật'; ?></h1>
         <?php endif; ?>
     </div>
 

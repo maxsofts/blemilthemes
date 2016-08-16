@@ -1,5 +1,7 @@
 <!-- footer -->
 <?php global $maxthemes; ?>
+
+<?php $currentLang = qtranxf_getLanguage();?>
 <footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
         <div class="row clearfix-margin">
@@ -17,7 +19,9 @@
         </div><!--end div 1-->
         <div class="row blemil-footer-top center-align clearfix-margin">
             <div class="col s12 m6">
-                <p class="text-center font-size-14 ">Sản phẩm được phân phối bởi công ty BT Foods</p>
+
+                <p class="text-center font-size-14 ">Sản phẩm được phân phối bởi công ty </p>
+
                 <br/>
 
                 <p class="text-center"><i class="logo-blemil large"></i></p>
@@ -45,9 +49,16 @@
                     </li>
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
-                            <div class="col s2">Địa chỉ:</div>
+
+                            <div class="col s2"><?php echo $currentLang == 'en' ? "Address": 'Địa chỉ'; ?>:</div>
                             <div
-                                class="col s10"><?php echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : ""; ?>
+                                class="col s10"><?php
+                                 if($currentLang='en'){
+                                     echo $maxthemes['basic-about-address_en'] ? $maxthemes['basic-about-address_en'] : "";
+                                 }else{
+                                echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : "";
+                                 }?>
+
                             </div>
                         </div>
                     </li>
@@ -114,7 +125,7 @@
         </div><!--end div 3-->
     </div>
     <div class="footer-copyright white-text green center-align">
-        Copyright © 2016 BT Foods. All right Reserved.
+        Copyright © 2016 Blemil. All right Reserved.
     </div>
     <div class="backtop waves-effect waves-light border-radius-10 white z-depth-3">
         <div class="small-backtop border-radius-10 center-align">
