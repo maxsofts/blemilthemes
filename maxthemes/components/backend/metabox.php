@@ -19,8 +19,9 @@ class metabox
         /**
          * Thông tin trang tìm hiểu
          */
+        //tiếng việt
         $meta_boxes[] = array(
-            'title' => __('Box đặc điểm nổi bật', 'maxthemes'),
+            'title' => __('Box đặc điểm nổi bật tiếng việt', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
@@ -36,8 +37,27 @@ class metabox
                 ),)
 
         );
+        //tiếng anh
         $meta_boxes[] = array(
-            'title' => __('Box lợi ích sản phẩm', 'maxthemes'),
+            'title' => __('Box đặc điểm nổi bật tiếng anh', 'maxthemes'),
+            'post_types' => 'tim-hieu',
+            'fields' => array(
+                array(
+                    'id' => 'name_highlights_en',
+                    'name' => __('Tiêu đề', 'maxthemes'),
+                    'type' => 'text',
+                    'std' => "Đặc điểm nổi bật"
+                ),
+                array(
+                    'id' => 'content_highlights_en',
+                    'name' => __('Nội dung', 'maxthemes'),
+                    'type' => 'wysiwyg',
+                ),)
+
+        );
+        //tiếng việt
+        $meta_boxes[] = array(
+            'title' => __('Box lợi ích sản phẩm tiếng việt', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
@@ -53,8 +73,27 @@ class metabox
                 ),)
 
         );
+        //tiếng anh
         $meta_boxes[] = array(
-            'title' => __('Box thông tin dinh dưỡng', 'maxthemes'),
+            'title' => __('Box lợi ích sản phẩm tiếng anh', 'maxthemes'),
+            'post_types' => 'tim-hieu',
+            'fields' => array(
+                array(
+                    'id' => 'name_benefit_en',
+                    'name' => __('Tiêu đề', 'maxthemes'),
+                    'type' => 'text',
+                    'std' => "lợi ích sản phẩm"
+                ),
+                array(
+                    'id' => 'content_benefit_en',
+                    'name' => __('Nội dung', 'maxthemes'),
+                    'type' => 'wysiwyg',
+                ),)
+
+        );
+        //tiếng việt
+        $meta_boxes[] = array(
+            'title' => __('Box thông tin dinh dưỡng tiếng việt', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
@@ -70,8 +109,27 @@ class metabox
                 ),)
 
         );
+        //tiếng anh
         $meta_boxes[] = array(
-            'title' => __('Box quy tắc đóng gói', 'maxthemes'),
+            'title' => __('Box thông tin dinh dưỡng tiếng anh', 'maxthemes'),
+            'post_types' => 'tim-hieu',
+            'fields' => array(
+                array(
+                    'id' => 'name_information_en',
+                    'name' => __('Tiêu đề', 'maxthemes'),
+                    'type' => 'text',
+                    'std' => 'Thông tin dinh dưỡng'
+                ),
+                array(
+                    'id' => 'content_information_en',
+                    'name' => __('Nội dung', 'maxthemes'),
+                    'type' => 'wysiwyg',
+                ),)
+
+        );
+        //tiếng việt
+        $meta_boxes[] = array(
+            'title' => __('Box quy tắc đóng gói tiếng việt', 'maxthemes'),
             'post_types' => 'tim-hieu',
             'fields' => array(
                 array(
@@ -82,6 +140,23 @@ class metabox
                 ),
                 array(
                     'id' => 'content_rule',
+                    'name' => __('Nội dung', 'maxthemes'),
+                    'type' => 'wysiwyg',
+                ),)
+
+        ); //End thông tin trang tìm hiểu
+        $meta_boxes[] = array(
+            'title' => __('Box quy tắc đóng gói tiếng anh', 'maxthemes'),
+            'post_types' => 'tim-hieu',
+            'fields' => array(
+                array(
+                    'id' => 'name_rule_en',
+                    'name' => __('Tiêu đề', 'maxthemes'),
+                    'type' => 'text',
+                    'std' => 'Quy tắc đóng gói'
+                ),
+                array(
+                    'id' => 'content_rule_en',
                     'name' => __('Nội dung', 'maxthemes'),
                     'type' => 'wysiwyg',
                 ),)

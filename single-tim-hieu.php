@@ -1,11 +1,12 @@
 <?php
 get_header();
+$currentLang = qtranxf_getLanguage();
+ global $maxthemes;
 if (have_posts()) {
     while (have_posts()) {
         the_post();
         $id_product = $post->ID;
         ?>
-
         <section class="research row">
             <div
                 class="border-box border-box-before border-box-logo col s12 m8 offset-m2 l4 offset-l4 blemil-green clearfix">
@@ -73,16 +74,28 @@ if (have_posts()) {
                             <?php
                             $content_product = array('highlights', 'benefit', 'information', 'rule');
                             $active = 0;
+
                             foreach ($content_product as $content) {
                                 $active++;
-                                $title = 'name_' . $content;
+                                if($currentLang == 'en'){
+                                    $title_en='name_'.$content.'_en';
+                                }else{
+                                    $title = 'name_'.$content;
+                                }
+
                                 ?>
                                 <li class="blemil-green border-radius-5 waves-effect waves-light waves-block <?php if ($active == 1) {
                                     echo "active";
                                 } ?>">
                                     <div class="white-text border-radius-5 border-li border-box-color">
                                         <a id="#<?php echo $content; ?>">
-                                            <?php echo rwmb_meta($title); ?>
+                                            <?php  if($currentLang == 'en'){
+                                                echo rwmb_meta($title_en);
+                                            }
+                                            else{
+                                                echo rwmb_meta($title);
+                                            }
+                                            ?>
                                             <i class="fa fa-play-circle" aria-hidden="true"></i></a>
                                     </div>
                                 </li>
@@ -94,13 +107,12 @@ if (have_posts()) {
                     </div>
                     <div class="col m8 s12 tab-content">
                         <?php $active = 0;
-                        foreach ($content_product as $content) {
+                        foreach ($content_product as $content_right) {
                             $active++;
-                            $title = 'name_' . $content;
-                            $content_second = 'content_' . $content;
+
                             ?>
                             <!-- begin contet right-->
-                            <div id="<?php echo $content; ?>" class="tab-body-content <?php if ($active == 1) {
+                            <div id="<?php echo $content_right; ?>" class="tab-body-content <?php if ($active == 1) {
                                 echo "active";
                             } ?>">
                                 <div class="blemil-title-product border-radius-5 blemil-pink  white-text">
@@ -112,12 +124,30 @@ if (have_posts()) {
                                          alt="">
 
                                     <div class="border-box-color">
-                                        <h5 class="font-size-15"> <?php echo rwmb_meta($title); ?></h5>
+                                        <h5 class="font-size-15">
+                                            <?php  if($currentLang == 'en'){
+                                                $title_right_en= 'name_' . $content_right.'_en';
+                                                echo rwmb_meta($title_right_en);
+                                            }
+                                            else{
+                                                $title= 'name_' . $content_right;
+                                                echo rwmb_meta($title);
+                                            }
+                                            ?></h5>
                                     </div>
                                 </div><!--end blemil title-->
                                 <div class="row text-content-product">
                                     <div class="col m8 s12 text-content-product-left">
-                                        <?php echo rwmb_meta($content_second); ?>
+                                        <?php  if($currentLang == 'en'){
+                                            $content_second_en= 'content_'.$content_right.'_en';
+                                            echo rwmb_meta($content_second_en);
+                                        }
+                                        else{
+                                            $content_second = 'content_'.$content_right;
+                                            echo rwmb_meta($content_second);
+
+                                        }
+                                        ?>
 
                                     </div>
                                     <div class="col m4 s12 text-content-right center">
@@ -139,13 +169,29 @@ if (have_posts()) {
 }
 ?>
 <!--modal popup-->
+
 <div class="modal" id="checklink">
     <div class="modal-header blemil-green padding-20">
-        <h4 class="center-align white-text">Sữa mẹ là tốt nhất cho trẻ sơ sinh và trẻ nhỏ<h4>
+        <h4 class="center-align white-text">
+            <?php
+            if($currentLang=='en'){
+                echo $maxthemes['basic-popup-title-en'] ? $maxthemes['basic-popup-title-en'] : "";
+            }
+            else{
+                echo $maxthemes['basic-popup-title'] ? $maxthemes['basic-popup-title'] : "";
+            }
+            ?>
+            <h4>
     </div>
     <div class="modal-content">
-        Thông tin này chỉ dành cho cán bộ y tế và mang tính chất tham khảo.
-        Vui lòng xác nhận trước khi đọc tiếp.
+        <?php
+        if($currentLang=='en'){
+            echo $maxthemes['basic-social-content-en'] ? $maxthemes['basic-social-content-en'] : "";
+        }
+        else{
+            echo $maxthemes['basic-social-content'] ? $maxthemes['basic-social-content'] : "";
+        }
+        ?>
     </div>
     <div class="modal-footer">
         <a href="#!" onclick="$('#content-show').removeClass('hide')"

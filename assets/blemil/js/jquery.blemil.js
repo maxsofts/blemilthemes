@@ -1,9 +1,8 @@
 //App init
 $(document).ready(function () {
-    //Language
     $('li.lang-en span').text('EN');
     $('li.lang-vi span').text('VI');
-    $('.modal-trigger').leanModal({
+   /* $('.modal-trigger').leanModal({
         dismissible: true, // Modal can be dismissed by clicking outside of the modal
         opacity: .5, // Opacity of modal background
         in_duration: 300, // Transition in duration
@@ -16,6 +15,7 @@ $(document).ready(function () {
         starting_top: '4%', // Starting top style attribute
         ending_top: '10%' //, // Ending top style attribute
     });
+    */
     $(".button-collapse").sideNav({
         edge: 'right'
     });
@@ -86,24 +86,97 @@ $(document).ready(function () {
     /**
      * Ajax district
      */
-    $('select#district').ajaxAction();
+    $('select#district').ajaxAction({
+        'action': 'get_province',
+        'event': 'change',
+        'return_id': 'province',
+        'type': "selectOptions"
+    });
 
+    $('select#district').ajaxAction({
+        'action': 'get_html_locations',
+        'event': 'change',
+        'return_id': 'locations_list',
+        'type': "renderLocations"
+    });
+
+    $('select#province').ajaxAction({
+        'action': 'get_html_locations',
+        'event': 'change',
+        'return_id': 'locations_list',
+        'type': "renderLocations"
+    });
+
+    if($('#checklink').length){
+        $('#checklink').openModal();
+    }
 });
 
 
 //Function
 (function () {
+
     $.fn.ajaxAction = function (options) {
         var defaults = {
             action: "myaction",
             data: "object|string",
             type: "selectOptions",
-            event: "onChange",
-            return_id: "results"
+            event: "change", //Change - click - doubleclick v.v...
+            return_id: ""
         };
 
-        this.change(function () {
-            console.log($(this).val());
+        options = $.extend(defaults, options);
+
+        this.on(options.event, function () {
+            var key = $(this).val();
+            if (key != 0) {
+                $.ajax({
+                    type: 'POST',
+                    data: {
+                        'action': options.action,
+                        'data': key
+                    },
+                    url: ajaxurl,
+                    success: function (results) {
+                        switch (options.type) {
+                            case 'selectOptions':
+                                $.fn.selectOptions(options, results);
+                                break;
+                            case 'renderLocations':
+                                $.fn.renderLocations(options, results);
+                                break;
+                            default:
+                                break;
+                        }
+                    },
+                    error: function () {
+
+                    }
+                });
+            }
         });
+    };
+
+    $.fn.selectOptions = function (options, data) {
+        if (options.return_id != '') {
+            var obj = JSON.parse(data);
+
+            $("select#" + options.return_id + " option").remove();
+
+            $.each(obj, function (i, item) {
+                $("select#" + options.return_id).append("<option value=" + i + ">" + item + "</option>");
+            });
+
+            $("select#" + options.return_id).material_select();
+        }
+    };
+
+
+    $.fn.renderLocations = function (options, data) {
+        if (options.return_id != '') {
+            $("#" + options.return_id).empty();
+
+            $("#" + options.return_id).append(data);
+        }
     };
 })(jQuery);

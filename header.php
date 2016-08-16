@@ -102,11 +102,25 @@
         </div><!-- End logo-->
         <div class="content">
             <p class="billy-bold-text white-text hide-on-med-and-down">
-                <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
+                <?php
+                 if($currentLang=='en'){
+                     echo $maxthemes['basic-about-text_en'] ? $maxthemes['basic-about-text_en'] : "";
+                 }
+                else{
+                    echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : "";
+                }
+                ?>
             </p>
 
             <p class="billy-bold-text white-text hide-on-large-only">
-                <?php echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : ""; ?>
+                <?php
+                if($currentLang=='en'){
+                    echo $maxthemes['basic-about-text_en'] ? $maxthemes['basic-about-text_en'] : "";
+                }
+                else{
+                    echo $maxthemes['basic-about-text'] ? $maxthemes['basic-about-text'] : "";
+                }
+                ?>
             </p>
         </div>
         <!--Chickend-->
