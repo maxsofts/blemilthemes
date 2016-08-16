@@ -24,6 +24,12 @@
     <!-- Menu top -->
     <nav class="blemil-nav-top">
         <div class="nav-wrapper container">
+            <div class="language left hide-on-large-only language-mobile">
+                <?php if ( is_active_sidebar( 'language' ) ) : ?>
+                    <?php dynamic_sidebar( 'language' ); ?>
+                <?php endif; ?>
+
+            </div>
             <a class="brand-logo">
                 <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" alt="Logo"
                      class="responsive-img"/>
@@ -83,7 +89,12 @@
         <div class="hotline right hide-on-med-and-down">
             <div class="content">
                 <i class="material-icons">phone</i>
-                <p class="title">Chuyên gia tư vấn</p>
+                <p class="title"><?php if($currentLang=='en'){
+                        echo 'Consultants&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+                    }
+                    else{
+                        echo 'Chuyên gia tư vấn';
+                    }?></p>
                 <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
             </div>
         </div>
