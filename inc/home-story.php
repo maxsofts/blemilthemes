@@ -5,7 +5,7 @@
     <div class="border-box border-box-before border-box-logo col s12 m8 offset-m2 l4 offset-l4 blemil-pink">
         <div class="param">
 
-            <?php echo $currentLang == 'en' ? "History": 'Câu chuyện'; ?><i class="logo-blemil"></i>
+            <?php echo $currentLang == 'en' ? "History ": 'Câu chuyện '; ?><i class="logo-blemil"></i>
 
         </div>
     </div>

@@ -24,7 +24,17 @@
     <!-- Menu top -->
     <nav class="blemil-nav-top">
         <div class="nav-wrapper container">
+<<<<<<< HEAD
             <a class="brand-logo" href="<?php bloginfo('home') ?>">
+=======
+            <div class="language left hide-on-large-only language-mobile">
+                <?php if ( is_active_sidebar( 'language' ) ) : ?>
+                    <?php dynamic_sidebar( 'language' ); ?>
+                <?php endif; ?>
+
+            </div>
+            <a class="brand-logo">
+>>>>>>> origin/congdonglangsoi
                 <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" alt="Logo"
                      class="responsive-img"/>
             </a>
@@ -83,10 +93,14 @@
         <div class="hotline right hide-on-med-and-down">
             <div class="content">
                 <i class="material-icons">phone</i>
+                <p class="title"><?php if($currentLang=='en'){
+                        echo 'Consultants&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+                    }
+                    else{
+                        echo 'Chuyên gia tư vấn';
+                    }?></p>
+                <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
 
-                <p class="title">Chuyên gia tư vấn</p>
-                <a href="tel:<?php echo $maxthemes['basic-about-hotline'] ? str_replace(" ", ".", $maxthemes['basic-about-hotline']) : ""; ?>"
-                   class="mobile"><?php echo $maxthemes['basic-about-hotline'] ? $maxthemes['basic-about-hotline'] : ""; ?></a>
             </div>
         </div>
     </div><!--endhotline-->
