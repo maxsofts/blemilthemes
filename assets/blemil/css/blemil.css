@@ -1482,7 +1482,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
       background: #FFFFFF !important; }
 
 /* --------------------------------------------------------
-C├íc mß╗Ñc li├¬n quan ─æß║┐n slide dß║íng carousel cß╗ºa material
+Các mục liên quan đến slide dạng carousel của material
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
 ----------------------------------------------------------*/
@@ -2067,7 +2067,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box .param:after, .border-box .param:before {
-      content: " ΓÇó ";
+      content: " • ";
       padding: 0 10px; }
   .border-box.border-box-before {
     margin-top: -80px; }
@@ -2227,7 +2227,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     padding: 20px 0 !important;
     border-radius: 20px; }
     .border-box-bottom .param:after, .border-box-bottom .param:before {
-      content: " ΓÇó ";
+      content: " • ";
       padding: 0 10px; }
     .border-box-bottom .param span {
       padding-bottom: 20px;
@@ -3014,7 +3014,7 @@ email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
     margin-top: 20px; }
 
 /* --------------------------------------------------------
-C├íc ─æ╞░ß╗¥ng gß║ích
+Các đường gạch
 
 author: Tran Xuan Duc
 email: duc.tran@maxgroup.vn or ductranxuan.29710@gmail.com
