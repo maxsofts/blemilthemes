@@ -90,11 +90,11 @@
             <div class="content">
                 <i class="material-icons">phone</i>
                 <p class="title"><?php if($currentLang=='en'){
-                        echo 'Consultants&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp';
+                        echo 'Consultants';
                     }
                     else{
                         echo 'Chuyên gia tư vấn';
-                    }?></p>
+                    }?></p><br/>
                 <a href="tel:<?php echo $maxthemes['basic-about-hotline']?str_replace(" ",".",$maxthemes['basic-about-hotline']):""; ?>" class="mobile"><?php echo $maxthemes['basic-about-hotline']?$maxthemes['basic-about-hotline']:""; ?></a>
 
             </div>
@@ -114,7 +114,7 @@
         </div><!-- End logo-->
         <div class="content">
 
-            <p class="billy-bold-text white-text hide-on-med-and-down">
+            <p class="text-bold white-text hide-on-med-and-down">
                 <?php
                  if($currentLang=='en'){
                      echo $maxthemes['basic-about-text_en'] ? $maxthemes['basic-about-text_en'] : "";
@@ -125,7 +125,7 @@
                 ?>
             </p>
 
-            <p class="billy-bold-text white-text hide-on-large-only">
+            <p class="text-bold white-text hide-on-large-only">
                 <?php
                 if($currentLang=='en'){
                     echo $maxthemes['basic-about-text_en'] ? $maxthemes['basic-about-text_en'] : "";

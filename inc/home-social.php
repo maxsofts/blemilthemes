@@ -19,7 +19,7 @@ $query = new WP_Query($args);
     <div class="row">
         <div class="border-box blemil-primary col s12 m8 offset-m2 l4 offset-l4">
             <div class="param">
-                <?php echo $currentLang == 'en' ? "Community SmartWoman": 'Cộng đồng mẹ thông thái'; ?>
+                <?php echo $currentLang == 'en' ? " SMART WOMAN'S COMMUNITY": 'Cộng đồng mẹ thông thái'; ?>
             </div>
         </div>
     </div>

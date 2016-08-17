@@ -4,7 +4,7 @@
 <section class="gift row shadow-box">
     <div class="border-box blemil-primary col s12 m8 offset-m2 l4 offset-l4">
         <div class="param">
-            <?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?>
+            <?php echo $currentLang == 'en' ? "PROMOTIONS": 'Quà tặng bé yêu'; ?>
         </div>
     </div>
     <div class="clearfix"></div>

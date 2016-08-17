@@ -12,7 +12,7 @@ get_header();
             <div class="border-box blemil-pink col s12 m8 offset-m2 l4 offset-l4">
                 <div class="param">
 
-                    <?php echo $currentLang == 'en' ? "Buy": 'Mua'; ?> <i class="logo-blemil"></i> <?php echo $currentLang == 'en' ? "Where to": 'Ở đâu'; ?>
+                    <?php echo $currentLang == 'en' ? "Where to buy": 'Mua'; ?> <i class="logo-blemil"></i> <?php echo $currentLang == 'en' ? "": 'Ở đâu'; ?>
 
                 </div>
             </div>

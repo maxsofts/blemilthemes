@@ -1,18 +1,27 @@
 <!-- footer -->
 <?php global $maxthemes; ?>
 
-<?php $currentLang = qtranxf_getLanguage();?>
+<?php $currentLang = qtranxf_getLanguage(); ?>
 <footer class="page-footer blemil-primary blemil-footer opacity-09 white-text">
     <div class="container">
         <div class="row clearfix-margin">
             <div class="col s12 m6 blemil-footer-left">
                 <div class="blemil-footer-top center-align">
-                    <h5 class="text-center font-size-18">nhận thông tin ưu đãi và giải đáp thắc mắc</h5>
+                    <h5 class="text-center font-size-18">
+                        <?php echo $currentLang == 'en' ? "Sign up to receive update information" : 'Nhận thông tin ưu đãi và giải đáp thắc mắc '; ?>
+                    </h5>
                 </div>
             </div>
             <div class="col s12 m6 blemil-footer-right">
                 <div class="blemil-footer-email-register ">
-                    <?php echo do_shortcode('[ef span="true"]'); ?>
+                    <?php
+                    if ($currentLang == 'en'):
+                        $code = '[ef span="true" button_text="Register" ]';
+                    else:
+                        $code = '[ef span="true"]';
+                    endif;
+                    ?>
+                    <?php echo do_shortcode($code); ?>
 
                 </div>
             </div>
@@ -20,11 +29,11 @@
         <div class="row blemil-footer-top center-align clearfix-margin">
             <div class="col s12 m6">
 
-                <p class="text-center font-size-14 ">Sản phẩm được phân phối bởi công ty </p>
-
-                <br/>
-
-                <p class="text-center"><i class="logo-blemil large"></i></p>
+                <!--                <p class="text-center font-size-14 ">Sản phẩm được phân phối bởi công ty </p>-->
+                <!---->
+                <!--                <br/>-->
+                <!---->
+                <!--                <p class="text-center"><i class="logo-blemil large"></i></p>-->
             </div>
         </div><!--end div 2-->
         <div class="row">
@@ -50,14 +59,14 @@
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
 
-                            <div class="col s2"><?php echo $currentLang == 'en' ? "Address": 'Địa chỉ'; ?>:</div>
+                            <div class="col s2"><?php echo $currentLang == 'en' ? "Address" : 'Địa chỉ'; ?>:</div>
                             <div
                                 class="col s10"><?php
-                                 if($currentLang='en'){
-                                     echo $maxthemes['basic-about-address_en'] ? $maxthemes['basic-about-address_en'] : "";
-                                 }else{
-                                echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : "";
-                                 }?>
+                                if ($currentLang = 'en') {
+                                    echo $maxthemes['basic-about-address_en'] ? $maxthemes['basic-about-address_en'] : "";
+                                } else {
+                                    echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : "";
+                                } ?>
 
                             </div>
                         </div>
