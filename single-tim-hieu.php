@@ -196,10 +196,23 @@ if (have_posts()) {
     <div class="modal-footer">
         <a href="#!" onclick="$('#content-show').removeClass('hide')"
            class="modal-action modal-close waves-effect waves-green btn-flat teal white-text">
-            Tôi là nhân viên y tế
+            <?php
+            if($currentLang=='en'){
+                echo "Yes, I’m medical staff";
+            }else{
+                echo "Tôi là nhân viên y tế";
+            }
+            ?>
+
         </a>
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">
-            Không, Cảm ơn
+            <?php
+            if($currentLang=='en'){
+                echo "No, thanks";
+            }else{
+                echo "Không, Cảm ơn";
+            }
+            ?>
         </a>
     </div>
 </div>

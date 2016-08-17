@@ -30,7 +30,7 @@
                 <?php endif; ?>
 
             </div>
-            <a class="brand-logo">
+            <a class="brand-logo" href="/">
                 <img alt="" src="<?php echo MAXTHEMES_URI_ASSET; ?>blemil/images/header/logo.png" alt="Logo"
                      class="responsive-img"/>
             </a>
@@ -90,7 +90,7 @@
             <div class="content">
                 <i class="material-icons">phone</i>
                 <p class="title"><?php if($currentLang=='en'){
-                        echo 'Consultants';
+                        echo 'Hotline';
                     }
                     else{
                         echo 'Chuyên gia tư vấn';

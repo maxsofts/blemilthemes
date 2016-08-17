@@ -56,21 +56,21 @@
                                 class="col s10"><?php echo $maxthemes['basic-about-email'] ? $maxthemes['basic-about-email'] : ""; ?></div>
                         </div>
                     </li>
-                    <li>
-                        <div class="row font-size-14 small-blemil-footer-information">
-
-                            <div class="col s2"><?php echo $currentLang == 'en' ? "Address" : 'Địa chỉ'; ?>:</div>
-                            <div
-                                class="col s10"><?php
-                                if ($currentLang = 'en') {
-                                    echo $maxthemes['basic-about-address_en'] ? $maxthemes['basic-about-address_en'] : "";
-                                } else {
-                                    echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : "";
-                                } ?>
-
-                            </div>
-                        </div>
-                    </li>
+<!--                    <li>-->
+<!--                        <div class="row font-size-14 small-blemil-footer-information">-->
+<!---->
+<!--                            <div class="col s2">--><?php //echo $currentLang == 'en' ? "Address" : 'Địa chỉ'; ?><!--:</div>-->
+<!--                            <div-->
+<!--                                class="col s10">--><?php
+//                                if ($currentLang = 'en') {
+//                                    echo $maxthemes['basic-about-address_en'] ? $maxthemes['basic-about-address_en'] : "";
+//                                } else {
+//                                    echo $maxthemes['basic-about-address'] ? $maxthemes['basic-about-address'] : "";
+//                                } ?>
+<!---->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </li>-->
                     <li>
                         <div class="row font-size-14 small-blemil-footer-information">
                             <div class="col s2">Website:</div>

@@ -4,20 +4,21 @@
  */
 get_header(); ?>
     <main class="container shadow-box">
-        <div class="row">
-            <div class="border-box border-box-before col hide-on-med-and-down m8 offset-m2 l6 offset-l3 blemil-primary">
-                <div class="param">
-                    <span><?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?></span>
-                </div>
-            </div>
-            <div class="border-box col s12 hide-on-large-only blemil-primary">
-                <div class="param">
-                    <span><?php echo $currentLang == 'en' ? "Baby gifts": 'Quà tặng bé yêu'; ?></span>
-                </div>
-            </div>
-        </div>
-
         <?php if (have_posts()):the_post(); ?>
+            <div class="row">
+                <div
+                    class="border-box border-box-before col hide-on-med-and-down m8 offset-m2 l6 offset-l3 blemil-primary">
+                    <div class="param">
+                        <span><?php the_title(); ?></span>
+                    </div>
+                </div>
+                <div class="border-box col s12 hide-on-large-only blemil-primary">
+                    <div class="param">
+                        <span><?php the_title(); ?></span>
+                    </div>
+                </div>
+            </div>
+
 
             <?php if (has_post_thumbnail()): ?>
                 <div class="row">
